@@ -1,0 +1,8 @@
+9.10.2022
+
+Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem/lam sie ze:
+-zrobic konto na githubie generowac i dodawac klucze
+-w terminalu zrobic nowe foldery wchodzic do nich, tworzyc nowe pliki 
+-rowniez dowiedzialem sie wiele informacji na temat co znacza dane komendy np:bin,boot
+
+
