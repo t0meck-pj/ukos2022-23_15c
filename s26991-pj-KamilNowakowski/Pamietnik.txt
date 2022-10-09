@@ -1,0 +1,7 @@
+09.10.2022
+Dzisiaj nauczyłem się:
+-tworzenia profilu na github
+-tworzenia klucza ssh
+-termianal - cmd,
+- przydatnych skrotow:  ctr + c przerywa ostatnie polecenie, litera + tab to dopelnienie
+-odpalać wirtualna maszyne linuxa- ubuntu 
