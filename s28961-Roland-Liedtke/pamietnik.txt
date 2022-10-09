@@ -1,0 +1,9 @@
+09.10.2022 
+Na dzisiejszych cwiczeniach nauczylem sie:
+-tworzenia konta na gitHubie,
+-forkowania zdalnego repozytorium,
+-klonowania repozytorim z gitHuba,
+-tworzenia klucza SSH oraz polaczenia z kontem na gitHubie,
+-podstawowych koment w terminalu na Linuxie,
+-logowania do serwera szuflandia
+
