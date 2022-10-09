@@ -1,0 +1,5 @@
+9.10.2022 
+Przemieszczanie za pomocą komend jest bardzo przyjemne i wcale nie takie strasznie jak mi się wydawało... 
+Pamiętaj, żeby nauczyć komend z dzisiejszych zajęć, poćwicz w domu. Nauczyłem się jeszcze jak wygenerować klucz ssh oraz jak logować się bezhasłowo.
+
+
