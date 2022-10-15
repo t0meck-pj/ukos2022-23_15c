@@ -1,0 +1,18 @@
+1. mkdir ukos
+cd ukos
+mkdir katalog2
+cd katalog2
+mkdir katalog3
+cd ..
+mkdir klamka 
+2. cd klamka
+touch zajecia2.txt
+touch zajecia2.log
+touch inny.txt
+touch nowy.txt
+3. aby stworzyc drzewo katalogow trzeba uzyc mkdir z parametrem -p
+4. aby umiescic plik z podaniem sciezki wystarczy touch ./ukos/to/jest/dluga/nazwa/dane.txt
+5. aby z katalogu usunac wszystkie pliki z danym rozszerzeniem nalezy : rm -r ukos/to/jest/dluga/nazwa/*[.txt]
+gwiazdka oznacza że wszystko co spełnia warunki a w nawiasach [] wpisujemy warunek
+6.  rm -r ukos/katalog/katalog2
+7 rm -r klamka/
