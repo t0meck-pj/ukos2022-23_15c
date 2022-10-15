@@ -1,4 +1,10 @@
 09.10.2022
-moj drogi pamietniku dzis nauczylem sie:
-- stworzyc konto na github
--Niestety muszę duzo nadrobic, nie nadazalem z wykonywaniem polecen
+Moj drogi pamietniku dzis nauczylem sie:
+- stworzyc konto na github;
+- niestety muszę duzo nadrobic, nie nadazalem z wykonywaniem polecen;
+
+15.10.2022
+Moj drogi pamietniku dzis wrocilem do ostatnich zajec dzieki czemu:
+- zrozumialem co robilismy na zajeciach;
+- zrozumialem tworzenie klucza ssh, katalogow i plikow oraz logowania sie do szuflandii;
+
