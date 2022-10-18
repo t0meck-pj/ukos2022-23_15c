@@ -3,3 +3,8 @@ Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem/lam sie ze:
 - jak generowa i dodac klucz ssh do githuba
 - obsluga terminala
 - :)
+18.10.2022
+- tworzenia katalogow z dluga nazwa
+- poruszania sie po systemie za pomoca sciezek wzglednych
+- wyswietlanie zawartosci katalogu w ktorych aktualnie sie nie znajduje 
+
