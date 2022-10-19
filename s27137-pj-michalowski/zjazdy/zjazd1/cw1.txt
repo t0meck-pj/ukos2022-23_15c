@@ -1,0 +1,14 @@
+1. Otwieram emulator cmder;
+2. Wyświetlam zawartość aktualnego katalogu za pomocą lomendy ls;
+3. Sprawdzam dzie aktualnie się znajduję za pomocą komendy pwd;
+4. Przechodzę do pulpitu za pomocą komendy ..\Deskop\;
+5. Sprawdzam gdzie się znajduje za pomocą komendy pwd;
+6. Wyświetlam zawartość pulpitu za pomocą komendy ls;
+7. Sprawdziłem zawartość katalogu domowego za pomocą komendy ls ..;
+8. Przechodzę do katalogu obrazy za pomocą komendy C:\Users\robert\Pictures;
+9. Za pomocą komendy pwd sprawdzam swoją lokalizację;
+10. Zostałem w tym samym katalogu;
+11. Przeszedłem do swojego katalogu domowego za pomocą komeny: C:\Users\robert;
+12. Wyskakuje komunikat, że system nie może znależć określonej ścieżki, a aplikacja ubuntu odmiawaia dostępu. (jest to dostęp administratota)
+13. W wirtualnej maszynie wyskoczyło okno logowania do bss-ubu1804
+14. Komenda wróciła do pierwotnego widoku wirtualnej maszyny.
