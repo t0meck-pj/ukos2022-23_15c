@@ -1,0 +1,16 @@
+Na stworzonej wittualnej maszynie zaczalem wykonywac pierwsze zadanie domowe
+1. uruchomilem terminal
+2 za pomoca komendy ls wyswietlilem zawartosc aktualnego katalogu
+3 za pomoca komendy pwd sprawdzilem, ze aktualnie znajduje sie w katalogu /home/ubuntu
+4. za pomoca kkomendy cd ./Desktop wszedlem do katalogu pulpit
+5 za pomoca komedy pwd sprawdzilem, ze jestem w katalogu pulpit
+6. za pomaca komedy ls sprawedzilem ze na pulpicie znajduja sie pliki adding-packages-permnently-info.txt oraz passwords-info.txt
+7 za pomoca komedy ls home sprawdzilem bez przechodzenia do katalodu domowego ze znajduja sie tam ubuntu vagrant
+8 za pomaca komendy cd ../$home/Pictures przeszedlem do katalogu Obrazy
+9 kolejny raz sprawdzilem gdzie jestem za pomaca komady pwd . Jestem /home/ubuntu/Pictures
+10 sprobowalem przejsc za pomoca cd ././././././ natomiast nigdzie nie przeszedlem
+11 za pomoca komendy cd/$home ponownie wrocilem do katalogu domowego
+12 wpisalem komade cd/root niestety odmowiono mi dostepu
+13po nacisnieciu  ctrl + alt + f1 okno terminala otworzylo sie na calym ekranie
+14 po nacisnieciu alt + f7 wrocilo do poprzednich rozmiarow
+  
