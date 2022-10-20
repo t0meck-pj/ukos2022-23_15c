@@ -1,0 +1,7 @@
+1. Stworzylem drzewo katalogow w swoim katalogu domowym "mkdir \ukos" "cd ukos" "mkdir \katalog" "mkdir \klamka" "cd katalog" "mkdir katalog2" "mkdir katalog3".
+2. W katlogu ukos/klamka stworzyłem pliki:"nano zajecia2.txt" "nano zajecia2.log" "nano inny.txt" "nano nowy.txt".
+3. Za pomoca jednego polecenia stworzylem drzewo katalogow: "mkdir -p ukos/to/jest/dluga/nazwa" badz jesli mial byc to jeden katalog stworzylem go "mkdir ukos/to/jest/dluga/nazwa".
+4. W katalogu ukos/to/jest/dluga/nazwa utworzylem plik: "nano dane.txt".
+5. Usunalem z katalogu ukos/klamka wszystkie pliki z rozszerzeniem .txt za pomoca: "rm *.txt".
+6. Usunalem katalog ukos/katalog/katalog2 za pomoca polecenia: "rmdir katalog2".
+7. Usunalem caly katalog klamka za pomoca jednego polecenia: "rm -r klamka".

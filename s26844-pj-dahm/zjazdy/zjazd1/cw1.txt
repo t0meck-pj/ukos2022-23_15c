@@ -1,0 +1,16 @@
+1.Uruchomilem terminal za pomoca aplikacji Ubuntu 22.04.1 LTS, wpisalem "cd /mnt/c/" aby przejsc do mojego dysku c.
+2.Wyswietlilem zawartosc aktualnego katalogu za pomoca komendy "ls".
+3.Sprawdzilem gdzie aktualnie sie znajduje za pomoca komendy "pwd", system wskazal, ze znajduje sie w /mnt/c.
+4.Przeszedlem do katalogu Pulpit za pomoca sciezki wzglednej "cd ./Users/lukas/OneDrive/Pulpit/".
+5.Sprawdzilem gdzie jestem za pomoca komendy "pwd", system wyswietlil "/mnt/c/Users/lukas/OneDrive/Pulpit".
+6.Wyswietlilem zawartosc biezacego katalogu za pomoca komendy "ls".
+7.Wyswietlilem zawartosc katalogu domowego za pomoca komendy "ls /mnt/c/".
+8.Przeszedlem do katalogu Obrazy w moim katalogu domowym za pomoca sciezki wzglednej "cd ../Obrazy/".
+9.Sprawdzilem gdzie jestem za pomoca komendy "pwd", system wskazal "/mnt/c/Users/lukas/OneDrive/Obrazy"
+10.Wpisujac sciezke "././././././" pozostaje w aktualnym katalogu.
+11.Przeszedlem do sowjego katlaogu domowego za pomoca sciezki bezwzglednej "cd /mnt/c".
+12.Wpisujac komende "cd /root" otrzymalem "Permission denied" co oznacza odmowe pozwolenia pomimo uruchomienia aplikacji jako administrator, rozwiazaniem problemu jest zalogowawnie sie do "sudo su" a w dalszej kolejnosci wpisanie tej komendy.
+13.Uruchomilem wirtualna maszyne, a po wcisnieciu kombinacji kalwiszy ctrl+alt+F1 otworzyl sie wiersz logowania "bss-ubu1804 login:". 
+14 Po wcisnieciu kombinacji klawiszy alt+F7 wyszedlem z wiersza logowania i ponownie zobaczylem pulpit maszyny wirtualnej.
+
+
