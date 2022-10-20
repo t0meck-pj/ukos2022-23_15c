@@ -3,3 +3,5 @@
 - ledwo nadazam ze wzgledu na wczesniejsze problemy z dostepem do teamsa 
 
 20.10.2022 jak sie przypomina o zajeciach w czwartek w nocy to sie w czwartek w nocy klepie - na plus windows terminal plus ubuntu wsl wydaja sie dzialac - sprawdzmy 
+
+20.10.2022 - it's alive!!! 
