@@ -1,0 +1,7 @@
+1. Tworze drzewo katalogów za pomocą komend 'mkdir ukos', nastepnie 'cd ukos', 'mkdir katalog klamka', 'cd katalog', 'mkdir katalog2 katalod3';
+2. Za pomoca komendy 'touch zajecia2.txt zajecia2.log inny.txt nowy.txt';
+3. Za pomoa komendy mkdir ukos\to\jest\dluga\nazwa;
+4. Za pomocą komendy 'touch ukos\to\jest\dluga\nazwa\dane.txt' tworze plik dane.txt w zadanym katalogu;
+5. Za pomocą komendy 'rm *.txt' usunalem pliki z roszerzeniem txt, zostal tylko plik zajecia2;
+6. Usunalem 'katalog2' za pomoca komendy 'rmdir katalog\katalog2';
+7. Usunalem katalog klamka za pomoca komendy rm -r, co oznacza usuwanie wraz z zawartoscia.
