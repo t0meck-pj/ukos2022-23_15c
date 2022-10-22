@@ -1,0 +1,6 @@
+9.10.2022
+nauczylam sie dzisiaj
+- co znajduje sie w katalogach linuxowych
+- generowac i dodawac klucze ssh
+- korzystac z szuflandii 
+
