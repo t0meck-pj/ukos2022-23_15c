@@ -1,0 +1,8 @@
+09.10.2022
+Moj drogi pamietniku, dzisiaj na zajeciach z UKOS nauczylem sie:
+- logowac na serwer Shuflandia
+- zakladac konto na github
+- generowac klucze ssh
+- polecen w terminalu dotyczace tworzenia katalogow i dzialan z nimi zwiazanych
+- drzewa katalogow Linux
+
