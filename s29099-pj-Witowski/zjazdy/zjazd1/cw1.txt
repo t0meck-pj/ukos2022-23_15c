@@ -1,0 +1,15 @@
+1.
+2. ls 
+3. w katalogu domowym
+4. cd Desktop/
+5. w katalogu pulpit
+6. ls
+7. ls ..
+8. cd .. & cd Pictures/
+9. ~/Pictures
+10. nic sie nie zmienilo
+11. cd ~
+12. Nie mam takich uprawnien jako uzytkownik
+13. przelaczylem sie na virtualna konsole bez gui
+14. wrocilem do gui
+
