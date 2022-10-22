@@ -2,12 +2,14 @@
 - generuje klucze ssh, niby juz to robilem ale serce nadal podchodzi do gardla ... 
 - ledwo nadazam ze wzgledu na wczesniejsze problemy z dostepem do teamsa 
 
-20.10.2022 jak sie przypomina o zajeciach w czwartek w nocy to sie w czwartek w nocy klepie - na plus windows terminal plus ubuntu wsl wydaja sie dzialac - sprawdzmy 
+20.10.2022 
+jak sie przypomina o zajeciach w czwartek w nocy to sie w czwartek w nocy klepie - na plus windows terminal plus ubuntu wsl wydaja sie dzialac - sprawdzmy 
 
-20.10.2022 - it's alive!!! 
+20.10.2022 - 
+it's alive!!! 
 
 
-
+22.10.2022
 Uruchom terminal. - DONE
 
 Wyświetl zawartość aktualnego katalogu. - komenda "ls"
@@ -36,7 +38,9 @@ Zobacz, co się stanie, jeśli wciśniesz kombinację klawiszy: Ctrl+Alt+F1  ;3~
 
 A teraz co się stanie po: Alt+F7   - P
 
-22.10.2022 - kolejne zadania
+
+22.10.2022 - 
+kolejne zadania
 
 Korzystając z komend cd oraz mkdir stwórz następujące drzewo katalogów w swoim katalogu domowym (w dowolnym podkatalogu, albo bezpośrednio w ~):
 
