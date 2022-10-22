@@ -5,3 +5,62 @@
 20.10.2022 jak sie przypomina o zajeciach w czwartek w nocy to sie w czwartek w nocy klepie - na plus windows terminal plus ubuntu wsl wydaja sie dzialac - sprawdzmy 
 
 20.10.2022 - it's alive!!! 
+
+
+
+Uruchom terminal. - DONE
+
+Wyświetl zawartość aktualnego katalogu. - komenda "ls"
+
+Sprawdź gdzie aktualnie się znajdujesz. - komenda "pwd"
+
+Przejdź do katalogu Pulpit za pomocą ścieżki względnej - używamy "cd" i "cd .."
+
+Sprawdź gdzie jesteś. "pwd"
+
+Wyświetl zawartość bieżącego katalogu. - ls -lta
+
+Wyświetl zawartość swojego katalogu domowego bez przechodzenia do niego (ls z odpowiednim parametrem). ls /home
+
+Przejdź do katalogu Obrazy w twoim katalogu domowym za pomocą ścieżki względnej. cd i cd ..
+
+Sprawdź gdzie jesteś. pwd
+
+Zobacz do jakiego katalogu przejdziesz za pomocą ścieżki ././././././ -- z cd nie przechodzę - wpisane bez cd drukuje informacje jakoby bash nie jest katalogiem
+
+Przejdź do swojego katalogu domowego za pomocą ścieżki bezwzględnej. cd /home
+
+Zobacz co się stanie jak wpiszesz komendę 'cd /root'. Jak już to zrobisz, zastanów się co się stało. Poszukaj w Internecie. -bash: cd: /root: Permission denied
+
+Zobacz, co się stanie, jeśli wciśniesz kombinację klawiszy: Ctrl+Alt+F1  ;3~
+
+A teraz co się stanie po: Alt+F7   - P
+
+22.10.2022 - kolejne zadania
+
+Korzystając z komend cd oraz mkdir stwórz następujące drzewo katalogów w swoim katalogu domowym (w dowolnym podkatalogu, albo bezpośrednio w ~):
+
+ukos
+
+ |\ katalog
+
+ |   |\ katalog2
+
+ |    \ katalog3
+
+  \ klamka   -DONE
+
+W katalogu ukos/klamka stwórz pliki zajęcia2.txt zajęcia2.log inny.txt nowy.txt - touch i liki
+
+Za pomocą jednego polecenia mkdir stwórz w katalogu ukos następujący katalog: ukos/to/jest/dluga/nazwa - mkdir -a
+
+następnie umieść w katalogu ukos/to/jest/dluga/nazwa plik dane.txt - done
+
+Usuń z katalogu ukos/klamka wszystkie pliki z rozszerzeniem txt - done
+
+Usuń katalog ukos/katalog/katalog2 - done
+
+Usuń cały katalog klamka za pomocą jednego polecenia - done rm -r
+
+
+
