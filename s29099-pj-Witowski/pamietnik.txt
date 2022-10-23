@@ -1,5 +1,5 @@
 09.10.2022
-Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem/lam sie:
+Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem sie:
 - tworzenia klucza ssh do logowania na github
-- przypomnailem sobie pare komend na linuxie do poruszania w terminalu oraz tworzenia folderow
+- przypomnialem sobie pare komend na linuxie do poruszania w terminalu oraz tworzenia folderow
 - oraz klonowania repozytorium na githubie
