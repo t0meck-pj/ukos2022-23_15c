@@ -67,4 +67,9 @@ Usuń katalog ukos/katalog/katalog2 - done
 Usuń cały katalog klamka za pomocą jednego polecenia - done rm -r
 
 
+23.10.2022
+
+s26766; s21974 i moi czyt s27281 wykonalismy polecenia dotyczace chmod 
+plik do komunikacji znajduje sie na /s27281/chmod/telefon.txt
+
 
