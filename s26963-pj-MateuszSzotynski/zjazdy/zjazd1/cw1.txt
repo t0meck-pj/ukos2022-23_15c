@@ -1,0 +1,24 @@
+24.10.2022
+
+Wykonałem zadane polecenia. Dopiero teraz, ponieważ nie byłem dodany do
+prawidłowego zespołu Teams oraz nie wiedziałem, że do tego zadania trzeba
+mieć postawioną maszynę wirtualną.
+
+1. Uruchomino terminal Lxterminal
+2. Wyświetlono zawartość aktualnego katalogu komendą ls,
+3. Po lewej stronie podana jest ścieżka względna więc mam pojęcie, gdzie
+się aktualnie znajduję.
+4. Do pulpitu dostano się za pomocą komendy cd
+5. scieżka względna,
+6. ls,
+7. Powrócono do katalogu domowego komendą cd .. po czym wpisano: ls Desktop.
+Wyświtliły się wszystkie pliki, poza ukrytymi, które znajdują się na pulpicie
+8.W katalogu Obrazy nic sie nie znajduje,
+9. ls,
+10. Komenda ./ "odświeża" katalog, w którym się znajdujemy, tyle razy ile
+wpiszemy ,. tyle razy przejdzie scieżką względną do aktualnego katalogu
+11 Root w linuxie jest to admin. po wpisaniu cd /root mozna wejsc w katalog
+administratora
+12. Za pomocą klawiszy Ctrl+Alt+F1 wylogowano z OS,
+13. Za pomocą Alt + F7 wpisały się znaki, lecz za pomocą prawego Ctrl + F7
+zalogowano ponownie do OS. 
