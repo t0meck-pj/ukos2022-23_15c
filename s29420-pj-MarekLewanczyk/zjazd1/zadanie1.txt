@@ -32,5 +32,6 @@ Zadania #1
 
 12. Po wpisaniu komendy "cd /root" dostalem informacje o braku uprawnień "bash: cd: /root: Permission denied".
 
+13. Nie jestem pewien, ale prawdopodobnie wylaczylem srodowisko graficzne w linuksie?
 
 14. Ponownie wlaczylem srodowisko graficzne?
