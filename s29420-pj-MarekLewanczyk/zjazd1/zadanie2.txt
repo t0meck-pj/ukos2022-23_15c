@@ -1,0 +1,17 @@
+Zadania #2
+
+
+
+1. Zaczynajac od polozenia /home/ubuntu utworzylem za pomoca komendy "mkdir -p ukos/katalog/katalog2" drzewo katalogó>
+
+2. Przenioslem sie do katalogu klamka i utworzylem pliki zajecia2.txt, zajecia2.log i nowy.txt przy pomocy komendy to>
+
+3. Cofnalem sie do katalogu ukos i za pomoca polecenia "mkdir -p to/jest/dluga/nazwa" utworzylem katalog to/jest/dlug>
+
+4. Przy pomocy sciezki wzglednej przenioslem sie do kataloug to/jest/dluga/nazwa i utworzylem w nim plik dane.txt prz>
+
+5. Przy uzyciu sciezki bezwzglednej usunalem wszystkie pliki z rozszerzeniem txt w katalogu ukos/klamka komenda "rm ->
+
+6. Cofnalem sie do katalogu ukos i przy uzyciu komendy "rmdir katalog/katalog2" usunalem katalog ukos/katalog/katalog2
+
+7. Usunalem katalog klamka przy uzyciu polecenia "rm -r klamka".
