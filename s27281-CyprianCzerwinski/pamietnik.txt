@@ -8,68 +8,13 @@ jak sie przypomina o zajeciach w czwartek w nocy to sie w czwartek w nocy klepie
 20.10.2022 - 
 it's alive!!! 
 
+24.10.2022
+-Pozbyłem się ubuntu wsl i wszystkich komponentów systemowych.
+-Po bożemu pobrałem virtual boxa i zainstalowałem obraz dysku. Miałem niewielki problem wynikający z różnicy wersji. Zainstalowałem VB 7.2 instrukcja była przygotowana do 6.x ale ostatecznie się udało. System włącza się stabilnie i bez ikonki żółwia. 
 
-22.10.2022
-Uruchom terminal. - DONE
-
-Wyświetl zawartość aktualnego katalogu. - komenda "ls"
-
-Sprawdź gdzie aktualnie się znajdujesz. - komenda "pwd"
-
-Przejdź do katalogu Pulpit za pomocą ścieżki względnej - używamy "cd" i "cd .."
-
-Sprawdź gdzie jesteś. "pwd"
-
-Wyświetl zawartość bieżącego katalogu. - ls -lta
-
-Wyświetl zawartość swojego katalogu domowego bez przechodzenia do niego (ls z odpowiednim parametrem). ls /home
-
-Przejdź do katalogu Obrazy w twoim katalogu domowym za pomocą ścieżki względnej. cd i cd ..
-
-Sprawdź gdzie jesteś. pwd
-
-Zobacz do jakiego katalogu przejdziesz za pomocą ścieżki ././././././ -- z cd nie przechodzę - wpisane bez cd drukuje informacje jakoby bash nie jest katalogiem
-
-Przejdź do swojego katalogu domowego za pomocą ścieżki bezwzględnej. cd /home
-
-Zobacz co się stanie jak wpiszesz komendę 'cd /root'. Jak już to zrobisz, zastanów się co się stało. Poszukaj w Internecie. -bash: cd: /root: Permission denied
-
-Zobacz, co się stanie, jeśli wciśniesz kombinację klawiszy: Ctrl+Alt+F1  ;3~
-
-A teraz co się stanie po: Alt+F7   - P
-
-
-22.10.2022 - 
-kolejne zadania
-
-Korzystając z komend cd oraz mkdir stwórz następujące drzewo katalogów w swoim katalogu domowym (w dowolnym podkatalogu, albo bezpośrednio w ~):
-
-ukos
-
- |\ katalog
-
- |   |\ katalog2
-
- |    \ katalog3
-
-  \ klamka   -DONE
-
-W katalogu ukos/klamka stwórz pliki zajęcia2.txt zajęcia2.log inny.txt nowy.txt - touch i liki
-
-Za pomocą jednego polecenia mkdir stwórz w katalogu ukos następujący katalog: ukos/to/jest/dluga/nazwa - mkdir -a
-
-następnie umieść w katalogu ukos/to/jest/dluga/nazwa plik dane.txt - done
-
-Usuń z katalogu ukos/klamka wszystkie pliki z rozszerzeniem txt - done
-
-Usuń katalog ukos/katalog/katalog2 - done
-
-Usuń cały katalog klamka za pomocą jednego polecenia - done rm -r
-
-
-23.10.2022
-
-s26766; s21974 i moi czyt s27281 wykonalismy polecenia dotyczace chmod 
-plik do komunikacji znajduje sie na /s27281/chmod/telefon.txt
+28.10.2022 
+-Podpiąłem putty,
+-Ustawiłem połączenie rsa z putty.  
+-Zrobiłem również purge pamiętnika, ćwiczenia z pierwszego zjazdu wykonam ponownie, tak, żebym mógł je lepiej udokumentować. 
 
 
