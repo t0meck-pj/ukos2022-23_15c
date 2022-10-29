@@ -14,3 +14,61 @@ Wnioski:
 	- Czy istnieje sposob na wejscie do katalogu (do ktorego jako uzytkownik mamy dostep) znajdujacego sie w katalou do ktorego jako uzytkownik nie mamy dostepu?
 	- Ukrycie pliku w katalogu domowym innego uzykownika utrudnia wykrywalnosc pliku. Czy jezeli utworze ukryty plik w folderze innego uzytkownika to bede mogl ograniczyc jego uprawnienia?
 
+
+2.W utworzonej na swoim koncie strukturze podkatalogów przeprowadzić eksperymenty:
+
+-usuwając wszelkie uprawnienia dostępu do katalogu bieżącego:
+wniosek: chmod: błędne uprawninia - logiczne jest, że nie możemy odebrać dostępu do przeglądanego katalogu 
+
+
+-usuwając wszelkie uprawnienia dostępu do katalogu nadrzędnego (nadkatalogu).
+wniosek: można to zrobić, natomiast pozbawi nas to dostępu do nadrzędnego katalogu
+
+-W jakich przypadkach możemy wykonać wtedy polecenie cd ? 
+wniosek: Możemy przechodzić do katalogów podrzędnych względem naszego ale nie do gatalogów nadrzędnych
+
+-W jakich przypadkach możemy wykonać polecenie chmod ? 
+wniosek: możemy dowolnie modyfikować uprawnienia dostępu.
+
+-Czy możemy bezpośrednio przeskoczyć do katalogu ABC/XYZ, jeśli nie mamy uprawnienia wstępu do ABC, ale mamy do XYZ ?
+wniosek: nie możemy "przesoczyć" katalogu, do którego nie mamy dostępu. W takiej sytuacji nie przejdziemy do tego katalogu, chyba, że byliśmy w nim zmieniając uprawnienia do katalogu ABC.
+
+-Czy możemy także wrócić korzystając z polecnia cd - ?
+wniosek: nie mamy takiej możliwości. 
+
+
+
+2. W zespołach 2- lub 3-osobowych (w opisie zadania na githubie proszę umieścić login osób z zespołu) wypróbować możliwość komunikacji przez współdzielony plik: na jednym z kont w zespole utworzyć pusty plik i przydzielić odpowiednie uprawnienia dostępu (do pliku i do katalogu domowego). Wpisywać i odczytywać komunikaty przy użyciu poleceń:
+
+LOGIN: s21974
+Plik do komunikacji: /home/PJWSTK/s27281/chmod/telefon.txt
+
+echo treść_komunikatu > plik
+-wprowadzono kilka zmian
+
+cat plik
+Sprawdzić, jaki skutek powoduje zamiana operatora > na operator >> w poleceniu echo. Uruchom także drugi terminal i wykonaj w nim komendę tail -f plik i powtórz powyższe ćwiczenie w pierwszym terminalu (komunikacja za pomocą pliku).
+-atrybut > nadpisuje plik a >> dodaje  nową wiadomość w kolejnej linii. 
+
+
+3.Znaleźć w swoim katalogu domowym podkatalog public_html (jeśli go nie ma, to utworzyć; musi się on nazywać DOKŁADNIE tak jak podano, pisane małymi literami z podkreśleniem zamiast spacji pomiędzy słowami). Umieścić w nim plik o nazwie strona.html o następującej zawartości:
+
+<HTML>
+
+<BODY>
+
+<H1>To jest moja strona domowa</H1>
+
+</BODY>
+
+</HTML>
+
+Sprawdzić, jakie są minimalne uprawnienia dostępu, które trzeba przydzielić do:
+
+katalogu domowego;
+
+katalogu public_html;
+
+pliku strona.html, aby zawartość pliku była widoczna w przeglądarce internetowej pod adresem http://szuflandia.pjwstk.edu.pl/~nazwa_konta/strona.html
+
+

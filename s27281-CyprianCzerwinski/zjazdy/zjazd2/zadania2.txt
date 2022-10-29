@@ -1,0 +1,18 @@
+1. W opisie bash-a (man) przeczytać opis polecenia wewnętrznego umask i wypróbować jego działanie sprawdzając, a następnie zmieniając swoją maskę trybu pliku i tworząc za każdym razem nowe pliki (przy użyciu polecenia touch plik), a później sprawdzając uzyskane uprawnienia dostępu do nich (polecenie ls -l). Jaka operacja logiczna na bitach domyślnych uprawnień dostępu oraz maski jest wykonywana ? 
+
+
+próba 1: w katalogu umask założyłem maskę 022, utworzyłem plik1 
+plik ma wartość 644. 
+
+próba 2: w katalogu nmask nie utworzyłam maski, utworzyłem plik plik2 - plik również ma wartość 644
+
+próba 3: zmieniam wartość umask na 0000 i sprawdzam czy zmieniły się uprawnienia plików. Nie zmieniły się. 
+
+próba 4: w katalogu mask tworzę plik3, sprawdzam uprawnienia. Plik 3 ma uprawnienia 666. Plik jeden nadal ma uprawnienia 622. 
+
+próba 5: w katalogu nmask tworzę plik4, sprawdzam uprawnienia. Plik 4 również utworzył się z uprawnieniami 666. 
+
+- wnioski. 
+umask działa globalnie - działa w całym systemie, do czasu zmiany jego wartości. 
+Wartość domyślna umask to 022. 
+Umask działa jako odejmowanie bitów od wartości domyślnej. Czyli jeżeli z zerowym umaskiem tworzymy plik o wartości 666 to z umaskiem o wartości 022 tworzymy plik 6-0 6-2 6-2 czyli 644. 
