@@ -1,0 +1,20 @@
+
+	Usuwanie uprawnień do katalogu biezacego
+chmod 000 . - polecenie, uprawnienia, kropka oznacza biezacy katalog
+	Usuwanie uprawnień do katalogu nadrzędnego 
+W katalogu a znajduje się katalog b, wchodzę do katalogu b i odbieram dostęp do a 
+	W jakich przypadkach możemy wykonać wtedy polecenie cd ? 
+cd .. nie mozna uzyc, cd a rowniez nie, za pomoca sciezki bezwzglednej rowniez się nie da
+	W jakich przypadkach możemy wykonać polecenie chmod ? 
+polecenia chmod mozemy użyć uzywajac sciezki bezwglednej
+	Czy możemy bezpośrednio przeskoczyć do katalogu ABC/XYZ, jeśli nie mamy uprawnienia wstępu do ABC, ale mamy do XYZ ?
+nie da się
+	Czy możemy także wrócić korzystając z polecnia cd - ?
+Tak, przenosi nas wtedy do katalogu, w którym jest katalog bez uprawnień
+
+
+s26991, s29420
+	Skutek zmiany operatora > na >> : operator >> dopisuje na komentarz na koniec pliku, a > doda tekst do pliku ale wymaże jego wcześniejszą zawartość 
+Polecenie tail -f pozwala na bieżąco śledzić zmiany w pliku 
+
+Minimalne uprawnienia dla katalogu public_html oraz dla strona.html to odczyt i wykonanie dla other 
