@@ -1,0 +1,21 @@
+1. Terminal Windows uruchomilem skrotem: WIN + R, wpisujac polecenie "cmd.exe".
+Terminal Linuxa wyswietlilem w maszynie wirtualnej Ubuntu skrotem: "Ctr + Alt + T".
+2. Poleceniem "ls" wyswietlilem zawartosc aktualnego katalogu.
+Wyswietlaja sie katalogi: Desktop, Documents, Downloads, Music, Pictures, Public, Templates, Videos.
+3.Za pomoca komendy "pwd" sprawdzilem, ze sie obecnie znajduje w katalogu "/home/ubuntu".
+4. Za pomoca komendy "cd ./Desktop" przeszedlem do katalogu "Pulpit" (Desktop).
+5. Komenda "pwd" sprawdzilem, ze znajduje sie w "/home/ubuntu/Desktop".
+6. Komenda "ls" wyswietlilem zawartosc biezacego katalogu.
+Terminal wyswietlil: adding-packages-permnently-info.txt, password-info.txt
+7. Wyswietlilem zawartosc swojego domowego katalogu domowego bez wchodzenia do niego komenda: "ls /home/ubuntu".
+8. Przeszedlem do sciezki wzglednej katalogu "Obrazy" w moim katalogu domowym, cofajac sie poleceniem: "cd Pictures".
+9. Znajduje sie teraz w katalogu "/Pictures", ktorego sciezka bezwzgledna to "/home/ubuntu/Pictures".
+10. Wpisujac polecenie: "././././././" wykonalo sie kilkukrotnie zadanie przejscia do biezacego katalogu.
+11. Przejscie do swojego katalogu domowego, za pomoca sciezki bezwzglednej wykonalem poleceniem: "cd /home/ubuntu/".
+12. Po wpisaniu komendy: "cd /root" pojawil sie komuniakt: Permission denied (Odmowa dostepu).
+Polecenie wykonac mozna jesli podniesie sie uprawnienia w terminalu poleceniem: "sudo su" (super user do).
+Terminal wyswietli wtedy, ze zalogowany jestem na koncie root zamiast standardowego uzytkownika ubuntu. 
+Z uprawnien root wyszedlem poleceniem: "exit".
+13. Skrot Ctr + Alt + F1 wylaczyl trub graficzny GUI i przeszedlem do jednego z terminali.
+Przelacalem sie midzy nimi skrotem: "Alt + F1" (tty1 - terminal 1), "Alt + F2" (tty2 - terminal 2) ... do "Alt + F6" (tty6 - terminal 6).
+14. Skrotem "Alt + F7" wyszedlem z przelaczania sie pomiedzy terminalami i wrocilem do trybu graficzego systemu operacyjnego Ubuntu.   
