@@ -1,0 +1,27 @@
+1 W piewszym podpunkcie zadanie polegalo na utworzeniu struktury podkatalogow 
+i plikow tekstowych a nastepnie udzielic rozne uprawnienia oraz sprawdzeniu jakie katalogi
+innych uzytkownikow sa dla mnje dostepne.
+w tym celu zaczalem od stworzenia katalogow za pomoca komendy mkdir 
+dla stworzenia katalogow oraz touch dla stworzenia pustych plikow tekstowych
+nastepnie aby nadac im rozne uprawnienia wykorzystalem komendy  chmod g+x 
+test1 nadac grupie mozliwosc wykonania, dla test3 za pomoca chmod o+w nadalem uprawnienia zapisu dla innych
+dla test4 za pomoca komendy chmod o=- urzytkownikom z poza grupy odebralem wszystkie uprawnienia
+nastepnie wlaczylem midnight commander za pomoca komendy mc.
+po uruchomieniu mc zaznaczylem plik test5.txt natepnie rozwinalem z paska "Plik"nastepnie "zmien uprawnienia" i dodalem zapisywanie przez innych.
+Wyszedlem z mc i udalem sie do katalogu urzytkownika s27553. Tam w folderze testy_zjazd2 utworzylem plik kukulczeJajo.txt przelaczylem sie na midnight commander i sprobowalem dla tego pliku dodac uprawnienia wykonywanie przez wlasciciela
+ponownie jak poprzednio zrobilem to za pomoca plik>zmien uprawnienia > wykonywanie/przeszukiwanie przez wlasciciela.
+2 w drugim poleceniu dla katalogu nadrzednego  "katalog1" usunalem uprawnienia z katalogu podrzednego "katalogPodKatalog1".
+w tym celu wszedlem do katalogu "katalogPodKatalog1" i za pomocą komendy chmod 000 ~/katalog1 usunalem uprawnienia dla katalog1
+komende cd moglem wykonac jedynie dla bezwzgledniej sciezki cofajac sie podad katalog 1 w moim przypadku cd ~
+chmod moglem wykonac z katalogu podrzeniego za pomoca sciezki zezwzglednej chmod 700 ~/katalog1.
+Nie moglem bez nadania uprawnien przeskoczyc do katalog1 ani wrocic do niego za pomoca cd- bedac w w katalogu podrzednym . moglem jedynie wrocic jeszcze wyzej do katalogu gdzie znajduje sie katalog1  za pomoca cd --.  W moim przypadku byl to katalog domowy.
+3.s27553, s29420, s26991
+Po stworzeniu jednego pliku tekstowego i przydzieleniu odpowiednich uprawnien 
+sprawdzilismy dzialania komendy echo tresc komunikatu > nazwaPliku oraz echo tresc >> plik
+komenda echo z operatorem ">" dodaje tekst do pliku ale usuwa cala zawartosc natomiast ech z operatorem ">>" dodaje tekst do pliku w nowej linijce
+polecenie tail-f pozwala na biezaco sledzic zmiany w pliku
+4.W moim katalogu domowym stworzylem podkatalog o nazwie public_html i w nim stworzylem plik o nazwie strona.html
+Edytowalem plik dodajac mu zawartosc taka jaka w poleceniu. Sprawdzilem czy strona jest widoczna na szuflandi.
+Bez zadnych zmian nie byla widoczna. Nastepnie dodalem jedynie uprawnienia dla strona.html oraz do katalogu domowego dla innych tylko do odczytu 
+natomiast nie bylo to wystarczajace. Dodalem nastepnie uprawnienie do wykonywania przez innych.
+Strona pojawila sie na szuflandii
