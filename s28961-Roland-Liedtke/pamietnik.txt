@@ -7,3 +7,12 @@ Na dzisiejszych cwiczeniach nauczylem sie:
 -podstawowych koment w terminalu na Linuxie,
 -logowania do serwera szuflandia
 
+04.11.2022 r. 
+Drogi Pamiętniczku, 
+dzisiaj dowiedziałem się:
+- w głównym folderze w szuflandii znajduje się plik ".bash_history",który zapisuje historię wywołanych komend w terminalu. 
+ Ciekawy plik, może przyda się przy odwracaniu wprowadzanych błędnych zmian? 
+ Albo posłuży jako przypomnienie konkretnych poleceń z parametrami, które użyłem a nie pamiętam dokładnej składni.
+ Plik ten jest edytowalny, przy pomocy "nano" udało mi się edytować plik.
+
+- powtórzyłem i utrwaliłem poruszanie się po terminalu i strukturze plików i folderów przy pomocy takich komend jak: cd, ls, pwd. 
