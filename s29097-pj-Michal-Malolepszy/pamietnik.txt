@@ -1,8 +1,38 @@
 09.10.2022
-Moj drogi pamietniku, dzisiaj na zajeciach z UKOS nauczylem sie:
-- logowac na serwer Shuflandia
-- zakladac konto na github
-- generowac klucze ssh
-- polecen w terminalu dotyczace tworzenia katalogow i dzialan z nimi zwiazanych
-- drzewa katalogow Linux
+Moj drogi pamietniku, dzisiaj na zajeciach z UKOS uczylem sie:
+- logowac na serwer Shuflandia;
+- zakladac konto na github;
+- generowac klucze ssh;
+- polecen w terminalu dotyczace tworzenia katalogow i dzialan z nimi zwiazanych;
+- drzewa katalogow Linux;
+
+23.10.2022
+Dzisiaj na zajeciach uczylem sie:
+- zagadnien zwiazanych z uprawnieniami do katalogow;
+
+31.10.2022
+W ramach utrwalenia wiedzy z zajec:
+- uzupelnilem zadania z pierwszego zjazdu, wykonujac cwiczenia;
+- testowalem WSL w konfiguracji z maszyna wirtualna VirtualBox;
+- zainstalowalem WSL poprzez PowerShell poleceniem:
+
+wsl --install
+
+opcjonalnie moglem wygrac zamiast Ubuntu:
+wsl.exe --list --online //lista dystrybucji
+wsl.exe --install <Distro> //polecenie instalacji konkretnego distro
+
+W celu poprawnego dzialania jednoczesnie VirtualBoxa i WSL ustawilem:
+- w ustawieniach maszyny wirtualnej VirtalBox - Ubuntu BSS zmienilem: 1 CPU na 2CPU;
+- w panelu funkcje systemu Windows nie zaznaczylem Hyper-V;
+- poleceniem "wsl -l -v" sprawdzilem wersje WSL
+
+03.11.2022
+Ogolnie to jest problem z polaczeniem Szuflandii poprzez Windows 11.
+Po kilkunastu sekundach bezczynnosci pojawia sie komunikat: "client_loop: send disconect: Conection reset"
+Wyczytalem, ze to ogolny problem laczenia poprzez Windows 11.
+
+04.11.2022
+Dzisiaj dokonczylem zadania z zjazdu 2.
+
 
