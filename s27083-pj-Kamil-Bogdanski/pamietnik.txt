@@ -9,5 +9,6 @@ Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem/lam sie ze:
 - wyswietlanie zawartosci katalogu w ktorych aktualnie sie nie znajduje 
 04.11.2022
 - dodawanie uprawnien dla uzytkownikow
-- do czego sluza dane uprawnienia i na co pozwalaja ich posiadacza
+- do czego sluza dane uprawnienia i na co pozwala ich posiadanie
 - roznice w uprawnieniach do plikow i folderow
+- jak postawic prosta strone domowa
