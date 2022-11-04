@@ -37,4 +37,4 @@ Zawartosc pliku:
 </HTML>
 
 Minimalne uprawnienia dostepu do pliku, ktore musialem przydzielic to "x" wykonanie, dla katalogu domowego, katalogu "public_html".
-Strona jest po tym widoczna pod adresem: http://szuflandia.pjwstk.edu.pl/~s29097/strona.html
+Strona powinna byc widoczna pod adresem: http://szuflandia.pjwstk.edu.pl/~s29097/strona.html
