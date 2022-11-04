@@ -1,0 +1,3 @@
+Minimalne uprawnienia dostepu aby mozna bylo wyswietlic strone domowa ktore trzeba przydzielic do:
+katalogu domowego: x
+katalogu public_html: x
