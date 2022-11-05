@@ -1,0 +1,5 @@
+23.10.2022
+
+utworzono plik kukułcze_jajko w katalogu użytkownika s27444. Ten użytkownik również utworzył taki sam plik w moim
+katalogu. Podczas usuwania pliku wyświetlił się komunikat, że plik jest zabezpieczony przed zapisem. Konsola
+zapytała się, czy napewno usunąć plik.

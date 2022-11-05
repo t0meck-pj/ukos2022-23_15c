@@ -1,0 +1,5 @@
+23.10.2022
+
+Stworzyłem folder oraz plik typu .html
+Niestety strona nie chce działać. Wyświetla się błąd 404 i nie mam pojęcia dlaczego.
+Z uprawnieniami powinno być wszystko okej. Katalog chyba jest utworzony w moim katalogu domowym(?).

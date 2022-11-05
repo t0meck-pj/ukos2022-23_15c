@@ -1,0 +1,14 @@
+27.10.2022
+
+Utworzono w moim katalogu (s26963) plik o nazwie pusty_plik z rozszerzeniem txt.
+
+Wykonano komende echo hej > pusty_plik.txt
+Zapisalo to tresc w utworzonym pliku. Po wykonaniu cat pusty_plik
+komunikat zostal wyswietlony w terminalu.
+
+po wpisaniu echo siema >> pusty_plik.txt dodalo nowa tresc nie usuwajac starej.
+Po wykonaniu cat pusty_plik.txt wyswietlone zostalo:
+hej
+siema
+
+Nadany zostal dostep do mojego katalogu jako rw, do pliku rowniez.
