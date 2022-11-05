@@ -1,0 +1,22 @@
+1. Odpliłem terminal w wirtualnie maszynie z systemem Ubuntu.
+2. Żeby wyświetlić zawartość aktualnego katalogu wpisałem w terminalu komendę "ls"
+Wyświetliło Desktop Dokumenty Muzyka Obrazy Pobrane ........
+3. Poleceniem "pwd" sprawdziłem aktualne położenie.
+/home/ubuntu
+4. Aby przejść do katalogu Pulpit za pomocą ścieżki względnej uzyłem polecenia "./Desktop"
+5. Poleceniem "pwd" sprawdziłem aktualne położenie.
+/home/ubuntu/Desktop
+6. Poleceniem 'ls' sprawdzam zawartość katalogu.
+ubiquity.destop
+7.Poleceniem 'ls /home/ubuntu' wyświetlam zawartość katalogu domowego
+8. Poleceniem 'cd ../Obrazy' przeszedłem do katalogu domowego obrazy.
+9. Poleceniem 'pwd' sprawdziłem gdzie jestem
+/home/ubuntu/Obrazy
+10. Wpisujać polecenie 'cd ././././././' zostałem w tym samym katalogu.
+11. Przeszedłem do katalogu domowego za pomocą ścieżki bezwględnej za pomocą polecenia
+'cd /home/ubuntu'
+12. cd /root pozwala nam na przejście do katalogu administratora. Niestety będąc zwykłyn użytkownikiem 
+nie będziemy mieli takiej możliwości przez brak uprawnień.
+13. Przeniosło mnie do logowania.
+14. Po wcisnieciu klawiszy alt+F7 wyszedlem z wiersza logowania i przeniosło mnie do pulpit maszyny wirtualnej.
+
