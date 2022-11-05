@@ -1,0 +1,2 @@
+aby pliki/katalogi w danym katalogu przyjmowały określone uprawnienia, inne niż domyślne stosujemy polecenie umask.
+Działa to na zasadzie bramki logicznej ANDó
