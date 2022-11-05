@@ -1,0 +1,49 @@
+1. Uruchom terminal.
+Terminal uruchomiony z poziomu putty.
+
+
+2. Wyświetl zawartość aktualnego katalogu.
+Wyświetliłem zawartość katalogu poleceniem "ls".
+
+
+3. Sprawdź gdzie aktualnie się znajdujesz.
+Sprawdziłem lokalizację poleceniem "pwd". 
+
+4. Przejdź do katalogu Pulpit za pomocą ścieżki względnej
+Polecenie cd ~/Pulpit powoduje wyświetlenie się błędu -bash: cd: /home/PJWSTK/s27281/Pulpit: Nie ma takiego pliku ani katalogu.
+
+5. Sprawdź gdzie jesteś.
+Polecenie "pwd", ponieważ nie przeszedłem do pulpitu powoduje wyświetlenie lokalizacji domowej /home/PJWSTK/s27281.
+
+6. Wyświetl zawartość bieżącego katalogu. 
+Zawartość katalogu wyświetlam użyuwająć polecenia "lt".
+
+7. Wyświetl zawartość swojego katalogu domowego bez przechodzenia do niego (ls z odpowiednim parametrem). 
+"ls /home"
+
+8. Przejdź do katalogu Obrazy w twoim katalogu domowym za pomocą ścieżki względnej. 
+W moim katalogu domowym nie ma katalogu obrazy.
+
+9. Sprawdź gdzie jesteś. 
+Komenda "pwd"
+
+10. Zobacz do jakiego katalogu przejdziesz za pomocą ścieżki ././././././ -- 
+Ścieżka powoduje kilkukrotne przeniesienie mnie do bierzącego katalogu czyli nie zmioeniam lokalizacji.  
+
+
+11. Przejdź do swojego katalogu domowego za pomocą ścieżki bezwzględnej. 
+cd /home
+
+12. Zobacz co się stanie jak wpiszesz komendę 'cd /root'. Jak już to zrobisz, zastanów się co się stało. Poszukaj w Internecie. -bash: cd: /root: Permission denied
+-bash: cd: /root: Brak dostępu
+
+13. Zobacz, co się stanie, jeśli wciśniesz kombinację klawiszy: Ctrl+Alt+F1
+-Brak efektu przy edycji z poziomu PUTTY
+
+14. A teraz co się stanie po: Alt+F7   - P
+Brak efektu podczas edycji z poziomu PUTTY
+
+
+
+
+

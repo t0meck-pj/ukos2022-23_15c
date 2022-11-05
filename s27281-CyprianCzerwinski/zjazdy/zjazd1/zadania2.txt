@@ -1,0 +1,35 @@
+
+1.Korzystając z komend cd oraz mkdir stwórz następujące drzewo katalogów w swoim katalogu domowym (w dowolnym podkatalogu, albo bezpośrednio w ~):
+
+ukos
+
+ |\ katalog
+
+ |   |\ katalog2
+
+ |    \ katalog3
+
+  \ klamka
+
+
+Drzewo zostało utworzone. 
+
+
+
+2. W katalogu ukos/klamka stwórz pliki zajęcia2.txt zajęcia2.log inny.txt nowy.txt
+Pliki zostały utworzone za pomocą komendy touch wedłóg schematu touch plik1.txt plik2.txt...
+
+3. Za pomocą jednego polecenia mkdir stwórz w katalogu ukos następujący katalog: ukos/to/jest/dluga/nazwa
+mkdir -a path -- drzewo katalogów zostało tuworzone
+
+4. następnie umieść w katalogu ukos/to/jest/dluga/nazwa plik dane.txt
+touch ukos/to/jest/dluga/nazwa dane.txt
+
+5. Usuń z katalogu ukos/klamka wszystkie pliki z rozszerzeniem txt
+rm *.txt 
+
+6. Usuń katalog ukos/katalog/katalog2
+rm -d celem skasowania pustego katalogu.
+
+7. Usuń cały katalog klamka za pomocą jednego polecenia
+rm -r ponieważ kasujemy rekursywnie wszystko w górę drzewa katalogu. Czyli kasujemy katalog, wszystkie pliki, ewentualne katalogi etc.
