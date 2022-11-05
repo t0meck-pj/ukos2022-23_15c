@@ -17,4 +17,4 @@ s26991, s29420
 	Skutek zmiany operatora > na >> : operator >> dopisuje na komentarz na koniec pliku, a > doda tekst do pliku ale wymaże jego wcześniejszą zawartość 
 Polecenie tail -f pozwala na bieżąco śledzić zmiany w pliku 
 
-Minimalne uprawnienia dla katalogu public_html oraz dla strona.html to odczyt i wykonanie dla other 
+Minimalne uprawnienia dla katalogu public_html oraz dla strona.html to wykonanie dla other 
