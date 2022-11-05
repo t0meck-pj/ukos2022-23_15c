@@ -1,0 +1,4 @@
+indeks kolegi - s29099
+-Grupa musi miec uprawnienia do zapisu i odczytu - rm
+-Operator > nadpisuje plik natomiast >> dopisuje na koniec pliku 
+-tail -f pozwala sledzic zmiany w pliku

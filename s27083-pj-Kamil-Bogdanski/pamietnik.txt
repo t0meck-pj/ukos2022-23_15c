@@ -1,10 +1,14 @@
 09.10.2022
 Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem/lam sie ze:
-- jak generowa i dodac klucz ssh do githuba
+- jak generowac i dodac klucz ssh do githuba
 - obsluga terminala
 - :)
 18.10.2022
 - tworzenia katalogow z dluga nazwa
 - poruszania sie po systemie za pomoca sciezek wzglednych
 - wyswietlanie zawartosci katalogu w ktorych aktualnie sie nie znajduje 
-
+04.11.2022
+- dodawanie uprawnien dla uzytkownikow
+- do czego sluza dane uprawnienia i na co pozwala ich posiadanie
+- roznice w uprawnieniach do plikow i folderow
+- jak postawic prosta strone domowa
