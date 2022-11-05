@@ -1,0 +1,40 @@
+1. Jako obecny uzytkownik "whoami" utworzylem we wlasnym katalogu domowym katalog o nazwie ktest1 z katalogiem ktest2: "mkdir ktest1/ktest2", katalog o nazwie ktest3: "mkdir ktest3".
+Poleceniem "ls -l" sprawdzilem uprawnienia katalogow.
+
+"d" katalog, "-" plik, "l" link symboliczny, "U" user rwx (uzytkownik), "G" group rwx (grupa), "O" others r-x (inni), "r" read (odczyt), "w" write (zapis), "x" eXecute (wykonanie), "-" (brak uprawnien)
+
+Stworzylem pliki tekstowe bedac w katalogu 2. (ktest2): "touch ptest1.txt", "touch ptest2.txt" oraz w katalogu 3. (ktest3): "touch ptest3.txt".
+W plikach zapisalem tekst: "Zmien to jesli potrafisz", otwierajac pliki i zapisujac w nano: "nano ptest1.txt" oraz "nano ptest2.txt".
+
+Nastepnie utworzylem plik "kukulcze jajko" wchodzac na katalog innego uzytkownika: s29097: "nano kukulczejako.txt".
+Za pomoca polecenia "ls -l kukulczejako" sprawdzilem uprawnienia i terminal wyswietlil mi: "-rw-r--r--", co oznacza plik z mozliwoscia odczytu i zapisu wlasciciela pliku oraz jedynie odczytu dla grupy oraz innych.
+
+Poleceniem: "cat ptest1.txt" oraz "cat ptest2.txt", "cat ptest3.txt mialem podglad na tresc pliku bez wchodzenia w jego zawartosc w trybie edycji.
+Poleceniem: "chmod o+w ktest3 oraz "chmod o+w ptest2" nadalem uprawnienia zapisu dla innych.
+
+2. Usunalem sobie wszelkie uprawnienia dostepu do katalogu o nazwie "ktest1", uzywajac do tego polecenia: "chmod u-rwx ktest1".
+Wpisalem polecenie: "cd ktest1", ale nie moglem go wykonac. Terminal powiadomil mnie o braku dostepu: "-bash: cd: ktest1: Permission denied".
+Polecenie: "chmod" mozemy wykonac do zabrania uprawnien lub do nadania uprawnien.
+Wpisalem polecenie: "cd ktest1/ktest2", ale nie moglem go wykonac.
+Terminal powiadomil mnie o braku dostepu: "-bash: cd: ktest1/ktest2: Permission denied".
+Nie mozna zatem wejsc do katalogu podrzednego, nie posiadajac uprawnien do katalogu nadrzednego.
+Musze zatem uzyc polecenia do nadania minimum uprawnien odczytu: "chmod u+r ktest1", albo przejsc na konto superuzytkownika: "sudo su" i wykonac polecenie: "cd ktest1/ktest2".
+
+3. Za pomoca polecenia "echo", moge wyswietlic w terminalu tekst, ktory wpisze z klawiatury. Moge rowniez przeniesc tekst do pliku.
+Skladnia polecenia wyglada nastepujaco: "echo "przykladowy_tekst"".
+
+Do obejrzenia zawartosci pliku (zawartosc wyswietlana w terminalu), bez koniecznosci otwierania pliku w edytorze tekstowym sluzy polecenie: "cat nazwa_pliku".
+
+4. Stworzylem w swoim katalogu domowym podkatalog "public_html" poleceniem: "mkdir public_html".
+Umiescilem w nim plik "strona.html" poleceniem: "nano strona.html"
+
+Zawartosc pliku:
+
+<HTML>
+<BODY>
+<H1>To jest moja strona domowa</H>
+</BODY>
+</HTML>
+
+Minimalne uprawnienia dostepu do pliku, ktore musialem przydzielic to "x" wykonanie, dla katalogu domowego, katalogu "public_html".
+Strona powinna byc widoczna pod adresem: http://szuflandia.pjwstk.edu.pl/~s29097/strona.html
