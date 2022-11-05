@@ -23,5 +23,5 @@ polecenie tail-f pozwala na biezaco sledzic zmiany w pliku
 4.W moim katalogu domowym stworzylem podkatalog o nazwie public_html i w nim stworzylem plik o nazwie strona.html
 Edytowalem plik dodajac mu zawartosc taka jaka w poleceniu. Sprawdzilem czy strona jest widoczna na szuflandi.
 Bez zadnych zmian nie byla widoczna. Nastepnie dodalem jedynie uprawnienia dla strona.html oraz do katalogu domowego dla innych tylko do odczytu 
-natomiast nie bylo to wystarczajace. Dodalem nastepnie uprawnienie do wykonywania przez innych.
+natomiast nie bylo to wystarczajace. Dodalem nastepnie uprawnienie do wykonywania przez innych. Okazalo sie ze uprawnienie do wykonania jest wystarczajace
 Strona pojawila sie na szuflandii
