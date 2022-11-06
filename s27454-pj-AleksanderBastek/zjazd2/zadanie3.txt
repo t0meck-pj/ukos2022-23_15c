@@ -1,0 +1,3 @@
+Zadanie wykonałem wspólnie z Kamilem Koniakiem. Kamil zmienił zawartość pliku w moim katalogu domowym, co skutkowało
+tym, że otrzymałem wiadomość przekazaną przez ten plik. Operator '>>' pozwala dopisywać do pliku kolejne liniinaczej 
+niż pojedynczy operator, który nadpisuje całą zawartość pliku. tail -f pozwolił wyświetlić ostatnie 10 linijek pliku.
