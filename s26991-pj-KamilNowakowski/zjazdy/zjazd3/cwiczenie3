@@ -1,0 +1,18 @@
+zadanie 3 polegalo na przetestowaniu dwoch skrotow klawiszowych
+ctrl + c oraz ctrl + d
+ctrl + c :
+wydalem komende cat > wynik3_1.txt
+wpisałem witaj a nastepnie wcisnalem ctrl + c
+w pliku wynik3_2.txt nic sie nie zapisało
+ctrl + d :
+wydalem komende cat > wynik3_2.txt
+wpisalem witaj a nastepnie wcisnalem ctrl + d
+w pliku wynik3_2.txt jest zapisany tekst "witaj"
+ctrl + c wyslal sygnal zakonczenia
+ctrl + d nie wyslal sygnalu zakonczenia a jedynie zamknal strumien wejsciowy
+oba przyklady roznia sie zapisana trescia. w przypadku ctrl + c nic sie nie zapisalo a wprzypadku ctrl + d sie zapisalo
+ctrl + d jest bardzo przydatne jesli chcialbym zamknac dzialanie jakiegos programu korzystajacego ze standardowego wejscia i miec pewnosc ze zostanie zapisane
+cat wymaga pelnych wierszy albo konca strumienia wyjsciowego
+klikajac ctrl + c zabilem cata, ktory nie zdazyl zapisac pliku
+klikajac ctrl + d cat dostal dane z informacja ze to jest koniec danych 
+
