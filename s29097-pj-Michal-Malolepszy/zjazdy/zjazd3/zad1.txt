@@ -1,0 +1,32 @@
+W celu dowiedzenia sie co oznaczaja parametry z zadania wszedlem w instrukcje (man man)
+uzylem "/" i moglem wpisac co szukam np. "-a", klawiszem "n" wyszukiwalem nowe dopasowania wynikow, 
+uzywajac "shift n" znajdywalem poprzednie dopasowanie.
+Do wyszukania co oznacza program ps uzylem polecenia "man ps" w terminalu.
+"q" sluzy do wyjscia z helpa.
+
+1. Program "ps" wyswietla liste uruchomionych procesow danego uzytkownika,
+"ps -l" wymusza szczegolowe dane w formie dlugiej,
+"ps -a" wyswietla wszystkie procesy dzialajace na serwerze,
+"ps x" zamienia format wyjscia na format BSD
+"ps axu" wyswietla najczesciej uzywane procesy (a), nawet te bez ustalonego terminala (x), podajac uzytkownika (u)
+
+Oznaczenia:
+PID - procesy
+TTY - terminal. Procesy z znakiem ? nie maja zalogowanego terminala.
+START - czas, kiedy proces wystartowal
+TIME - o, ktorej godzinie
+COMMAND - jaka byla komenda
+
+Wyswietlanie wszystkich procesow w bash:
+"ps axu | grep bash | grep -v grep"
+czyli wyswietlany wszystkie polecenia bash | z wylaczeniem wynikow z grep
+
+"cut" - usuwa sekcje z kazdego wiersza plikow
+ps axu | grep bash | grep -v grep | cut -d ' ' -f2
+
+"awk" dziala na programach, ktore zawieraja reguly zlozone z wzorcow i akcji. Akcja jest wykonywana na tekscie pasujacym do wzorca.
+Wzory sa zawarte w nawiasach klamrowych {}. Wzorzec i akcja tworza razem regule. Caly program awk ujety jest w pojedyncze cudzyslowy ' '
+ps axu | grep bash | grep -v grep | awk '{ print $8 }'
+ps axu | awk '/bash/{ print $8 }
+Ciekawostka: Polecenie awk zostało nazwane przy użyciu inicjałów trzech osób, które napisały oryginalną wersję w 1977 roku: 
+Alfred Aho, Peter Weinberger, i Brian Kernighan.

@@ -1,0 +1,14 @@
+PID jest to identyfikator procesu ([P]rocess [ID]entyficator).
+Za jego pomoca mozna odwolac sie do danego procesu wykorzystujac rozne mechanizmy systemu tj. wyslanie sygnalu (np. zakonczenia) do procesu.
+Sluzy to tego komenda "kill" wysylajaca sygnal do procesu. Domyslnie wysyla sygnal zakonczenia procesu.
+
+1. Uruchomilem Ubuntu (w srodowisku graficznym) wraz z graficznym edytorem tekstowym o nazwie gedit.
+2. Uruchomilem terminal z poleceniem: "ps aux | grep gedit", aby zobaczyc jaki PID ma program gedit (1407).
+3. Uruchomilem polecenie: "kill 1407", aby wyslac syganl zakonczenia procesu edytora tekstowego. Program gedit sie wylaczyl.
+4. Wpisujac komende: "killall -9 bash" wylaczylem okno terminala bash.
+Alternatywnie: "killall -SIGKILL gedit" wylaczylem program gedit.
+Z manuala (man signal): SIGKILL (Signal) ma wartosc 9 (Value), domyslny akcja (TERM) do zabicia procesu (Kill signal).
+SIGTERM - 15 - Term - Termination Signal.
+
+Wlaczylem ponownie gedit i wyswietlil mi sie PID dla gedit z nr 1451.
+Poleceniem: "kill -KILL 1451" wylaczylem program gedit.

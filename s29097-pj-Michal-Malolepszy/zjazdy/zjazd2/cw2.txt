@@ -1,0 +1,7 @@
+Polecenie "umask" jest odpowiedzialne za ograniczenie praw dostepu (chmod).
+Wpisalem polecenie: "umask" i otrzymalem w terminalu wartosc domyslna 022.
+Okreslajac wartosc umask przed tworzeniem pliku (touch plik) otrzymalem okreslone uprawnienia, sprawdzajac je poleceniem "ls -l"
+"umask 022" nadaje uprawnienia rw-r--r-- (644)
+"umask 000" nadaje uprawnienia rw-rw-rw- (666)
+"umask 044" nadaje uprawnienia rw--w--w- (622)
+Przyznawane uprawnienia przechodza logiczna koniunkcje (bramka AND) z zanegowana wartoscia maski.

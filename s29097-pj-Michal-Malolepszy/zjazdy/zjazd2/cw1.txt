@@ -25,7 +25,7 @@ Skladnia polecenia wyglada nastepujaco: "echo "przykladowy_tekst"".
 
 Do obejrzenia zawartosci pliku (zawartosc wyswietlana w terminalu), bez koniecznosci otwierania pliku w edytorze tekstowym sluzy polecenie: "cat nazwa_pliku".
 
-4. Stworzylem w swoim katalogu domowym podkatalog "public_html" poleceniem: "mkdir public_html".
+4. Stworzylem w swoim katalogu domowym "~ /." podkatalog "public_html" poleceniem: "mkdir public_html".
 Umiescilem w nim plik "strona.html" poleceniem: "nano strona.html"
 
 Zawartosc pliku:
@@ -37,4 +37,4 @@ Zawartosc pliku:
 </HTML>
 
 Minimalne uprawnienia dostepu do pliku, ktore musialem przydzielic to "x" wykonanie, dla katalogu domowego, katalogu "public_html".
-Strona powinna byc widoczna pod adresem: http://szuflandia.pjwstk.edu.pl/~s29097/strona.html
+Moja strona domowa jest widoczna pod adresem: http://szuflandia.pjwstk.edu.pl/~s29097/strona.html

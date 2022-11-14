@@ -1,0 +1,13 @@
+1. Poleceniem "cd ~" przeszedłem do swojego katalogu domowego na ssh szuflandia.
+2. Wydalem komende: "ls -a".
+3. Wyswietlily sie wszystkie pliki lacznie z plikami ukrytymi.
+4. Wydalem komende: "ls -a | grep D".
+5. Wyswietlila sie lista wierszy w pliku lub strumieniu wejsciowym, ktore pasuja do wzorca. W przykladzie podalem wzorzec "D".
+6. Wykonalem komende: "ls -a | grep D > lista_plikow_z_literka_d.txt".
+7. Poleceniem: "cat lista_plikow_z_literka_d.txt", sprawdzilem jaka jest tresc pliku. 
+Terminal wyswietlil mi wiersze wraz z plikiem "lista_plikow_z_literka_d.txt".
+"|" oznacza potok (pipe). Ulatwia on laczenie dwoch lub wiecej polecen i jest uzywany jako koncepcja wejscia/wyjscia w poleceniu.
+A | B oznacza przekierowanie standardowego wyjscia (stdout) programu A na standardowe wejscie (stdin) programu B.
+">" oznacza przekierowanie standardowego wyjscia (stdout) do pliku (nadpisywanie).
+8. Wykonalem komende: "ls -a | grep D | tee lista_plikow_z_literka_d_2.txt".
+9. Program "tee" czyta standardowe wejscie i przesyla je na standardowe wyjscie oraz do pliku.
