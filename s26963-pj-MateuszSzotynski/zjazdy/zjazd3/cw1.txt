@@ -1,0 +1,16 @@
+16.11.2022
+
+1. Po wpisaniu ps wyswietla liste aktualnie uruchomionych procesow,
+do ktorych uzytkownik wpisujacy ta komende ma dostep
+
+2. ps -a wyswietla informacje o procesach uzywanych przez osobe wpisujaca
+komende, wylacznie poza procesami zwiazanymi z terminalem
+
+3. ps x wyswietla procesy terminalowe, do ktorych uzytkownik ma dostep
+
+4. ps axu wyswietla wszystkie procesy, zarowno terminalowe jak i 
+wszystkich uzytkownikow poza root
+
+A. Komenda ps T
+
+B. Komenda ps -U root

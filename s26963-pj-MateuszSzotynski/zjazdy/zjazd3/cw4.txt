@@ -1,0 +1,14 @@
+17.11.2022
+
+1. Za pomoca komendy gedit wlaczylem edytor tekstowy w terminalu.
+Za pomoca ctrl + z proces zostal wstrzymany. Po ruszaniu oknem z terminalem
+po aplikacji gedit zostawaly slady, ktore byly spowodowane niedoswiezaniem
+oporgramowania (byl on w stanie uspienia)
+
+2. Za pomoca komendy bg wznowilismy proces dzialania aplikacji,
+dzieki komendzie fg moglismy znowu "manipulowac" przebiegiem procesu
+wlaczonego oprogramowania w terminalu.
+
+3. Roznica miedzy geany, a geany & jest taka ze po wykonaniu samej komendy
+geany mozzemy wylaczyc aplikacje, natomiast po geany & musimy wyjsc z procesu
+wejsciowego a nastepnie powtorzyc jeszcze raz ctrl + c aby wyjsc z aplikacji

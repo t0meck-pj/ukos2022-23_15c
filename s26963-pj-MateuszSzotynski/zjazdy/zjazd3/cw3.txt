@@ -1,0 +1,11 @@
+16.11.2022
+
+W pliku wynik3_1.txt nic sie nie znalazlo, natomiast w pliku
+wynik3_2.txt znalazl sie tekst Witaj.
+
+Rozumiem to tak, ze ctrl + c konczy dzialanie komendy,
+natomiast ctrl + d przed zakonczeniem komendy pobiera strumien wejsciowy.
+
+Oba przyklady roznia sie tym, ze w przypadku ctrl + c zakonczono wprowadzanie
+strumienia wejscia do pliku wynik3_1.txt, natomiast ctrl + d zakonczylo go
+po otrzymanym wejsciu
