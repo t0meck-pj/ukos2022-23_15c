@@ -1,0 +1,44 @@
+0. 
+0.1 Przechodze do katalogu domowego za pomoca komendy cd ~.
+0.2-3 Po wpisaniu komendy  ls -a, wyswietlily sie wszystkie pliki i katalogi (rowniez ukryte).
+0.4-5 Po wpisaniu komendy ls -a | grep b wyswietlily sie wszystkie pliki z literka b w nazwie.
+0.6-7 Utworzyl sie plik 'lista_plikow_z_literka_b', " | " oznacza, ze wyjscie pierwszego polecenia jest wejsciem drugiego, a " > "w naszym przypadku
+przekierowuje standardowe wyjscie do nowego pliku, tworząc go i zapisuje w pliku liste plikow z literka b w nazwie.
+0.8-9 Komenda utworzyla zadany plik (wraz z treścią, jak w pkt wyzej) oraz wyswietlila w terminalu liste wszystkich plikow z literka b w nazwie.
+Program tee czyta dane ze standardowego wejscia, ktory wysylany jest standardowego urzadzenia wyjsciowego oraz zapisuje dane w postaci pliku.
+
+1.
+
+1.1. Wyswitla liste procesow, ktora jest uruchomiona.
+1.2. Wyswitla wszystkie procesy poza procesem glownym.
+1.3. Zamienia format wyjscia na format BSD, wyswielta wszystkie moje procesy
+1.4. Wyswietla wszystkie procesy, wszystkich użytkownikow. Znak ? oznacza procesy, ktore nie maja zalokowanego terminala.
+
+1.B. Wszystkie procesy bash wyszwietlamy za pomoca komendy 'ps axu | grep bash | grep -v grep,
+Wszystkie procesy uzytkownika root wyszwietlamy za pomoca komendy 'ps axu | grep root | grep -v grep.
+
+2. 
+2.1 Uruchamiam program gedit za pomoca komendy gedit &.
+2.2. Za pomoca komendy ps axu | grep gedit sprawdzam jaki nr PID ma program gedit.
+2.3. Za pomoca komendy kill 971 wysylam sygnal do zakonczenia procesu, a edytor tekstowy sie wylacza.
+Aby sprawdzic SIGKILL nalezy uzyc komendy kill -l, SIGKILL znajduje sie pod numerem 9. Aby zamkac program tekstowy nalezy uzyc w moim przpadku komendy:
+kill -9 1039. SIGKILL zabija proces.
+2.4. Komenda killall bash nic nie zmienila,dopiero uzycie komendy killall bash -9 zabilo terminal.
+2.5. Nie zadziala do dowolnego procesu, w niektorych przypadkach wsykakuje komunikat, ze operacja nie jest dozwolona.
+
+3.
+Komenda ^C przerywa program.
+Przy wpisaniu komendy cat > wynik3_2.txt, wpisaniu witaj (bez enter) i zakniecia procesu za pomoca ^C powstal plik bez zadnego tekstu.
+Natomiast przy powtorzeniu polecenia, ale zakonczonego ^D powstal plik z zapisanym slowem 'witaj'.
+Komenda ^C wylacza aktywny proces, a komenda ^D kończy strumien wyjściowy, zapisujac (konczac) to co wpisalimy/zrobilismy na strumieniu wejsciowym.
+^D moze oznaczac koniec wprowadzania danych.
+
+4.
+Uruchamiam edytor tekstowy gedit, wpisujac komende CTRL+Z wstrzymuje proces.
+Nie ma możliwości wpisania czegokolwiek w gedicie, przsuwajac inne okno na okno gedita to sie nie odswieza.
+Po wpisaniu komendy bg, plik sie odswiezyl, oraz wyswietil tekst, ktory wzesniej byl niewidoczny.
+Komenda bg wznawia program na drugim planie, a komenda fg na pierwszym.
+Uruchamiajac trzy programy, a na terminalu dalej mozna pisac.
+Za pomoca komendy jobs wyswietlam liste zadan.
+W moim przypadku komenda fg %5 uruchamiam gedita.
+
