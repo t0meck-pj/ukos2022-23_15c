@@ -3,4 +3,11 @@ nauczylam sie dzisiaj
 - co znajduje sie w katalogach linuxowych
 - generowac i dodawac klucze ssh
 - korzystac z szuflandii 
-
+23.10.2022
+nauczylam sie
+- roznicy pomiedzy prawami a uprawnieniami
+- jakie sa uprawnienia i jak je nadawac
+6.11.2022
+- potrafie przekierowywac strumienie
+- filtrowac wyszukiwania
+- jak zabijac i wsztrymywac procesy, przenosic je do tla
