@@ -1,0 +1,2 @@
+żeby pliki/katalogi w danym folderze przyjmowały uprawnienia, inne niż domyślne musimy zastosować polecenie "umask".
+Umask działa na podstawie dziedziczenia uprawnien

@@ -1,0 +1,34 @@
+Zadanie 1
+Za pomocą komendy chmod przydzieliłem i zabrałem uprawnienia dostępu.
+Za pomocą polecenia 'chmod -r plik' zabrałem dostęp do odczytu pliku.
+Za pomocą polecenia 'chmod -x plik' zabrałem dostęp do wejścia do katalogu pliku.
+Za pomocą polecenia 'chmod -m plik' zabrałem dostęp do modyfikowania pliku/katalogu.
+Z pomocą polecenia 'chmod +' plus pozostałe parametry nadawałem uprawnienia do pliku katalogu.
+Wszedłem do katalogu domowego użytkownika s26963 i w katalogu z możliwością zapisu utowrzyłem za pomocą polecenia 
+'touch kukułcze_jajko.txt' ten sam użytkownik utworzył w moim katalogu taki sam plik usunąłęm go za pomocą polecenia
+'rm -r'
+
+zadanie 2.
+Polecenie cd możemy wykonać tylko wtedy gdy katalog ma nadane uprawnienia 'x', abyśmy mogli w niego wjeść
+Polecenia chmod możemy użyć uzywając ścieżki bezwglednej
+Nie nie możemy przejść do katalogu XYZ, który jest w katalogu ABC, do którego nie mamy dostępu, ponieważ katalog ABC 
+będzie nas blokował
+Tak, ale przeniesie nas do katalogu, gdzie znajduję się katalog bez uprawnień katalog bez uprawnień
+
+zadanie 3
+Plik utworzony w katalogu użytkownika (s26963) plik pusty_plik.txt.
+Użyłem komendy echo kot > pusty_plik.txt
+Zapisalo to tresc w utworzonym pliku. Po wykonaniu cat pusty_plik
+w terminalu wyświetlił się napis kot.
+Po wpisaniu echo pies >> pusty_plik.txt dodalo nowa wpis nie usuwajac starego wpisu kot używając operatora '>' 
+wpis był nadpisywany.
+Po wykonaniu cat pusty_plik.txt wyswietlone zostalo:
+kot 
+pies
+
+Zadanie 4
+w katalogu domowym na szuflandi utworzyłem katalog public_html
+w katalogu public_html poleceniem nano utworzyłem plik strona.html i wpisałem do niego strukturę strony
+po zapisaniu pliku strona html nadałem mu uprawenienia odczytu i wejścia dla wszystkich poleceniem chmod a+xr
+link do mojej strony:
+http://szuflandia.pjwstk.edu.pl/~s27444/strona.html

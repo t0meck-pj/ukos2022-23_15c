@@ -3,7 +3,7 @@
 Wyświetliło Desktop Dokumenty Muzyka Obrazy Pobrane ........
 3. Poleceniem "pwd" sprawdziłem aktualne położenie.
 /home/ubuntu
-4. Aby przejść do katalogu Pulpit za pomocą ścieżki względnej uzyłem polecenia "./Desktop"
+4. Aby przejść do katalogu Pulpit za pomocą ścieżki względnej uzyłem polecenia "cd ./Desktop"
 5. Poleceniem "pwd" sprawdziłem aktualne położenie.
 /home/ubuntu/Desktop
 6. Poleceniem 'ls' sprawdzam zawartość katalogu.
