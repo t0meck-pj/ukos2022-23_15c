@@ -28,7 +28,7 @@ ukos
  |    \ katalog3
   \ klamka
 </pre>
-2. W katalogu `ukos/klamka` stwórz pliki `zajęcia2.txt zajęcia2.log inny.txt nowy.txt`
+2. W katalogu `ukos/klamka` stwórz pliki `zajęcia2.txt` `zajęcia2.log` `inny.txt` `nowy.txt`
 3. Za pomocą jednego polecenia `mkdir` stwórz w katalogu `ukos` następujący katalog: `ukos/to/jest/dluga/nazwa`
 4. Następnie umieść w katalogu `ukos/to/jest/dluga/nazwa` plik `dane.txt`
 5. Usuń z katalogu `ukos/klamka` wszystkie pliki z rozszerzeniem `.txt`
