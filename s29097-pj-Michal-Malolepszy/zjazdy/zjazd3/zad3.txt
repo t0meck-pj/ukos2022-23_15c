@@ -1,0 +1,17 @@
+1.1 Uruchomilem komende "cat" w terminalu bez parametrow.
+1.2 Wcinalem CTR+C. Po tym pojawil mi sie symbol ^C i poprzednio wprowadzona komenda zostala przerwana.
+Inne polecenie CTR+D nie wysyla sygnalu zakonczenia, a jedynie zamyka strumien wejsciowy (stdin) w sposob mozliwie bezpieczny.
+
+2.1 Wydalem komende: "cat > wynik3_1.txt", aby wykonac przekierowanie do pliku.
+2.2 Wpisalem: "witaj" bez wciskania klawisza Enter.
+2.3 Wcinalem CTR+C celem przerwania dzialania.
+2.4 Poleceniem: "cat wynik 3_1.txt" zobaczylem, ze w pliku "wynik 3_1.txt" nic sie nie znajduje.
+
+"cat" oczekuje pelnych wierszy, albo konca strumienia wejsciowego. Enter potwierdzilby zakonczenie strumienia, bez niego nie bylo mozliwe przetworzenie strumienia.
+
+3.1 Wydalem komende: "cat > wynik3_2.txt", aby wykonac przekierowanie do pliku.
+3.2 Wpisalem: "witaj" bez wciskania klawisza Enter.
+3.3 Wcinalem CTR+D celem zakonczenia strumienia wejsciowego (dwa razy).
+3.4 Poleceniem: "cat wynik 3_2.txt" zobaczylem, ze w pliku "wynik 3_2.txt" znajduje sie tekst: "witaj".
+
+"cat" dostal dane z informacja o ich zakonczeniu.

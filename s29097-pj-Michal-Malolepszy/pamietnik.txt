@@ -1,16 +1,19 @@
 09.10.2022
+-----------
 Moj drogi pamietniku, dzisiaj na zajeciach z UKOS uczylem sie:
-- logowac na serwer Shuflandia;
+- logowac na ssh Shuflandia poprzez wpisanie do terminala polecenia: "ssh nr_indeksu@szuflandia.pjwstk.edu.pl";
 - zakladac konto na github;
 - generowac klucze ssh;
 - polecen w terminalu dotyczace tworzenia katalogow i dzialan z nimi zwiazanych;
 - drzewa katalogow Linux;
 
 23.10.2022
+-----------
 Dzisiaj na zajeciach uczylem sie:
 - zagadnien zwiazanych z uprawnieniami do katalogow;
 
 31.10.2022
+-----------
 W ramach utrwalenia wiedzy z zajec:
 - uzupelnilem zadania z pierwszego zjazdu, wykonujac cwiczenia;
 - testowalem WSL w konfiguracji z maszyna wirtualna VirtualBox;
@@ -28,11 +31,22 @@ W celu poprawnego dzialania jednoczesnie VirtualBoxa i WSL ustawilem:
 - poleceniem "wsl -l -v" sprawdzilem wersje WSL
 
 03.11.2022
-Ogolnie to jest problem z polaczeniem Szuflandii poprzez Windows 11.
-Po kilkunastu sekundach bezczynnosci pojawia sie komunikat: "client_loop: send disconect: Conection reset"
-Wyczytalem, ze to ogolny problem laczenia poprzez Windows 11.
+-----------
+Z domowego komputera mialem problem z rozlaczaniem polaczenia ssh Szuflandia przez router.
+Po kilkunastu sekundach bezczynnosci pojawial sie komunikat: "client_loop: send disconect: Conection reset"
 
-04.11.2022
-Dzisiaj dokonczylem zadania z zjazdu 2.
+Aby uniemozliwic routerowi zerwanie polaczenia ssh Szuflania uzylem z powodzeniem opcji:
+ssh -o ServerAliveInterval=60 nr_indeksu@szuflandia.pjwstk.edu.pl
 
+Opcja ServerAliveInterval zapobiega zrywaniu polaczenia przez router w czasie bezczynnosci,
+wysylajac pakiety przez siec miedzy urzadzeniem a serwerem dolcelowym co 60 sekund.
+Jest to okreslane jako ruch "podtrzymujacy aktywnosc" (keep alive).
 
+06.11.2022
+-----------
+- Na zajeciach omawialismy temat procesow i strumieni.
+- Dowiedzialem sie, ze kazdy proces na wiekszosci systemow operacyjnych ma przypisane trzy strumienie:
+0. Strumien wyjsciowy to terminal (stdout)
+1. Strumien wejsciowy to klawiatura (stdin)
+2. Strumien wyjscia bledow to tez terminal (stderr)
+- uzywalem rowniez maszyny wirtualnej VirtualBox do wykonania czesci zadan.

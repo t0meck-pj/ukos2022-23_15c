@@ -1,0 +1,12 @@
+CTR+Z sluzy do wstrzymania biezacego procesu i przeniesienie go do tla. Program jest w pamieci, ale nie wykonuje zadnych operacji, bo jest wstrzymany.
+
+- Komenda "gedit &" uruchamia program gedit.
+W terminalu pojawil mi sie PID programu gedit.
+- Wcisnalem CTR+Z.
+W oknie gedita probowalem wpisywac tekst.
+Przesuwalem oknem terminala na okno gedita i okno gedita sie nie odswiezalo.
+- Wpisalem komende "bg", aby wznowic w tle proces, ktory byl wczesniej wstrzymany.
+- Komenda "fg" sluzy do wznowienia na pierwszym planie wstrzymanego wczesniej procesu.
+- Komendy "gimp &", "gedit &", "geany &" uruchomily trzy programy, a w terminalu moge wciaz pisac.
+- Komenda "jobs" sluzy do wyswietlania list zadan przeniesionych do tla wraz z ich numerami.
+- Komenda "fg % (nr jobu)" np. "fg %2" przywrocilem program z tla na pierwszy plan.
