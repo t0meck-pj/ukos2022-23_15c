@@ -1,0 +1,8 @@
+A:
+	-1.Wyswietla procesy z biezacego terminala
+	-2.Wyswietla procesy z biezacego terminala oraz niepodlaczone pod zaden terminal 
+	-3.Zamieni nam wyjscie na format BSD
+	-4.Wyswietla wszystkie procesy
+B:
+	-1.ps axu | grep bash | grep -v grep
+	-2.ps axu | grep ^root
