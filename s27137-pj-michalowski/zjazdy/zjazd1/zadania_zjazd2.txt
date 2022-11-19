@@ -1,0 +1,30 @@
+1. 
+Tworze strukture podkatalogow i katalogow za pomoca komendy mkdir, oraz pliki tekstowe za pomoca komendy touch.
+Przydzielam rozne uprawnienia za pomoca komendy chmod wraz z odpowiednimi argumentami.
+Tworze plik kukulcze_jajko.txt za pomoca komendy touch, przy probie usuniecia cudzego pliku z wlasnego katalogu domowego w terminal pyta "czy usunac zabezpieczony przed zapisem pusty zwykly plik".
+MC pyta czy usunac zabezpieczony przed zapisem plik zwykly.
+2. 
+Usuwajac uprawnienia wszystkie uprawnienia dostepu do katalogu bierzacego za pomoca komendy 'chmod a=- ~/kat3/jeden' pozostaje w biezacym katalogu,
+ale bez mozliwosci jakiegokolwiek dzialania (wyswietla sie komunikat 'brak dostepu'), poza powrotem do katalogu nadrzednego.
+
+Usuwam wszelkie uprawnienia dla nadkatalogu, moge użyć komendy cd jezeli chce wejsc dalej w strukture podkatalogow. Nie moge uzyc komendy 'cd ..' bo nie mam uprawnien do nadkatalogu.
+Moge zmienic uprawnienia nadkatalogu za pomoca komendy chmod. 
+Nie mozna przeskoczyc katalogu do ktorego nie mamy dostepu.
+Nie mozemy rowniez wrocic korzystajac z komendy cd -(komunikat 'brak dostepu').
+3. W katalogu domowym s26844 utworzylem pusty plik, oraz zmienilem jego uprawnienia na mozliwosc zapoisu przez wszystkich czlonkow grupy.
+Rozpoczelismy komunikacje za pomoca komendy echo, kazde nastepne uzycie komendy echo kasuje poprzednia tresc z tej komendy. 
+Komenda cat powoduje wyswietlanie komunikatu bezposrednio w terminalu.
+Komenda zmiany operatora na >> przy komendzie echo powoduje dopisywanie w kolejnych liniach komunikatow.
+Komenda tail -f na odpalonym drugim terminalu powoduje automatyczne ukazywanie zmian dokonywanych na pierwszym terminalu.
+4.
+
+Minimalne uprawnienia dla katalogu i katalogu domowego to tylko uprawnienia do wejscia dla innych (other).
+Minimalne uprawnienia dla pliku strona.html to tylko uprawnienia do odczytu dla innych (other).
+
+Zadanie
+
+Tworzac nowe pliki otrzymuja one zadane przez komende umask uprawnienia.
+Zmieniajac komenda umask rodzaj uprawnień, nowo tworzone pliki otrzymuja juz nowo zadane uprawnienia.
+Operacja logiczna jest koniunkcja.
+
+
