@@ -1,8 +1,8 @@
 9.10.2022
 
-Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem/lam sie ze:
--zrobic konto na githubie generowac i dodawac klucze
--w terminalu zrobic nowe foldery wchodzic do nich, tworzyc nowe pliki 
--rowniez dowiedzialem sie wiele informacji na temat co znacza dane komendy np:bin,boot
+Moj drogi pamietniczku na dzisiejszych zajeciach nauczylem sie jak:
+-utworzyc konto na githubie, generowac i dodawac klucze ssh
+-w terminalu tworzyc  nowe foldery wchodzic do nich, oraz tworzyc nowe pliki 
+-rowniez dowiedzialem sie wiele informacji na temat co oznaczaja dane polecenia np:bin,boot
 
 

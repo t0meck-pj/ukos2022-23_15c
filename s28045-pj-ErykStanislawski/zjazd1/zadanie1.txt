@@ -1,0 +1,8 @@
+Zadanie 1 
+- za pomocą polecenia mkdir oraz cd odpowiednio poruszajac sie po katalogach stworzyłem drzewo katalogów 
+- w katalogu ukos/klamka stworzyłem 4 pliki tekstowe za pomocą polecenia touch.
+- za pomoca polecienia mkdir -p stworzyłem w katalogu ukos katalogi: ukos/to/jest/dluga/nazwa
+- za pomocą polecenie touch ./ukos/to/jest/dluga/nazwa/dane.txt umiesicłem w katalogu plik dane.txt
+- za pomoca polecenia rm -r /ukos/to/jest/dluga/nazwa/*[txt] usunąłem pliki txt 
+- za pomoca polecenia rm -r ukos katalog usunąłem katalogi ukos i katalog
+- za pomoca polecenia rm -r klamka usunełem katalog klamka
