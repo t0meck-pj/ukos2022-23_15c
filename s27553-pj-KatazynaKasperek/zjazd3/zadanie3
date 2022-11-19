@@ -1,0 +1,6 @@
+Uruchom komendę cat be parametrów. Wciśnij CTRL+C i zobacz co się stanie
+CTRL C zatrzymuje przerywa działanie programu 
+
+Wydajac komende cat > wynik3_1.txt i po wpisaniu tekstu wciskając ctrl+c do pliku nie zapisuje się nic
+Natomiast używając ctrl+d do pliku zapisuje się wpisany tekst, poniewaz ten skrot konczy strumien wejsciowy 
+A wiec ctrl c zabija proces a ctrl d zamyka potok wejścia

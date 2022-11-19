@@ -1,0 +1,17 @@
+1.
+ps -a
+	wiecej informacji, rowniez o innych uzytkownikach
+px x
+	zamienia format wyjscia na format bsd 
+	wyniki dotyczace sesji
+Jak myślisz, co oznacza znak zapytania w kolumnie 2?
+Nie wiesz? A gdzie może być wyjaśnienie?
+	wyjasnienie mozna znalezc w man, znak zapytania oznacza nieznaną wartość
+	proces, ktory nie ma terminala 
+stat- kiedy proces wystartowal
+
+Wyświetl wszystkie procesy bash
+	ps axu | grep bash | grep -v grep
+Wyświetl wszystkie procesy należące do użytkownika root
+	ps axu | grep ^root
+

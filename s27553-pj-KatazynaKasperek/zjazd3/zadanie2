@@ -1,0 +1,7 @@
+
+Uruchom wybrany przez Ciebie graficzny edytor tekstowy (np. gedit, gvim, Visual Studio Code, atom, itd...) Zobacz jaki ma on PID - przyda się do tego komenda ps
+	ps gedit
+Wydaj komendę kill w taki sposób, aby ten edytor się wyłączył. Zobacz czy to działa.
+	sama komenda kill i numer pid nie działa, musialam uzyc kill -9 i numer pid, -9 wprowadza SIGKILL ktory konczy proces bez względu na to co proces chce zrobic z sygnałem
+Zobacz działanie komendy killall bash
+	killall bash zabija wszystkie procesy które maja w sobie podany tekst,czyli w tym przypadku tekst bash

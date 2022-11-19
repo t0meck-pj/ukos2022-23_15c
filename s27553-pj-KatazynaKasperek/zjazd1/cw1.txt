@@ -14,6 +14,7 @@ ls /home/debian
 cd ../Pictures
 9.sprawdzam gdzie jestem : pwd
 /home/debian/Pictures
+10.Zobacz do jakiego katalogu przejdziesz za pomocą ścieżki ././././././ : ta sciezka przenosi nas do obecnej lokalizacji, bo . oznacza biezaca lokalizacje
 11. katalog domowy za pomoca sciezki bezwzglednej : cd /home/debian
 12.cd /root pozwala na wejscie do katalogu administratora, za pomoca zwyklego uzytkownika nie mamy do niej dostepu. aby sie dostac trzeba przejsc uprawienia wyzej : sudo su i wtedy mozemy przejsc do katalogu root
 13. Ctrl+Alt+F1 pozwala przejsc do trybu pełnoekranowego
