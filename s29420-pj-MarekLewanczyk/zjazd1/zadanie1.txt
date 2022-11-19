@@ -1,57 +1,19 @@
 20.10.2022
-
 Z pomoca filmow umieszczonych na Microsoft Teams utworzylem sobie maszyne wirtualna z Linuksem i na niej cwiczylem zrobilem pierwsza czesc zadan. 
-
-
 
 Zadania #1
 
-
-
 1. Uruchomilem Terminal
-
 2. Wyswietlilem zawartosc katalogu, w ktorym sie znajdowalem za pomoca komendy "ls" otrzymalem: Desktop, Documents, Downloads, Music, Pictures, Public, Templates, Videos
-
 3. Przy pomocy komendy "pwd" sprawdzilem gdzie sie znajduje - /home/ubuntu (jest to katalog domowy uzytkownika ubuntu)
-
 4. Przeniosłem się do folderu Pulpit przy użyciu ścieżki względnej "cd Desktop/
-
 5. Jestem w folderze /Desktop
-
 6. Zawartość folderu Desktop - adding-packages-permamently-info.txt, passwords-info.txt
-
 7. Wyswietliłem zawartosc katalogu homedla uzytkownika ubuntu, nie przechodzac do niego przy pomocy ścieżki bezwzglednej i komendy "ls /home/ubuntu" i otrzymalem: Desktop, Documents, Downloads, Music, Pictures, Public, Templates, Videos
-
 8. Cofnalem sie do katalogu wyzej czyli do katalogu /home/ubuntu z katalogu Desktop przy uzyciu komendy "cd .." i przenioslem sie do folderu Pictures przy pomocy komendy "cd Pictures/"
-
 9. Jestem w katalogu /home/ubuntu/Pictures
-
 10. Nic sie nie stalo? - zrobilem cos zle?
-
 11. Przeszedlem do katalogu domowego przy uzyciu sciezki bezwzglednej i komendy cd "cd /home/ubuntu/"
-
 12. Po wpisaniu komendy "cd /root" dostalem informacje o braku uprawnień "bash: cd: /root: Permission denied".
-
 13. Nie jestem pewien, ale prawdopodobnie wylaczylem srodowisko graficzne na linuksie?
-
 14. Ponownie wlaczylem srodowisko graficzne?
-
-
-
-Zadania #2
-
-
-
-1. Zaczynajac od polozenia /home/ubuntu utworzylem za pomoca komendy "mkdir -p ukos/katalog/katalog2" drzewo katalogów. Nastepnie przenioslem sie do katalogu ukos i utworzylem w nim katalog klamka przy uzyciu komendy "mkdir klamka".  Przenioslem sie do katalogu katalog "cd katalog" i utworzylem w nim katalog3, cofnalem sie z powrotem do katalogu ukos uzywajac komendy "cd ..".
-
-2. Przenioslem sie do katalogu klamka i utworzylem pliki zajecia2.txt, zajecia2.log i nowy.txt przy pomocy komendy touch zajecia2.txt itd..
-
-3. Cofnalem sie do katalogu ukos i za pomoca polecenia "mkdir -p to/jest/dluga/nazwa" utworzylem katalog to/jest/dluga/nazwa.
-
-4. Przy pomocy sciezki wzglednej przenioslem sie do kataloug to/jest/dluga/nazwa i utworzylem w nim plik dane.txt przy pomocy komendy "touch dane.txt"
-
-5. Przy uzyciu sciezki bezwzglednej usunalem wszystkie pliki z rozszerzeniem txt w katalogu ukos/klamka komenda "rm -r /home/ubuntu/ukos/klamka/*[.txt]"
-
-6. Cofnalem sie do katalogu ukos i przy uzyciu komendy "rmdir katalog/katalog2" usunalem katalog ukos/katalog/katalog2
-
-7. Usunalem katalog klamka przy uzyciu polecenia "rm -r klamka".
