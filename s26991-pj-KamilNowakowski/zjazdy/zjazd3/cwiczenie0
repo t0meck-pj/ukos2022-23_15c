@@ -1,0 +1,16 @@
+1 Cwiczenie rozpoczalem od przejscia do katalogu domowego za pomoca komendy cd ~
+2 wydalem komende ls- a.
+3 wyswietlilo mi wszystkie pliki
+4 wydalem komende ls -a | grep D
+5 nie wyswietliło mi żadnych wynikow poniewaz nic nie spelnialo wzorca D
+sprobowalem z literka b w tym celu wydalem komende ls -a | grep b.
+tym razem dostalem wszystkie pliki zawierajace b
+6 wykonalem komende ls -a | grep b > lista_plikow_z_lietrka_b.txt
+7 zostal stworzony plik tekstowy zawierajacy wszystkie pliki z litera. Podejrzelem go za pommoca komendy cat lista_plikow_z_literka_b.txt
+| przekierowalo standardowe wyjscie z komendy ls -a na standardowe wejscie greep b
+>utworzylo i nadpisalo plik tekstowy wynikiem komendt ls -a | grep b
+8 teraz wykonalem komende ls -a | grep b | tee lista_plikow_z_literka_b_2.txt
+9 plik rowniez sie utworzyl. Dodanie tee pozwolilo
+ zczytac ze standardowego wejscia i  zapisac do pliku
+ oraz wyswietlic na standardowe wyjscie tzn ekranie
+
