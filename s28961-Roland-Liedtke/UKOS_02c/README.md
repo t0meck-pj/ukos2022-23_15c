@@ -19,16 +19,16 @@ Porcja ćwiczeń (do wykonania na szuflandii)
 Sprawdzić, jaki skutek powoduje zamiana operatora `>` na operator `>>` w poleceniu `echo`. Uruchom także drugi terminal i wykonaj w nim komendę `tail -f plik` i powtórz powyższe ćwiczenie w pierwszym terminalu (komunikacja za pomocą pliku).
 4. Znaleźć w swoim katalogu domowym podkatalog `public_html` (jeśli go nie ma, to utworzyć; musi się on nazywać DOKŁADNIE tak jak podano, pisane małymi literami z podkreśleniem zamiast spacji pomiędzy słowami). Umieścić w nim plik o nazwie `strona.html` o następującej zawartości:
 
-<pre><code>
+<pre>/*
 <HTML>
 <BODY>
 <H1>To jest moja strona domowa</H1>
 </BODY>
 </HTML>
-</code></pre>
+*/</pre>
 
 Sprawdzić, jakie są minimalne uprawnienia dostępu, które trzeba przydzielić do:
 - katalogu domowego;
-- katalogu public_html;
-- pliku strona.html, aby zawartość pliku była widoczna w przeglądarce internetowej pod adresem http://szuflandia.pjwstk.edu.pl/~twój_login/strona.html
-5. W opisie bash-a (man) przeczytać opis polecenia wewnętrznego umask i wypróbować jego działanie sprawdzając, a następnie zmieniając swoją maskę trybu pliku i tworząc za każdym razem nowe pliki (przy użyciu polecenia touch plik), a później sprawdzając uzyskane uprawnienia dostępu do nich (polecenie ls -l). Jaka operacja logiczna na bitach domyślnych uprawnień dostępu oraz maski jest wykonywana ? 
+- katalogu `public_html`;
+- pliku `strona.html`, aby zawartość pliku była widoczna w przeglądarce internetowej pod adresem http://szuflandia.pjwstk.edu.pl/~twój_login/strona.html
+5. W opisie bash-a (`man`) przeczytać opis polecenia wewnętrznego `umask` i wypróbować jego działanie sprawdzając, a następnie zmieniając swoją maskę trybu pliku i tworząc za każdym razem nowe pliki (przy użyciu polecenia `touch` plik), a później sprawdzając uzyskane uprawnienia dostępu do nich (polecenie `ls -l`). Jaka operacja logiczna na bitach domyślnych uprawnień dostępu oraz maski jest wykonywana ? 
