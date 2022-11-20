@@ -1,0 +1,9 @@
+Zadanie 0
+
+2. Wypisało mi wszystkie pliki znajdujące się w katalogu domowym - nawet te ukryte;
+5. Wypisało mi wszystkie pliki zawierające w swojej nazwie literkę b;
+7. Uwtorzył się plik lista_plikow_z_literka_b.txt;
+	| - oddziela występujące po sobie komendy/funkcje (potok);
+	> - nadpisuje plik, jeżeli nie jest utworzony tworzy nowy plik;
+9. Program wypisał mi wszystkie pliki zawierające literkę b w katalogu oraz wypisał je w pliku lista_plikow_z_literka_b.txt;
+Komenda tee czyta ze standardowego wejścia i zapisuje na standardowe wyjście oraz do pliku;
