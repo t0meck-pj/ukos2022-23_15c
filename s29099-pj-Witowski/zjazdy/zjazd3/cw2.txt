@@ -1,0 +1,7 @@
+tak wylaczyl sie 
+
+sprwadze w manualu 
+man kill
+man signal
+
+killall bah - zamknie otwarte powloki
