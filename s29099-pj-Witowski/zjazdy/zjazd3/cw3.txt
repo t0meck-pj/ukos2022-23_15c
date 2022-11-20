@@ -1,0 +1,9 @@
+po wcisnieciu ctrl+c program sie zamknal(sygnal zakonczenia)
+
+po ctrl+c nie ma nic w pliku
+po ctrl+d plik sie zapisal
+
+ctrl+d wysyla sygnal EOF (end of file) zamyka wejscie standardowe.
+roznia sie tym ze jeden zapisal to co zostalo wpisane w trakcie dzialania 
+
+ctrl+d nie zamyka programu tylko oznacza zakonczenie dzialania
