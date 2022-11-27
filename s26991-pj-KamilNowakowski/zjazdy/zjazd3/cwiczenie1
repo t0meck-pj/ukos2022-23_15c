@@ -6,4 +6,4 @@ A
 znak ? w drugiej kolumnie oznacza ze te procesy nie maja zalokowanego  terminala
 B
 1 aby wyswietlic wsystkie procesy bash wykorzystalem komende ps axu | grep bash |grep  -v grep
-2 aby wyswietlic procesy nalezace do uzytkownika root uzylem ps axu | awk '/bash/{ print $8 }'
+2 aby wyswietlic procesy nalezace do uzytkownika root uzylem ps axu | grep ^root
