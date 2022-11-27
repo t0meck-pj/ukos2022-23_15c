@@ -1,9 +1,185 @@
-09.10.2022
-moj drogi pamietniku, dzis nauczylem sie:
-- tworzyc konto na github
-- tworzyc klucze
-- logowac sie na szuflandie
-- odpalac wirtualna maszyne linuxa - ubuntu
-- tworzyc katalogi i pliki na ubuntu
 
+---------------------------------------
 
+3 procesy i strumienie
+
+---------------------------------------
+
+Zadanie 0
+„ls -a | grep D” - Co się stalo?
+	- komenda „ls” wyswietla zawartosc katalogu w postaci listy
+	- parametr „-a” nakazuje ignorowac wyniki oprócz tych które spelniaja 	warunek
+	- symbol „ | „ ang. pipeline nakazuje przekierowac strumien wynikow
+	- komenda „grep” wyszukuje wzorce
+	- „D” to podany wzorzec
+	- czyli: wyswietlenie listy plikow i katalogow zaczynajacych się na litere 	„D”, reszta wynikow jest zignorowana 
+
+„ls -a | grep D > lista_plikow_z_literka_d.txt” - Co to znaczy?
+- tak jak wyzej opisalem, wyswietla liste i wyszukuje wzorzec
+- symbol „>” dziala na zasiadzie dopisywania nowej linii ang. newline
+- nazwa „lista_plikow_z_literka_d.txt” wskazuje plik tekstowy do jakiego ma być zapisywany stdout (wynik / strumien wyjscia)
+
+„ls -a | grep D | tee lista_plikow_z_literka_d_2.txt”
+Jaka jest treść względem poprzedniej próby bez programu tee?
+Co robi program tee?
+- w mojej ocenie jest to taki sam efekt jak poprzednio
+- program tee zapisuje stdout do pliku, „tee” jest przydatne jeśli nie chcemy uczyc się na pamiec symboli kierunkowych
+
+Zadanie 1A
+
+Jak myślisz, co oznacza znak zapytania w kolumnie 2?
+- znak zapytania pojawia się w kolumnie TTY, jest to protokol do komunikacji poprzez teletekst ang. teletypewriter. Jest to sposob komunikowania się, pomiedzy uzytkownikiem i maszyna, bash czyli terminal korzysta z TTY czyli ja uzytkownik wpisuje tekst / komunikat do maszyny, a maszyna odpowiada w taki sam sposob czyli poprzez tekst. Przy procesach które nie korzystaja z terminala pojawia się „?”
+- tak to rozumiem, a odpowiedzi udzielilem na bazie informacji z:
+www.gnu.org, stackoverflow.com i support.microsoft.com
+
+Zadanie 1B
+
+Wyświetl wszystkie procesy bash
+- „ps -C bash”
+- „ps axu | grep bash
+Wyświetl wszystkie procesy należące do użytkownika root
+- „ps -u root” 
+
+Zadanie 2:
+
+Zadanie do wykonania na linuxie z dostępnym środowiskiem graficznym.
+- uruchamiam Ubuntu 22.04 LTS z Gnome 42.0
+
+2.1 Uruchom wybrany przez Ciebie graficzny edytor tekstowy (np. gedit, gvim, Visual Studio Code, atom, itd…)
+-  uruchamiam LibreOffice Writer
+
+2.2 Zobacz jaki ma on PID - przyda się do tego komenda ps
+- w konsoli wpisuje „ps axu | grep libre” i otrzymuje nr 10165 czyli PID procesu
+
+2.3 Wydaj komendę kill w taki sposób, aby ten edytor się wyłączył. Zobacz czy to działa.
+- następnie komenda „kill 10165” zamyka edytor graficzny LibreOffice Writer
+
+Zobacz czy możesz wysłać do niego SIGKILL (gdzie sprawdzisz jak to zrobić?)
+- „man kill” pokazal mi skladnie potrzebna do komendy „kill”
+- „kill -SIGKILL PID dziala rownie dobrze i nadaje się do zamykania procesu
+
+2.4 Zobacz działanie komendy killall bash
+- „killall bash” nie zadziala na terminal
+- ale za to „killlall -u guest” może być ciekawym sposobem na
+pozbycie się uzytkownika
+
+2.5 Zobacz czy kill zadziała dla dowolnego procesu.
+- kill nie zadziala na terminal – bash
+- ale za to komenda „kill -SIGKILL PID-bash” zadziala
+
+Zadanie 3
+
+Zobacz co się stanie:
+    1. Wydaj komendę cat > wynik3_1.txt
+    2. Wpisz tekst witaj bez wciskania klawisza Enter
+    3. Wciśnij CTRL+C
+    4. Zobacz co się znalazło w pliku wynik3_1.txt
+Wydaj komendę cat > wynik3_2.txt
+    1. Wpisz tekst witaj bez wciskania klawisza Enter
+    2. Wciśnij CTRL+D (możliwe, że będzie trzeba wcisnąć go 2x)
+    3. Zobacz co się znalazło w pliku wynik3_2.txt
+W opisie rozwiązania zadania umieść:
+    • jak rozumiesz co się stało?
+      - uzycie skrotu klawiszowego w obu przypadkach spowodowalo 
+      zamkniecie procesu „cat”
+    • czym oba te przykłady się różnią?
+      - tym, że CTRL+C nie zapisal tekstu
+      - a CTRL+D zapisal wpisywany tekst
+    • DLACZEGO się różnią?
+      - CTRL+C wysyla sygnal zamykajacy do procesu aktualnie uruchomionego
+      ang. abort
+      - CTRL+D wysyla sygnal koniec wpisywania (koniec stdin) 
+      ang. end of typing
+      
+---------------------------------------
+
+1. linux - wstep do konsoli
+
+---------------------------------------
+
+zadanie 1, uruchom terminal:
+        - mozna to zrobic uzywajac interfejsu graficznego, klikajac na
+        ikone terminal w menu wyswietlajacym programy
+        - moim zdaniem najszybszym sposobem na uruchomienie terminala jest
+        skrot klawiszowy CTRL + ALT + T
+
+zadanie 2, wyswietl zawartosc katalogu:
+        - komenda "ls" ang. list
+        - komenda "dir" ang. directory
+        - komenda "tree" po zainstalowaniu: sudo snap install tree
+
+zadanie 3, sprawdz gdzie sie znajdujesz:
+        - komend "pwd" ang. print working directory
+
+zadanie 4, przejdz do katalogu za pomoca sciezki wzglednej:
+        - wpisuje "dir" dostaje informacje, ze katalog Pulpit jest aktualnie
+        podkatalogiem
+        - wpisuje "cd" ang. change directory: "cd Pulpit/" przenosi mnie do
+        podkatalogu Pulpit
+        - dobrym skrotem jest wpisanie "cd Pul" i nacisniecie klawisza TAB,
+        to powoduje, ze bash dokancza nazwe i na koncu stawia ukosnik ang.
+        backslash " / "
+        - istotna jest tez wielkosc liter, katalog Pulpit nie zostanie
+        odnaleziony jesli wpiszemy go uzywajac malej litery
+
+zadanie 5, sprawdz gdzie jestes:
+        - po lewej stronie tuz przy kursorze widnieje informacja, ze
+        znajduje sie w katalogu Pulpit
+        - aby sprawdzic pelna sciezke uzyje komendy "pwd", dostaje info:
+        "/home/kamil/Pulpit"
+
+zadanie 6, wyswietl zawartosc biezacego katalogu:
+        - uzywam komendy "ls" albo "dir"
+
+zadanie 7, wyswietl zawartosc katalogu domowego bez przechodzenia do niego:
+        - wpisuje komende: "ls -H /home/kamil/"
+        - komenda sklada sie z trzech czesci:
+        1. ls - komenda wywolujaca liste zawartosci
+        2. -H - parametr do komendy "ls" wywolujacy link
+        3. /home/kamil/ - symboliczny link
+
+zadanie 8, przejdz do katalogu Obrazy w za pomoca sciezki wzglednej:
+        - jestem w katalogu /home/kamil/Pulpit/
+        - wpisuje "cd .." czyli komende ktora cofa mnie do \home\kamil\
+        - wpisuje "dir" i dostaje informacje, ze katalog Obrazy jest
+        podkatalogiem
+        - wpisuje "cd Obrazy/" to powoduje przeniesienie do katalogu:
+        /home/kamil/Obrazy/
+
+zadanie 9, sprawdz gdzie jestes:
+        - komenda "pwd" potwierdza, ze znajduje sie w /home/kamil/Obrazy/
+
+zadanie 10, zobacz do jakiego katalogu przejdziesz za pomoca sciezki ././././
+        - nie bardzo rozumiem co autor mial na mysli
+        - wpisujac w terminalu "cd ./././././" nic sie nie dzieje
+        - jedyne co mi przychodzi do glowy, co moze byc przydatne to
+        uzycie ukosnika ang. slash w postaci "cd /" to powoduje
+        przeniesienie do poczatku, czyli do sciezki dysku zrodlowego
+
+zadanie 11, przejdz do katalogu domowego za pomoca sciezki bezwzglednej:
+        - komenda "cd /home/"
+        - aby wrocic do poprzedniego miejsca:
+        "cd /home/kamil/Obrazy/"
+
+zadanie 12, zobacz co sie stanie jak wpiszesz komende "cd /root":
+        - wpisujac komende "cd /root" probujemy wejsc do katalogu /root
+        ktory ma ograniczenia dostepu i dostajemy informacje:
+        "bash: cd: root/: Brak dostepu
+        - aby wejsc do katalogu systemowego root/ musimy uruchomic powloke
+        uprzywilejowana, czyli w moim rozumieniu cos w stylu trybu
+        administratora, aby to zrobic musimy uzyc komendy:
+        "sudo -s", to spowoduje zapytanie o haslo administatora
+        - po wpisaniu dobrego hasla, mamy opcje przejsc do katalogu root/
+        
+zadanie 13, zobacz co sie stanie po wcisnieciu klawiszy CTRL + ALT + F1:
+        - w moim rozumienu wyglada to na zablokowanie stacji / ekranu
+        - aby wrocic nalezy wpisac haslo uzytkownika
+        - wydaje sie to byc przydatne w przypadku wychodzenia np. na przerwe
+        blokujac ekran zapobiegamy niepozadanemu uzyciu naszego konta podczas
+        nieobecnosci / pauzy
+
+zadanie 14, co sie stanie po ALT + F7
+        - na moim ubuntu 22 ta kombinacja powoduje przenoszenie okna
+        - wydaje mi sie, ze autorowi chodzilo jednak o kombinacje CTRL+ALT+F7
+        - to powoduje wygaszenie ekranu / czarny ekran / funkcja clear
+        - aczkolwiek moge sie mylic :)
