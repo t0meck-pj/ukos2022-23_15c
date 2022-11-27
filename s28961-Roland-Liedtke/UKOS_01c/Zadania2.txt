@@ -1,7 +1,22 @@
-1. Tworzę wskazane drzewo katalogów w katalogu o nazwie ZJAZD_1.
+1. Tworzę wskazane drzewo katalogów w katalogu o nazwie UKOS_01c znajdujdujacym się w katalogu domowym użytkownika.
 	Wynik: ukos
 		|\ katalog
 		|   |\ katalog2
 		|    \ katalog3
 		 \ klamka
+
 2. W katalogu ukos/klamka utworzyłem przy pomocy komendy "touch" pliki zajęcia2.txt zajęcia2.log inny.txt oraz nowy.txt
+
+3. Utworzyłem strukturę katalogów przy pomocy mkdir
+	Wynik: ukos/ukos/to/jest/dluga/nazwa
+
+4. Umieściłem w powyższym katalogu plik dane.txt przy pomocy komendy touch.
+
+5. Usunąłem z katalogu ukos/klamka wszystkie pliki z rozszerzeniem .txt. 
+	Komenda: rm *.txt
+
+6. Usunąłem katalog ukos/katalog/katalog2.
+	Komenda: rmdir ukos/katalog/katalog2
+
+7. Usunąłem cały katalog klamka za pomocą polecenia:
+	Komenda: rm -R ukos/katalog/katalog2
