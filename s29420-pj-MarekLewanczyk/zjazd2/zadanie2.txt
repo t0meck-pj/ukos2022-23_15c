@@ -1,0 +1,1 @@
+Polecenie umask sluzy do tworzenia schematu uprawnien dla danego folderu i plikow w nim sie znajdujacych. Polecenie umask wykorzystuje bramke logiczna AND.

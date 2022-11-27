@@ -1,0 +1,5 @@
+1 uruchomilem gedita
+2 za pomoca komendy ps axu | grep gedit znalazlem pid jest to 892
+3 za pomoca komendy kill 892 zamknalem gedita mogłem to takze zrobic za pomoca komendy killall -SIGKILL gedit lub kil -KILL 892
+4 killall bash zostal przychwycony dlatego nic sie nie zadzialo
+aby zabic basha uzylem komendy killall -9 bash

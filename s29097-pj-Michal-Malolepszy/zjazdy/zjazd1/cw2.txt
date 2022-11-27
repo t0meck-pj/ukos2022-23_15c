@@ -1,0 +1,11 @@
+1. Komendami: "mkdir \ukos", "cd ukos", "mkdir \katalog", "mkdir \klamka", "cd katalog", "mkdir katalog2", "mkdir katalog3"
+stworzylem dzewo katalogow w swoim katalogu domowym.
+2. Poleceniem: "cd ../.." powrocilem do glownego katalogu. Przeszedlem do "ukos/klamka" poleceniem: "cd ukos/klamka".
+W nim stworzylem pliki poleceniem: "touch zajecia2.txt", "touch zajecia2.log", "touch inny.txt", "touch nowy.txt".
+3. Za pomoca polecenia "cd .." wrocilem do katalogu "/ukos".
+Wykonalem polecenie: "mkdir -p ukos/to/jest/dluga/nazwa", aby stworzyc drzewo katalogow za pomoca jednego polecenia "mkdir -p".
+4. Poleceniem: "touch ./ukos/to/jest/dluga/nazwa/dane.txt" umiescilem w strukturze katalogow plik "dane.txt".
+5. Poleceniem: "rm -r ukos/ukos/to/jest/dluga/nazwa/*[.txt]" usunalem wszystkie pliki z rozszerzeniem txt.
+Gwaiazdka zastepuje nazwe pliku, a w nawiasach [] podalem rozszerzenie.
+6. Poleceniem: "rm -r ukos/katalog/katalog2" usunalem katalog "ukos/katalog/katalog2".
+7. Poleceniem: "rm -r ukos/klamka" usunalem caly katalog "klamka".

@@ -1,0 +1,13 @@
+1. Najpierw za pomocą komendy mkdir katalog utworzyłem pierwszy folder
+Poleceniem cd wszedłem w katalog i poleceniem mkdir utworzyłem katalog 2 i katalog3
+Potem poleceniem cd .. wyszedłem z katalogu i poleceniem mkdir utworzyłem folder klamka
+2. Za pomocą polecenia cd wszedłem w folder klamka 
+Poleceniem touch stowrzyłem pliki zajęcia2.txt, zajęcia2.logi i inny.txt
+3. wyszedłem z katalogu klamka poleceniem cd .. i byłem w katalogu ukos
+potem urzyłem polecenia mkdir -p to/jest/dluga/nazwa abu utworzyć drzewo katalogów
+4.Z miejsca w którym jestem użyłem polecenia touch to/jest/dluga/nazwa/dane.txt
+aby utworzyć plik dane txt.
+5. Wszedłem poleceniem cd do katalogu klamka i poleceniem rm *.txt usunąłem wszystkie pliki z poleceniem txt.
+6. Poleceniem rm katalog2 usunąłem katalog2
+7. Poleceniem rm -r klamka usunąłem katalog klamka. 
+

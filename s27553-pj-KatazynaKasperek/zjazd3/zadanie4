@@ -1,0 +1,6 @@
+Po zatrzymaniu gedita kombinacja ctrl z a następnie wpisaniu bg program ozywa a na dodatek wyswietlaja sie rzeczy ktore były wpisane gdy program pracowal w tle
+Natomiast fg wznawia programy wstrzymane przez sygnał sigtsp(ktory dotyczy ctrl z) w pierwszy m planie
+Uzywajac & po nazwie programu uruchamiamy go w tle aby nadal mozna bylo korzystac z terminala
+
+uzywajac fg%nr_jobu przywracamy progam ktory wczesniej dzialal w tle
+

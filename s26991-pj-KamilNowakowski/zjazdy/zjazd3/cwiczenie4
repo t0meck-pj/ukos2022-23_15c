@@ -1,0 +1,8 @@
+1 uruchomilem gedit za pomoca komendy gedit
+2 za pomoca ctrl + z zastopowalem program.3
+ Nic nie moge do niego wpisac 
+4 a po przesunieciu innego okna nad geditem gedit w ogole sie nie odswieza
+1 bg przywrocilo dzialanie programu
+2 fg sluzy do wznowienia na pierwszym planie wstrzymanego procesu
+4 za pomoca komendy jobs wyswietlalem ktore sa wlaczone a ktore zastopowanie 
+a potem za pomoca komendy np:fg lub  bg %2 przelaczzalem sie pomiedzy programami

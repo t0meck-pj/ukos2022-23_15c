@@ -1,0 +1,14 @@
+- usuwanie uprawnien do katalogu biezacego
+chmod 000 . - kropka oznacza obecny folder
+
+- usuwanie uprawnien do katalogu nadrzednego
+chmod 000 ..
+	- w jakich przypadkach mozemy wykonac wtedy polecenie cd ?
+	nie mozemy wykonac polecenia cd .., za pomoca sciezki bezwzglednej tez nie, mozemy uzyc np cd ~ lub cd ../..
+	- w jakich przypadkach mozemy uzyc chmod ?	
+	polecenia chmod mozemy uzyc podajac sciezke bezwzgeldna
+	- Czy możemy bezpośrednio przeskoczyć do katalogu ABC/XYZ, jeśli nie mamy uprawnienia wstępu do ABC, ale mamy do XYZ ?
+	nie mozemy
+	- Czy możemy także wrócić korzystając z polecnia cd - ?
+	Tak przenosi nas do katalogu, w ktorym znajduje sie katolog bez uprawnien
+	

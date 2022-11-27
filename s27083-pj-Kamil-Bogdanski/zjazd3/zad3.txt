@@ -1,0 +1,3 @@
+1.Po wpisaniu komendy cat > wyniki3_1.txt i wcisnieciu CTRL+C do pliku nie zostana zapisane wprowadzone przez nas dane
+2.Po wpisaniu tej samej komendy lecz tym razem wciskajac CTRL+D program zakonczy dzialanie oraz wprowadzone dane zostana zapisane do pliku
+3.CTRL+C unicestwia dany proces natomiast CTRL+D zamyka strumien wejscia 

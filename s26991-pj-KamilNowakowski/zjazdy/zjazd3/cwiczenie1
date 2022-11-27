@@ -1,0 +1,9 @@
+A
+1 wpisalem komende ps- komenda zaraportowala aktywne procesy
+2 wpisalem komende ps -a raportuje ewszystkie procesy oprocz procesu glownego 
+3 wpisalem komende ps x zamienia format wyjscia na format BSD
+4 wpisalem komende ps axu raportuje wszystkie procesy wszystkich uzytkownikow, kiedy proces wystartowal i jaka byla komenda
+znak ? w drugiej kolumnie oznacza ze te procesy nie maja zalokowanego  terminala
+B
+1 aby wyswietlic wsystkie procesy bash wykorzystalem komende ps axu | grep bash |grep  -v grep
+2 aby wyswietlic procesy nalezace do uzytkownika root uzylem ps axu | awk '/bash/{ print $8 }'

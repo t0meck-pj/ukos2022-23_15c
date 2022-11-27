@@ -1,0 +1,4 @@
+Po zatrzymaniu np gedit za pomoca CTRL+Z a nastepnie wpisaniu bg program zostanie przywrucony w tle oraz wypisze tekst ktory zostal wpisany podczas gdy program byl wstrzymany
+Polecenie fg wznawia programy wstrzymane na pierwszym planie
+Dodajac & na koniec polecnia sprawi ze program odpali sie w tle
+uzywajac fg%nr_jobu przywrocimy program ktory wczesniej dzialal w tle

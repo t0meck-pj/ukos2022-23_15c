@@ -1,0 +1,8 @@
+09.10.2022
+Mój drogi pamietniku na dzisiejszych zajeciach nauczylem sie:
+- zakladać konto na githubie;
+-logowac sie na szuflandie;
+- tworzyc katalogi i korzystac z podstawowych komend;
+15.10.2022
+- przypomnialem sobie co robilismy na ostatnich zajeciach;
+

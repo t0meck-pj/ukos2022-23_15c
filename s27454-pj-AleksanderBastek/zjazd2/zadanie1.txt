@@ -1,0 +1,5 @@
+Utworzyłem strukture katalogów nadając im różne uprawnienia.
+
+Nie jestem właściciele plików, przydzielone są mi uprawnienia dla others. Nie mogę usunąć pliku, którego uprawnienia są
+np. 744 (dla others tylko do odczytu). Jestem właścicielem kopii pliku pochodzącego od innego użytkownika, która
+znajduje się w moim katalogu domowym. Natomiast nie jestem w stanie stworzyć pliku w katalogu domowym innego usera.

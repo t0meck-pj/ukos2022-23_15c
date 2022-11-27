@@ -1,0 +1,11 @@
+umask odpowiada za nadawanie domyslnych uprawnien przy tworzeniu nowych plikow lub katalogow
+modyfikacja wartosci umask pozwala na zmiane domyslnych uprawnien do stworzonego pliku
+po wpisaniu komendy umask otrzymalem standardowa wartosc 022. stworzylem plik 022.txt, 
+natepnie wpisalem komende umask 000 i stworzylem plik 000.txt ,
+wpisalem komende umask 044 i stworzylem plik 044.txt 
+nastepnie wpisalem komende ls -l tak aby sprawdzic nadane uprawnienia dla nowostworzonych plikow
+Nadane uprawnienia dla plikow:
+rw-r--r-- - dla 022.txt
+rw-rw-rw - dla 000.txt
+rw--w--w - dla 044.txt
+Jest wykonywana bramka logiczna AND - logiczna koniunkcja 

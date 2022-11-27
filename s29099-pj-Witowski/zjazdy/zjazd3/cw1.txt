@@ -1,0 +1,12 @@
+A:
+
+1. procesy aktualnego terminala
+2. procesy terminala
+3. wszystkie procesy  uzytkownika
+4. wszystkie procesy
+
+czy proces uzywa terminala
+
+B:
+ps axu | grep bash | grep -v gre
+ps axu | grep root

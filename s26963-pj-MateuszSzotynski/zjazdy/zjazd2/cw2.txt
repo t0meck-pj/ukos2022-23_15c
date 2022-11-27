@@ -1,0 +1,18 @@
+23.10.2022
+
+Przydzielilem kazdemu uzytkownikowi uprawnienia do odczytu + wlascicielowi na write.
+Usuwajac wszystkie uprawnienia kazdemu uzytkownikowi do katalogu nie posiadalem dostepu do niego.
+Zdziwilo mnie to, ze po dodaniu uprawnienia r nadal nie moglem do niego wejsc. Po paru probach jakos
+przyszlo mi do glowy zeby sprawdzic z uprawnieniem execute. Zadzialalo :)
+
+Nauczylo mnie to e katalogi "uruchamiamy", a pliki tekstowe "czytamy"
+
+W dodatku nie moglem zapisac pliku w zjazdy2, bo odebralem przez przypadek uprawnienia write.
+
+Polecenie cd możemy wykonać wtedy, kiedy mamy uprawnienia do "uruchomienia" katalogu,
+
+Polecenie chmod możemy wykonać wtedy, kiedy mamy administratora,
+
+Nie możemy przeskoczyć, ponieważ konsola korzysta z ścieżki względnej,
+
+Można wrócić za pomocą komendy cd-

@@ -1,0 +1,25 @@
+
+zaczynam wykonywac drugie zadanie
+1 pierwszym poleceniem jest stworzenie drzewa katalogow/
+zaczynam od stworzenie katalogu o nazwie ukos.
+W tym celu wykorzustje polecenie mkdir ukos
+Po stworzeniu katalogu ukos zabralem sie za stworzenie katalogow:katalog i klamka
+Tak jak porzednio uzywam komendy mkdir
+mkdir katalog klamka
+nastepnie za pomoca komendy cd katalog wszedlem do katalogu " katalog" 
+w katalogu "katalog" za pomoca komendy mkdir katalog2 katalog3 stworzylem katalog 2 i katalog3
+cofam sie za pomoca komendy cd ../../ wrocilem do folderu domowego w ktorym tworzylem katalog ukos i aby sprawdzic 
+czy wszystko zostalo wykonane prawidlowo uzywam komendy tree.
+wyglada na to ze wszystko jest dobrze
+2 przechodze do drugiego polecenia. W katalogu ukos/ klamka mam stworzyc cztery pliki 
+W tym celu wchodze za pomoca komendy cd ukos/klamka do katalogu klamka i za pomoca komendy touch tworze cztery puste pliki
+touch zajecia2.txt zajecia2.log inny.txt nowy.txt
+teraz za pomoca komendy ls sprawdzam zawartosc katalogu klamka 
+3wracam do katalogu ukos i za pomoca komendy mkdir -p to/jest/dluga/nazwa tworze cale drzewo katalogow. 
+Teraz zauwazam ze pierwsze polecenie moglbym zrobic szybciej za pomoca jednej komendy uzywajac komendy mkdir -p i nawiasow {} 
+4 w katalogu nazwa za pomoca komendy touch dane.txt tworze pusty plik dane.txt
+5 w katalogu klamka za pomoca komendy rm *.txt usunalem wszystkie pliki z rozszerzeniem .txt
+znowu sprawdzam komenda ls
+6 aby usunac katalog ukos/katalog/katalog2 uzylem komendy 
+rm -r ukos/katalog/klamka2
+7 katalog klamka usunalem za pomoca podobnej komendy jak poprzednio rm -r ukos klamka

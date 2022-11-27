@@ -1,0 +1,5 @@
+1. indeks kolegi - s29099
+widze pliki i katalogi, nie moge ich uruchomic, oraz stworzyc nowego pliku. Nie moge usunac pliku ktroy stworzyl mi kolega
+oraz nie moge zmienic uprawnien do niego
+
+

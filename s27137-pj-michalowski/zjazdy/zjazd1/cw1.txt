@@ -1,0 +1,14 @@
+1. Otwieram terminal w wirtualnej maszynie;
+2. Wyświetlam zawartość aktualnego katalogu za pomocą komendy ls;
+3. Sprawdzam gdzie aktualnie się znajduję za pomocą komendy pwd;
+4. Przechodzę do pulpitu za pomocą komendy cd Deskop/;
+5. Sprawdzam gdzie aktualnie się znajduję za pomocą komendy pwd;
+6. Wyświetlam zawartość pulpitu za pomocą komendy ls;
+7. Sprawdzam zawartość katalogu domowego za pomocą komendy ls ..;
+8. Przechodzę do katalogu obrazy za pomocą komendy cd ../Pictures;
+9. Za pomocą komendy pwd sprawdzam swoją lokalizację; 
+10. Zostałem w tym samym katalogu.
+11. Przechodzę do swojego katalogu domowego za pomocą komendy cd /home/ubuntu/
+12. Pojawił się komunikat odmowy dostępu.
+13. W wirtualnej maszynie pojawiło się okno logowania do bss-ubu1804;
+14. Komenda wróciła do pierwotnego widoku wirtualnej maszyny.

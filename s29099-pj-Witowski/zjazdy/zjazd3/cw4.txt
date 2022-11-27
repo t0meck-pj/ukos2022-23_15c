@@ -1,0 +1,4 @@
+bg wznowilo wstrzymany program
+fg tak samo
+
+jobs => fg %id mozna przelaczyc na program ktory jest uruchomiony w tle 

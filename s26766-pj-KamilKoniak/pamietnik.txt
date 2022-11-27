@@ -1,0 +1,9 @@
+09.10.2022
+moj drogi pamietniku, dzis nauczylem sie:
+- tworzyc konto na github
+- tworzyc klucze
+- logowac sie na szuflandie
+- odpalac wirtualna maszyne linuxa - ubuntu
+- tworzyc katalogi i pliki na ubuntu
+
+

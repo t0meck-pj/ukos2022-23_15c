@@ -1,0 +1,6 @@
+09.10.2022
+-zalozenie konta na githubie
+-sklonowanie pliku z githuba na szuflandie
+-tworzenie kluczy ssh
+-tworzyc pliki i katologi na maszynie wirtualnej
+

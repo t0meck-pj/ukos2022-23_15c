@@ -1,0 +1,14 @@
+Zadania
+- Polecenie chmod z danymi literkami (np.g-grupa x-uprawnienie do "wejscia do danego katalogu)
+pozwala nadawac oraz odbierac uprawnienia dostepu do pliku lub katalogu.
+- Za pomoca mkdir utworzyłem strukture podkatalogów, a z pomoca polecenia touch kilka plików tekstowych
+- Próba wpisania swojego plikiku tekstowego do katalogu innych uczestników zajeć powiodła się tylko wtedy
+gdy uczestnik dodał nam uprawnienia aby wprowadzac zmianny w katalogu.
+- Za pomocą polecenia chmod 000 . usunełem wszystkie uprawneina do bieżącego katalogu (katalog1)
+- Polecenia cd nie mozna użyc ponieważ zabralismy dostęp
+- Nie możemy bezpośrednio przskoczyc do katalogu XYZ, ponieważ nie mamy dostępu do katalogu ABC
+- Polecenie cd - przenosi nas do katalogu bez uprawnień
+- Za pomocą polecenia mkdir stworzyłem w katalogu domowym podkatalog "public_html", oraz umiesciłem 
+w nim plik strona.html 
+- Polecenie umask stosujemy jesli chcemy nadać katalogom/plikom określone uprawnienia 
+- Jest wykonywana operacja AND

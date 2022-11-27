@@ -1,0 +1,21 @@
+
+2. wyswietlenie zawartosci katalogu: ls
+wysietlaja sie katalogi: Desktop Documents Downloads Music Pictures Public Templates Videos
+3. sprawdzenie polozenia: pwd
+wyswietla sie /home/debian
+4. przejscie do katalogu za pomoca sciezki wzglednej: 
+cd ./Desktop
+5. sprawdzam gdzie jestem : pwd
+/home/debian/Desktop
+6. wyswietlanie zawartosci biezacego katalogu : ls
+7. zawartosc katalogu domowego bez przechodzenia do niego : wpisanie ls i sciezki katalogu domowego
+ls /home/debian
+8. przejscie do katalogu obrazy za pomoca sciezki wzglednej: skoro znajdujemy sie w katalogu pulpitu, musimy się cofnac do katalogu domowego a nastepnie wejsc w obrazy, aby zrobic to jednym poleceniem wystarczy:
+cd ../Pictures
+9.sprawdzam gdzie jestem : pwd
+/home/debian/Pictures
+10.Zobacz do jakiego katalogu przejdziesz za pomocą ścieżki ././././././ : ta sciezka przenosi nas do obecnej lokalizacji, bo . oznacza biezaca lokalizacje
+11. katalog domowy za pomoca sciezki bezwzglednej : cd /home/debian
+12.cd /root pozwala na wejscie do katalogu administratora, za pomoca zwyklego uzytkownika nie mamy do niej dostepu. aby sie dostac trzeba przejsc uprawienia wyzej : sudo su i wtedy mozemy przejsc do katalogu root
+13. Ctrl+Alt+F1 pozwala przejsc do trybu pełnoekranowego
+14 ALt+F7 aktywuje mozliwosc przesuwania okna strzalkami

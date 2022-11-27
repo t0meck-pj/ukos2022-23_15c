@@ -1,0 +1,5 @@
+polecenie cd możemy wykonać tylko wtedy, gdy dla katalogu przydzielone jest uprawnienie wykonania('x'), moglibyśmy
+wejść tam mając uprawnienia root'a. Mogę wykonać chmod na nadżędnym katalogu zawsze jednak na [odrzędnym, tylko wtedy,
+gdy mma uprawnienia do nadrzędnego. Podobnie jest z przechodzeniem do katalogu podrzędnego, jest ono niemożeliwe
+w przypadku, gdy katalog nadrzędny ma uprawnienia niepozwalające nam wykoanać na nim jakiejkolwiek operacji. Nie udało
+mi się dostać do katalogu podrzędnego więc i wrócić nie da rady.

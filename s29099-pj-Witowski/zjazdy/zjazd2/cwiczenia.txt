@@ -1,0 +1,27 @@
+1. s27083 - indeks kolegi
+Widze pliki i foldery moge wejsc w foldery ale nie moge nic odpalic. nie mozna stworzyc pliku "kukułcze jajko",
+dopiero po zmianie uprawnien grupy na rwx mozna bylo stworzyc plik tekstowy w tym folderze. nie jestem wlascicielem 
+tego pliku nie moge mu zmieniac uprawnien moge tylko odczytac i nie moge nadpisac, ale moge go usunac, gdy mam
+uprawnienia zapisu w folderze.
+
+2. Nie mozna uzyc polecania cd.. oraz cd - ( po przejsciu z katalogu nadrzednego)
+
+chmod'a nie mozna uzyc bez podania sciezki bezwzglednej do katalogu nadrzednego
+
+nie majac tylko uprawnien wstepu do katalogu nadrzednego nie mozemy przejsc bezposrednio do podrzednego.
+
+cd -  wrocic sie da cd - wraca do porzedniej lokacji w ktorej bylismy.
+
+
+3. s27083
+Grupa musi miec uprawnienia do zapisu i odczytu - rw
+> - operator nadpisuje
+>> - dopisuje na koniec pliku(nowa linia)
+
+tail po wpisaniu echo z '>' wyswietlil komunikat "plik obciety", a gdy uzywam z '>>' to dopisuje nowa linie.
+
+4.
+Minimalne uprawnienia to :
+katalog domowy: o=x
+katalog public_html: o=x
+strona.html: o=r 
