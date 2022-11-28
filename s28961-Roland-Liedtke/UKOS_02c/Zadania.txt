@@ -1,0 +1,29 @@
+1. Utworzyłem we własnym katalogu domowym na Szuflandii strukturę plików:
+	Wynik: ukos/
+		 /folder1/
+		  dokument.txt
+		 /folder2/
+		  plik.txt
+		ukos2/
+		  /folder3/
+		  /folder4/
+		ukos3/
+
+2. Eksperymenty... 
+	- odebrałem uprawnienia do katalogu bieżącego (folder3) poprzez chmod a-rwx folder3
+	- Jeżeli odbierzemy uprawnienia dostępu w aktualnym katalogu to z tego miejsca nie możemy użyć CHMOD, a możliwe jest jedynie przejście do nadkatalogu.
+	- Jeżeli znamy lokalizację pliku/folderu, ale po drodze zostało odebrane uprawnienie dostępu do katalogu to nie mamy możliwości zobaczyć pliku/folderu. 
+	- nie możemy wrócić do poprzedniego katalogu bieżącego przy pomocy cd -
+
+3. --- 
+
+4. Umieściłem plik strona.html w katalogu ~/public_html. Aby plik strona.html była widoczna:
+- plik musi mieć przynajmniej uprawnienie do odczytu (r)
+- katalog musi mieć przynajmniej uprawnienie do wykonania (x)
+- katalog domowy również jest zwykłym katalogiem i musi mieć przynajmniej uprawnienie do wykonania (x)
+
+5. Zmieniłem wartość umask na 777, po czym utworzyłem plik tekstowy. Po wylistowaniu zawartości okazało się, że plik nie miał żadnych uprawnień dla żadnej z grup.
+
+Domyślnie ustawiony umask jest na 0022 ( pierwsze zero oznacza system binarny ). 
+UMASK działa trochę jak filtr, który odejmuje uprawnienia od domyślnie ustawionych. 
+	W skrócie: (Domyślnie nadawane uprawnienia) - (wartość umask) = nowa wartość uprawnień

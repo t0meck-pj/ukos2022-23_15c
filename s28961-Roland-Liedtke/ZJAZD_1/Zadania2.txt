@@ -1,7 +1,0 @@
-1. Tworzę wskazane drzewo katalogów w katalogu o nazwie ZJAZD_1.
-	Wynik: ukos
-		|\ katalog
-		|   |\ katalog2
-		|    \ katalog3
-		 \ klamka
-2. W katalogu ukos/klamka utworzyłem przy pomocy komendy "touch" pliki zajęcia2.txt zajęcia2.log inny.txt oraz nowy.txt
