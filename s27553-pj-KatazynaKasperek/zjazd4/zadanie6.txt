@@ -1,0 +1,7 @@
+Nadaj uprawnienia do katalogu ala tak aby:
+każdy mógł do niego wejść
+tylko grupa mogła wyświetlić co w nim jest
+właściciel ma pełne prawa
+chmod 741
+chmod u+r,u+w,u+x,g+r,o+x ala albo u+rwx,g+r,o+x
+chmod u=rwx,g=r,o=x ala

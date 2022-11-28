@@ -1,0 +1,3 @@
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+uruchomic program w tle np gedit &
+niestety na drugi sposob nie jestem w stanie wpasc  ani go znalezc, moze jakas podpowiedz?

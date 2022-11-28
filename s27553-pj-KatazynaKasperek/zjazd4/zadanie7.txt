@@ -1,0 +1,5 @@
+Jak utworzyć plik z listą plików w bieżącym katalogu?
+ls -l | grep -v d > lista_plikow.txt
+grep -v d wyklucza z wyniku katalogi
+za pomoca znaku > kierujemy wynik polecenia do pliku
+

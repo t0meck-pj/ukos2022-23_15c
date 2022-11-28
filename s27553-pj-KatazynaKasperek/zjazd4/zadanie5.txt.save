@@ -1,0 +1,4 @@
+Jak wypisać wszystkie pliki w bieżącym katalogu, których
+nazwa zaczyna się od al?
+ls | 'al*'
+znak * zastępuje ciag znakow

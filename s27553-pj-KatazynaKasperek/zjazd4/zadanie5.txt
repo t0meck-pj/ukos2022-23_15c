@@ -1,0 +1,5 @@
+Jak wypisać wszystkie pliki w bieżącym katalogu, których
+nazwa zaczyna się od al?
+ls -l |grep -v d |grep 'al*'
+ls wyswietla pliki/katalogi znajdujace sie w danej lokalizacji, grep -v d 
+wyklucza z wyswietlania katalogi grep 'al*' gwiazdka zastepuje dalszy ciag znakow
