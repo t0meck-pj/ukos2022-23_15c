@@ -1,0 +1,45 @@
+0. jesli nie moge utworzyc żadnego pliku na swoim koncie uczelnianym
+moze oznaczac:
+-brak nadanych uprawnien do tworzenia i zapisywania plikow 
+w katalogu domowym
+-brak miejsca na dysku
+1.w utworzonym drzewie katalowow bedac w katalogu kota przejsc
+do katalogu ala za pomoca:
+-sciezki wzglednej:
+cd ../..
+-sciezki bezwzglednej:
+cd ~/tmp/ukos/ala
+2.aby bedac w katalogu kota utworzyc poddrzewo katalogow jan/kowalski
+za pomoca jednej komendy uzyje komendy:
+mkdir -p jan/kowalski
+3. bedac w tym samym miejscu tzn w katalogu kota aby przeniesc
+katalog ale do katalogu i uzywajac:
+a) zrodlo ( sciezka wzgledna ),miejsce docelowe (sciezka absolutna):
+mv ../../../kot/ma/ale ../../i
+b) zrodlo (sciezka absolutna), miejsce docelowe*(sciezka wzgledna):
+mv ~/temp/ukos/kot/ma/ale/ ~/temp/ukos/ala/i
+4. jak zamknac program, ktory nie reaguje na ctrl+c:
+wpisac komende: kill -KILL numerPID (zostaje unicestwiony)
+kill -TERM numerPID (zostaje zakonczony nie unicestwiony)
+kill -SIGKILL numerPID (tez unicestwiony)
+5.jak wypisac wszystkie pliki w biezacym katalogu, ktorych nazwa zaczyna sie od al:
+ls -a | grep ^al
+6.nadaj uprawnienia dla katalogu ala tak aby:
+kazdy mgl do niego wejsc,
+tylko grupa mogla wyswietlic co w nim jest
+wlasciciel mial pelne prawa w welsji:
+a)oktalna:
+chmod 751 ala/
+b)literowa ze znakiem rownosci:
+chmod u=rwx,g=rx,o=x ala/
+c)literowa z z plusami i minusami
+chmod u+r,u+w,u+x,g+r,g-w,g+x,o-r,o-w,o+x ala/
+7. jak utworzyc plik z lista plikow w biezacym katalogu:
+ls > plik
+8.aby przyspieszyc wpisywanie komendw terminalu klawisz poswalajacy na uzupelnianie komend to:
+TAB automatycznie dokancza nazwe zaczetego polecenia
+9. jak uruchomic program by nie blokowal terminala
+a) można wpisać & na koncu polecenia np nano plik &
+b)jesli plik jest zatrzymany w tle możemy go uruchomic w tle komendą bg
+
+
