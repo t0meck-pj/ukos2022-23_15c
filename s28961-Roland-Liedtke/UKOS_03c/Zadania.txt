@@ -1,0 +1,32 @@
+Zadania 0. (rozgrzewkowe)
+
+	1. Przechodzę do katalogu domowego przy pomocy komendy cd ~
+	2. Wydaję komendę ls -a
+	3. Wypisało się 16 pozycji
+	4. Nie mam pozycji z literą D w nazwie. 
+	5. Po wypisaniu komendy: ls -a | grep G w następnej linii wypisał się katalog z literą G w nazwie
+	6. Wykonałem komendę ls -a | grep G > lista_plikow_z_literka_G.txt
+	7. Powstał plik tekstowy wskazany w komendzie zawierający 2 pozycję z literą G w nazwie.
+		Wynik: 	GITHUB
+			lista_plikow_z_literka_G.txt
+		| - oznacza przekierowanie z programu do programu, a > - oznacza przekierowanie z programu do pliku
+	8. Wykonuję komendę ls -a | grep G | tee lista_plikow_z_literka_G_2.txt
+	9. Powstał plik wskazany w komendzie powyżej. Treść jest taka sama. Program tee - kopiuje standardowe wejście do każdego PLIKU, wypisując je  również  na standardowe wyjście.
+
+Zadania 1. 
+
+	A: Po wpisaniu ps program listuje nam listę aktualnych procesów.
+	Znak zapytania w kolumnie drugiej (TTY) oznacza terminal, a raczej jego brak w danym procesie. 
+	B: Wyświetliłem procesy bash poprzez komendę: ps axu | grep bash.
+	Wyświetliłem wszystkie procesy należące do użytkownika root przy pomocy komendy ps -u root.
+	
+Zadania 2:
+
+	Uruchomiłem TextEdit na macOS. Znalazłem przy pomocy komendy ps axu | grep TextEdit - wiersz z moim wyszukaniem. PID = 13621. Wydałem komendę kill 13621 i edytor tekstu został zamknięty.
+
+Zadania 3:
+	Uruchomiłem komendę cat. Program przeszedł do następnej linii. Po wciśnięciu ^C program zakończył działanie. Utworzyłem plik o nazwie wynik3_1.txt i wpisałem zawartość "witaj". ^C Spowodował zamknięcie programu bez zapisania pliku. W drugim przypadku plik wynik3_2.txt zablokował wprowadzanie danych i zapisał istniejący stan pliku. 
+
+Zadania 4:
+	Włączyłem program gedit w GUI, dodałem napis Witaj. Po naciśnięciu ^Z gedit został zawieszony. Komenda bg przywróciła działanie edytora tekstowego. Zgodnie z przypuszczeniami komenda gedit & - uruchomiła edytor tekstu w tle, ale aktywne zostało okno terminala. 
+
