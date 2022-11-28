@@ -1,9 +1,67 @@
-09.10.2022
-moj drogi pamietniku, dzis nauczylem sie:
-- tworzyc konto na github
-- tworzyc klucze
-- logowac sie na szuflandie
-- odpalac wirtualna maszyne linuxa - ubuntu
-- tworzyc katalogi i pliki na ubuntu
+Zadanie 1
 
+Jak przejść do katalogu ala ale za pomocą:
+    • ścieżki względnej (relatywnej)
+      // cd ale
+      // cd dluga
+      // cd to
+      // cd jest
+      // cd nazwa
+    • ścieżki bezwzględnej (absolutnej)
+	// cd /home/kamil/ale/dluga/to/jest/sciezka
 
+Zadanie 2
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak utworzyć poddrzewo katalogów jan/kowalski w katalogu ale za pomocą jednej komendy?
+// mkdir -p ale/dluga/to/jest/sciezka/
+
+Zadanie 3
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak przenieść katalog ale do katalogu i używając:
+    • źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna)
+      // nie można przeniesc katalogu do wlasnego katalogu
+    • źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna)
+	// mv sciezka_absolutna cel_sciezka_absolutna
+	// mv folder/ cel/
+
+Zadanie 4
+Jak zamknąć program, który nie reaguje na ctrl+c ?
+// ps axu | grep sol
+// kill sol_PID
+Zadanie 5
+http://www.robelle.com/smugbook/regexpr.html // witryna dodana do ulubionych
+Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?
+ // ls | grep '^al' 
+
+Zadanie 6
+
+Nadaj uprawnienia do katalogu ala tak aby:
+    • każdy mógł do niego wejść
+// chmod ugo=x ala
+    • tylko grupa mogła wyświetlić co w nim jest
+          // chmod g=r ala
+    • właściciel ma pełne prawa
+// chmod u=rwx ala
+Przygotuj 3 wariacje rozwiązania tego zadania używając różnych notacji: 
+    • oktalnej/ósemkowej/cyfrowej
+      // chmod 111
+// chmod 040
+// chmod 700
+    • literowej ze znakiem równości
+      // chmod ugo=x,g=r,u=rwx ala
+    • literowej z plusami i minusami
+// chmod ugo=+x-r-w,g=+r-w-x,u=rwx ala
+
+Zadanie 7
+
+Jak utworzyć plik z listą plików w bieżącym katalogu?
+// ls > ls.txt
+
+Zadanie 8
+
+Jak przyspieszyć wpisywanie komend w terminalu? Jaki klawisz pozwala na uzupełnianie komend?
+// klawisz TAB 
+
+Zadanie 9
+
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+// nano &
+// po uruchomieniu programu wcisnac CTRL+Z, to pozwala przeniesc program do tla, by przywrocic program do konsoli należy wpisac komede fg, aby program mogl pracowac w tle, należy uzyc komende bg, liste zatrzymanych prac można sprawdzic przez komende jobs
