@@ -1,0 +1,2 @@
+-Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+Dodając & na końcu komendy

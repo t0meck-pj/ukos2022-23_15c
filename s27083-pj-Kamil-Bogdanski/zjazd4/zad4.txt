@@ -1,0 +1,2 @@
+-Jak zamknąć program, który nie reaguje na ctrl+c ?
+kill -9 [pid]
