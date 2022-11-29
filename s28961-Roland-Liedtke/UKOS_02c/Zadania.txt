@@ -15,7 +15,8 @@
 	- Jeżeli znamy lokalizację pliku/folderu, ale po drodze zostało odebrane uprawnienie dostępu do katalogu to nie mamy możliwości zobaczyć pliku/folderu. 
 	- nie możemy wrócić do poprzedniego katalogu bieżącego przy pomocy cd -
 
-3. --- 
+3. W katalogu domowy użytkownika s27137 został utworzony plik tekstowy o nazwie plik_rozmowa.txt. 
+	Przy pomocy komend echo treść_wiadomości >> plik_rozmowa.txt udało nam się dopisywać kolejne wiersze w pliku prowadząc konwersację. W nowym oknie terminala po wykonaniu komendy tail -f plik_rozmowa.txt program wyświetlał zmiany w pliku w czasie rzeczywistym.
 
 4. Umieściłem plik strona.html w katalogu ~/public_html. Aby plik strona.html była widoczna:
 - plik musi mieć przynajmniej uprawnienie do odczytu (r)
