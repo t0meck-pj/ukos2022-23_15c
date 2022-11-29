@@ -1,0 +1,39 @@
+Zadanie 0 (rozgrzewkowe):
+	1. Zostały odebrane uprawnienia do pliku
+	2. Zostały odebrane uprawnienia wykonania do nadrzędnego katalogu
+	3. Lokalizacja/plik nie istnieje
+	4. Brak dostępnej pamięci 
+
+Zadanie 1:
+	Za pomocą ścieżki względnej przejdziemy przy pomocy komendy: cd ../../
+	Natomiast ścieżka bezwzględna to cd /tmp/ukos/ala
+
+Zadanie 2:
+	W celu utworzenia poddrzewa katalogów za pomocą jednej komendy użyjemy mkdir -p jan/kowalski
+
+Zadanie 3:
+	- mv ../../../kot/ma/ale /tmp/ukos/ala/i
+	- mv /tmp/ukos/kot/ma/ale ../../../ala/i
+
+Zadanie 4:
+	Gdy program nie reaguje na ^C, to kolejnym krokiem byłoby polecenie kill (domyślnie TERM).
+	Następnym krokiem będzie polecenie z sygnałem kill -kill.
+
+Zadanie 5:
+	Komenda ls wypisuje wszystkie pliki w bieżącym katalogu, a grep al* szuka po wierszach pozycje z nazwą zzaczynającą się od al
+	ls -la | grep al*
+
+Zadanie 6:
+	Nadaję uprawnienia poprzez chmod aby każdy mógł wejść do katalogu (a=x), tylko grupa mogła wyświetlić zawartość (g=rx), właściciel ma pełne prawa (u=rwx):
+	chmod a=x,g+r,u=rwx ala
+	"chmod 111 101 000 ala" = chmod 750 ala
+
+Zadanie 7:
+	Tworzy plik z listą plików w bieżącym katalogu
+	ls -la > plik.txt
+
+Zadanie 8:
+	Możemy przyśpieszyć wpisywanie komend dzięki klawiszowi TAB, który po wpisaniu pierwszych znaków podpowiada resztę. Możemy też strzałkami w górę i w dół wracać do ostatnio wykonanych komend w terminalu.
+
+Zadanie 9:
+	Aby nie blokować terminala możemy uruchomić program przy pomocy & (np. gedit &), który od razu uruchamia program w tle. Drugim sposobem jest po odpaleniu programu kliknięcie ^Z, który wstrzymuje bieżący proces i przenosi go do tła.
