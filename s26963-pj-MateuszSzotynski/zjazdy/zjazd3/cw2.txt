@@ -6,8 +6,8 @@
 
 3. Wykonano komende kill [PID] -> gedit sie wylaczyl
 
-4. killall bash - nie zaobserwowalem zmian oraz komenda SIGKILL nie dziala
-"command not found"
+4. killall bash - nie zaobserwowalem zmian, za pomoca kill z parametrem 
+SIGKILL ubija proces
 
 5. kill dziala dla porcesow uzytkownika: ubuntu. Aby ubic procesy systemowe,
 badz root wymagany jest administrator na stacji, badz dodanie sudo przed

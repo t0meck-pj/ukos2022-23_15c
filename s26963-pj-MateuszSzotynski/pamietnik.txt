@@ -6,3 +6,31 @@ Pamietniku dzis nauczylem sie, ze:
 	2: Wiem co to jest quota,
 	3: nauczylem sie jakie rzeczy sa zapisywane w katalogach w linuxie oraz ich rodzaje,
 	4: Roznorodnych komend
+
+20.11.2022
+
+Po dzisiejszych zajeciach zaskoczylem, ze powinnismy prowadzic pamietnik co
+zajecia, a wiec drogi pamietniku, dzis nauczylem sie, ze:
+
+	1. komenda kill wysyla sygnal (domyslnym sygnalem jest -TERM, ktory zakancza 
+	proces
+
+	2. quota to partycja, przydzielone miejsce na dysku dla uzytkownika
+
+	3. za pomoca man [nr strony] [komenda] mozna wyswietlac konkretnie co nas
+	interesuje (biblioteki dla c np znajduja sie na 3 stronie)
+
+	4. mozna przechodzic odrazu do pewnych sciezek, katalogow / nie trzeba pojedynczo
+	cd ../../ala/ma/kota	
+
+	5. jezeli zapiszemy plik u kogos innego w katalogu, nadal zabiera on nam
+	miejsce, poniewaz to my jestesmy wlascicielem tego pliku
+
+	6. sciezka wzgledna jest wzgledem jakiegos katalogu/pliku, natomiast sciezka
+	bezwzgledna jest od samego katalogu domowego ~
+
+	7. Kazdy system *nix/macOS itp. maja liste sygnalow, w kazdym z nich sygnal
+	9 jest od ubijania procesu. Flaga -KILL moze miec inne znaczenie lecz
+	kod sygnalu pozostaje ten sam
+
+	

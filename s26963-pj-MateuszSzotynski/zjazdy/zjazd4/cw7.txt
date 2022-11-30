@@ -1,0 +1,6 @@
+29.11.2022
+
+Jak utworzyć plik z listą plików w bieżącym katalogu?
+
+- utworzylem plik za pomoca przekazania strumienia wyjscia komedy ls:
+- ls >plik.txt
