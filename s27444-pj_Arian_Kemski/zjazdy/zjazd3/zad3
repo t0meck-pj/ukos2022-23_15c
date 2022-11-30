@@ -1,0 +1,6 @@
+3.
+Po wykonaniu wszystkich krokow
+przy kombinacji ctrl c proces zostal zakonczony i tekst nie zostal zapisany
+a przy kombinacji ctrl d proces zostal zakonczony ale tekst sie zapisal 
+moim zdaniem oznacza to ze kombinacja klawiszy ctrl c zabija dany proces
+a ctrl d tylko go konczy
