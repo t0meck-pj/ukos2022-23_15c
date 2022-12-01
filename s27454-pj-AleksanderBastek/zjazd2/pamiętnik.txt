@@ -1,0 +1,58 @@
+08-10-2022
+A tu były takie podstawy, włącz terminal stwórz parę katalogów itd. takie rzeczy na rozgrzewkę zrobiłem co tam miało być, nic nowego się nie nauczyłem, ale tak ogólnie to było
+tworzenie PR'a, SSH, tworzenie wirtualki, skróty terminala i cmd.
+
+15-10-2022
+tu zbyt szczegółowo, ale nie wpadłem na to, że nie musi być aż tak szczegółowo w każdym razie oto wnioski z zadań:
+1.
+Utworzyłem strukture katalogów nadając im różne uprawnienia.
+
+Nie jestem właściciele plików, przydzielone są mi uprawnienia dla others. Nie mogę usunąć pliku, którego uprawnienia są
+np. 744 (dla others tylko do odczytu). Jestem właścicielem kopii pliku pochodzącego od innego użytkownika, która
+znajduje się w moim katalogu domowym. Natomiast nie jestem w stanie stworzyć pliku w katalogu domowym innego usera.
+
+2.
+polecenie cd możemy wykonać tylko wtedy, gdy dla katalogu przydzielone jest uprawnienie wykonania('x'), moglibyśmy
+wejść tam mając uprawnienia root'a. Mogę wykonać chmod na nadżędnym katalogu zawsze jednak na [odrzędnym, tylko wtedy,
+gdy mma uprawnienia do nadrzędnego. Podobnie jest z przechodzeniem do katalogu podrzędnego, jest ono niemożeliwe
+w przypadku, gdy katalog nadrzędny ma uprawnienia niepozwalające nam wykoanać na nim jakiejkolwiek operacji. Nie udało
+mi się dostać do katalogu podrzędnego więc i wrócić nie da rady.
+
+3.
+Zadanie wykonałem wspólnie z Kamilem Koniakiem. Kamil zmienił zawartość pliku w moim katalogu domowym, co skutkowało
+tym, że otrzymałem wiadomość przekazaną przez ten plik. Operator '>>' pozwala dopisywać do pliku kolejne liniinaczej 
+niż pojedynczy operator, który nadpisuje całą zawartość pliku. tail -f pozwolił wyświetlić ostatnie 10 linijek pliku.
+
+4.
+Nie udało mi się udostępnić strony na szuflandii. Nadałem katalogowi public_html uprawnienia 750, a 644 dla pliku
+strona.html. Nie robiliśmy tego na ćwiczeniach, także spytam Pana o to na następnych zajęciach.
+Dobra nie spytałem, zapomniałem, ale jeszcze pokminie.
+
+06-11-2022
+Nauczyliśmy się:
+- Operatorów standardowego wyjścia i wejścia >>, >, |, dla plików i procesów
+- używania parametrów (tych bez "-") na przykładzie ps
+- że kill nie jest do zamykania ("zabijania") procesów, ale od wysyłania sygnałów do procesu i gdy nie da się czegoś zabić to kombinujemy tak by się dało różnymi sygnałami
+- przerywania działania procesu, przerywanie strumienia wejściowego, oraz zatrzymywanie strumienia wejściowego (CTRL+C, CTRL+D, CTRL+Z) skrótami
+- jobs, bg, fg, komendy służące do wstrzymywania, oraz wznawiania procesów, do tła "background" i wznawianie na pierwszy plan foreground
+
+20-11-22
+
+1-3. Przechodziłem do katalogów za pomocą używania ścieżek wględnych np. cd ../../ala (z katalogu kot do ala) i z ścieżek bezwzględnych cd /home/PJWSTK/s27454/ala do poleceń rm, mv, cp etc. formy ścieżek względnych i bezwzględnych przedstawione tutaj są aplikowalne.
+4. wysłać poleceniem kill zamiast sygnału domyślnego term, sygnał kill, kill -s SIGKILL <pid>, zamiast domyślnie zamykać go przez term.
+5. s -p | grep al | grep -v /
+6. chmod 741 ala,
+chmod u+rwx ala
+chmod g+r ala
+chmod o+x ala
+chmod g-wx ala
+chmod o-rw ala
+
+chmod u=rwx ala 
+chmod g=r ala 
+chmod o=x ala 
+
+chmod u=rwx g=r o=x ala 
+7. ls -la | grep -v 'd[rwx]' > plik.txt
+8. tab
+9. - CTRL+D, CTRL-Z
