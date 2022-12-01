@@ -1,0 +1,5 @@
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+
+pierwszy sposob urucahmia w tle gdy dodamy & np.: nano &
+drugi sposob odpalamy np.: nano i klikamy ctrl+z wtedy program zostaje uruchomiiony w tle, mozna sie przeloczyc
+uzywajac polecenia bg, albo wyswietlic liste programow w tle poleceniem jobs.

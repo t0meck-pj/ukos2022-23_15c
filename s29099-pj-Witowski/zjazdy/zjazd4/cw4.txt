@@ -1,0 +1,3 @@
+Jak zamknąć program, który nie reaguje na ctrl+c ?
+
+-wyslac mu sygnal kill np. kill -KILL ID_procesu

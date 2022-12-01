@@ -1,0 +1,3 @@
+Jak utworzyć plik z listą plików w bieżącym katalogu?
+
+ls -a > lista1.txt
