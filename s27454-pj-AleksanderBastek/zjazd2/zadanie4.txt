@@ -1,2 +1,0 @@
-Nie udało mi się udostępnić strony na szuflandii. Nadałem katalogowi public_html uprawnienia 750, a 644 dla pliku
-strona.html. Nie robiliśmy tego na ćwiczeniach, także spytam Pana o to na następnych zajęciach.
