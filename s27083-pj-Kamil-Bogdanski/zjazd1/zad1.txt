@@ -1,0 +1,26 @@
+2.Wyświetl zawartość aktualnego katalogu.
+ls
+3.Sprawdź gdzie aktualnie się znajdujesz.
+pwd
+4.Przejdź do katalogu Pulpit za pomocą ścieżki względnej
+cd ./Pulpit
+5.Sprawdź gdzie jesteś.
+pwd
+6.Wyświetl zawartość bieżącego katalogu.
+ls
+7.Wyświetl zawartość swojego katalogu domowego bez przechodzenia do niego (ls z odpowiednim parametrem).
+ls ~
+8.Przejdź do katalogu Obrazy w twoim katalogu domowym za pomocą ścieżki względnej.
+cd ./Obrazy
+9.Sprawdź gdzie jesteś.
+pwd
+10.Zobacz do jakiego katalogu przejdziesz za pomocą ścieżki ././././././
+Znajdę się w obecnym folderze.
+11.Przejdź do swojego katalogu domowego za pomocą ścieżki bezwzględnej.
+cd ~
+12.Zobacz co się stanie jak wpiszesz komendę 'cd /root'. Jak już to zrobisz, zastanów się co się stało. Poszukaj w Internecie.
+Probjemy dostać się do katalogu do którego nie mamy dostępu
+13.Zobacz, co się stanie, jeśli wciśniesz kombinację klawiszy: Ctrl+Alt+F1
+Odpali się nowy terminal bez gui
+14.A teraz co się stanie po: Alt+F7
+Wrócimy do gui
