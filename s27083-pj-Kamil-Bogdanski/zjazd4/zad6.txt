@@ -1,0 +1,14 @@
+
+Nadaj uprawnienia do katalogu ala tak aby:
+-każdy mógł do niego wejść
+-tylko grupa mogła wyświetlić co w nim jest
+-właściciel ma pełne prawa
+Przygotuj 3 wariacje rozwiązania tego zadania używając różnych notacji: 
+-oktalnej/ósemkowej/cyfrowej
+-literowej ze znakiem równości
+-literowej z plusami i minusami
+Wszystkie wersje powinny być zapisane w jednym poleceniu (bez używania && czy | )
+
+chmod 741
+chmod u+rwx,g+r,o+x ala
+chmod u=rwx,g=r,o=x ala
