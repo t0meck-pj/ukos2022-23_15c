@@ -1,0 +1,58 @@
+Zadania 3. zjazd
+0.
+-Komenda cd ~ przeniosłem się do katalogu domowego
+-Wpisując komende ls -a wyswietlilem wszystkie, nawet ukryte katalogi i pliki
+-Wpisałem komende ls -a | grep D
+-Wyswietliły mi sie katalogi zaczynające sie na litere D
+-Wpisałem komende ls -a | grep D > lista_plikow_z_literka_d.txt
+-Utworzył się plik tekstowy, zawierający nazwy katalogów zaczynających sie na litere D.
+- | oznacza wyjście pierwszego polecenia i wejście drugiego
+- > przekierowuje wynik poleceń do nowo utworzonego pliku.
+-Wpisałem komende ls -a | grep D | tee lista_plikow_z_literka_d_2.txt
+-Utworzył sie taki plik tekstowy jak po poprzedniej komendzie
+-Terminal wyświetlił zawartość utworzonego pliku
+-Tee to polecenie wypisujące dane wejściowe na standardowe wyjście i do dowolnej liczby plikow
+1.
+A) 
+-Zalogowałem sie do szuflandii
+-Po wpisaniu ps, wyswietliły mi sie wszystkie aktywne procesy
+-Po wpisaniu ps -a, wyswietliły sie wszystkie procesy, poza procesem głównym
+-Po wpisaniu ps x, wyswietliły mi sie wszystkie moje procesy i zmienilem format wyjscia na BSD
+-Po wpisaniu ps axu, wyswietliły mi sie wszystkie procesy wszystkich uzytkownikow
+* Dowiedzialem sie ze znak "?" w kolumnie drugiej, symbolizuje procesy ktore nie sa zalokowane w zadnym terminalu.
+B)
+-Procesy bash wyświetliłem używając komendy ps axu | grep bash | grep -v grep
+-Procesy użytkownika root wyświetliłem używając komendy ps axu | grep root | grep -v grep
+2.
+-Uruchomilem gedit na maszynie wirtualnej 
+-Sprawdzilem nr PID komenda ps axu | grep gedit
+nr PID programu gedit to 960
+-Komenda kill 960 zakonczylem proces i wylaczylem program gedit
+-Sprawdzilem SIGKILL komenda kill -l, znajduje sie pod numerem 9.
+-Komenda kill -9 973 zamknela proces. Numer PID jest tu inny, poniewaz musialem otworzyc gedita drugi raz.
+-Komenda killall bash nie zadziałała.
+-Komenda kill nie zawsze dziala, w kilku przypadkach wyświetlil sie komunikat ze operacja jest niedozwolona.
+3.
+-Uruchomilem komende cat
+-Uzywajac kombinacji ctrl+c zakonczylem komende cat
+
+-Wydalem komende cat > wynik3_1.txt, bez entera wpisalem "witaj", klikajac ctrl+c zakonczylem proces
+-Powstal pusty plik tekstowy
+-Powtórzyłem powyższe kroki z plikiem wynik3_2.txt, zakonczylem uzywajac ctrl+d dwa razy
+-Powstal plik tekstowy ze słowem "witaj"
+
+-Wedlug mnie ctrl+c zamknal proces bez zapisywania wpisanych danych/wprowadzonych zmian
+-Ctrl+d natomiast najpierw zapisal wprowadzone zmiany przed zamknieciem.
+-ctrl+c kasuje bieżące zadanie, ctrl+d zapisuje zmiany i zamyka program.
+4.
+-Uruchomilem gedit
+-ctrl+z zatrzymałem proces
+-Nie mam mozliwosci wprowadznia jakichkolwiek zmian w w programie gedit, nie moge nic wpisać
+-Przesunalem inne okno na gedita, "zamarzło" na oknie gedita, program sie nie odświeża
+-Używajac komende bg, gedit sie odswiezyl i zaczal dzialac.
+-Uzylem komende fg by wznowic gedita na pierwszym planie.
+-ctrl+c zakończyłem jego działanie.
+
+-Wpisując kolejno vim &, gedit &, geany &, uruchomilem te programy w tle, dalej moge wpisywac dane do terminala.
+-Używajac komendy jobs, wyswietlilem liste zadan przeniesionych do tla
+-Używając komendy fg %4 przywróciłem program geany na pierwszy plan.
