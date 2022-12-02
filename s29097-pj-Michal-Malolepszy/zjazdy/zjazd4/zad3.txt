@@ -1,0 +1,10 @@
+Mam taki sam uklad katalogow jak w zadaniu 1. Jestem w katalogu "kota" ("cd ~/tmp/ukos/ala/ma/kota").
+Chcac przeniesc katalog "ale" do katalogu "i" uzywajac:
+
+- zrodlo (sciezka wzgledna), miejsce docelowe (sciezka absolutna) uzyje komendy:
+"mv cd ../../../kot/ma/ale ~/tmp/ukos/ala/i"
+
+zrodlo (sciezka absolutna), miejsce docelowe (sciezka wzgledna) uzyje komendy:
+"mv /tmp/ukos/kot/ma/ale ../../i"
+
+Jesli chce, aby terminal informował mnie o tym co robi, to uzywam opcji "mv -v zrodlo miejsce_docelowe".

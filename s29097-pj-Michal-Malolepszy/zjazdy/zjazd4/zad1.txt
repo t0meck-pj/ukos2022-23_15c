@@ -1,0 +1,27 @@
+Dla podanego drzewa katalogów:
+
+tmp
+|_ukos
+   |_ ala
+   |  |_i
+   |  | |_ as
+   |  |_ma
+   |    |_kota
+   |_ kot
+   |_ ma
+      |ale
+
+Znajduje sie w katalogu "kota" ("cd ~/tmp/ukos/ala/ma/kota").
+Katalog "ala", jest w katalogu "/tmp/ukos".
+Aby przejsc do katalogu "ala" za pomoca:
+
+- sciezki wzglednej (relatywnej) wykonam polecenie: "cd ../.."
+Podajac sciezke wzgledna musze najpierw ustalic, gdzie znajduje sie w danym momencie
+i podac sciezke wzgledem tego polozenia.
+
+-sciezki bezwzglednej (absolutnej) wykonam polecenie: "cd ~/tmp/ukos/ala"
+Podajac sciezke bezwzgledna nie musze sie zastanawiac, gdzie sie znajduje,
+poniewaz podana wartosc zaczyna sie od korzenia "/".
+Znak tylda "~" jest automatycznie rozwijany do sciezki katalogu domowego, 
+np. "~/tmp/ukos/ala" jest rownoznaczny z "/home/s29097/tmp/ukos/ala", 
+gdy katalogiem domowym uzytkownika jest "home/s29097".

@@ -1,7 +1,7 @@
 09.10.2022
 -----------
 Moj drogi pamietniku, dzisiaj na zajeciach z UKOS uczylem sie:
-- logowac na ssh Shuflandia poprzez wpisanie do terminala polecenia: "ssh nr_indeksu@szuflandia.pjwstk.edu.pl";
+- logowac na ssh Szuflandia poprzez wpisanie do terminala polecenia: "ssh nr_indeksu@szuflandia.pjwstk.edu.pl";
 - zakladac konto na github;
 - generowac klucze ssh;
 - polecen w terminalu dotyczace tworzenia katalogow i dzialan z nimi zwiazanych;
@@ -50,3 +50,7 @@ Jest to okreslane jako ruch "podtrzymujacy aktywnosc" (keep alive).
 1. Strumien wejsciowy to klawiatura (stdin)
 2. Strumien wyjscia bledow to tez terminal (stderr)
 - uzywalem rowniez maszyny wirtualnej VirtualBox do wykonania czesci zadan.
+
+20.11.2022
+-----------
+Na zajeciach powtarzalem material na kolokwium.
