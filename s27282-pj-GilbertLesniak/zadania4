@@ -1,0 +1,32 @@
+Zadania powtórzeniowe 4. zjazd
+0.
+-Strata uprawnień
+-Brak miejsca do zapisu danych
+1.
+-Komendą cd ../..
+-Komendą cd /tmp/ukos/ala
+2.
+-Komenda mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski"
+3.
+-Komendą mv ../../../kot/ma/ale /tmp/ukos/ala/i
+-Komenda mv /tmp/ukos/kot/ma/ale ../../i
+4.
+-Komendą kill z podanym numerem PID
+5.
+-Komendą ls -a | grep ^al > 
+6. 
+-Nadałem uprawnienia dla katalogu ala używając wariacji
+-Oktalnej/ósemkowej/cyfrowej: 
+ -Komenda chmod 751 ala
+-Literowej ze znakiem rownosci:
+ -Komenda chmod g=r,u=rwx,a=x ala
+-Literowej z plusami i minusami:
+ -Komenda chmod a-rw,a+x,g+r,u+rwx ala
+
+7.
+Komendą ls-a > plik_w_katalogu_txt
+8.
+-tab
+9.
+-Komenda z "&" na końcu np. gedit &
+-Drugim sposobem jest użycie ctrl+z, co spowoduje zatrzymanie programu i przeniesienie go do tła.
