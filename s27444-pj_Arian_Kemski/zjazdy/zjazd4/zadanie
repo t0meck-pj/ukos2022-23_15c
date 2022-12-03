@@ -1,0 +1,48 @@
+zad 0
+Brak miejsca na dysku
+
+Brak uprawnień 'w' zapisu do swojego katalogu domowego.
+
+zad 1
+Przejscie do katalogu Ala za pomoca sciezki wzglednej cd ../../
+Przejscie do katalogu Ala za pomoca sciezki bezwzglednej cd ~/tmp/ukos/ala
+
+zad 2
+Za pomoca polecenia mkdir jan/kowalski
+
+zad 3
+Przeniesc katalog mozemy za pomoca polecenia mv
+sciezka względna mv kota ../../
+sciezka bezwzgledna mv kota tmp/ukos/ala
+
+zad 4
+Można użyć polecenia ctrl + z, które zatrzyma działanie programu. Lub uzyc komendy kill -9 i numer PID procesu. dodanie 9 do polecenia kill sprawia, ze program jest zamykany sila.
+
+zad 5
+Wpisujemy polecenie ls al* mozęmy użyć także polecenia.
+
+zad 6
+
+Aby każdy mogł wejść do katalogu ala użyłem polecenia chmod a+x ala
+
+
+Aby tylko grupa mogła wejść do katalogu ala użyłem polecenia chmod a+r ala
+
+
+Aby wlasciciel mial pelne prawa do katalogu uzylem polecenia chmod u+xwr ala
+
+
+zad 7
+Możemy utworzyc taki plik za pomoca polecenia mkdir -p plik/moj
+
+
+zad 8
+
+klawisz Tab pozwala na dopelnianie komend i nazw plikow
+
+
+
+
+
+
+
