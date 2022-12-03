@@ -1,0 +1,22 @@
+Zjazd 2. zadania
+1.
+-Utworzyłem strukture podkatalogów i plików tekstowych komendami mkdir i touch
+-Nastepnie przydzieliłem im różne uprawnienia dostepu komenda chmod 
+-Przy próbie wpisania pliku do cudzego katalogu mialem odmowe dostepu
+-Dopoki wlasciciel katalogu nie przydzieli dostepu, nie mozna wprowadzac zmian w katalogu
+-Przy próbie usuniecia cudzego pliku, wyskakiwal mi błąd.
+2.
+-Usunąlem wszelkie uprawnienia dostepu do katalogu bieżącego używając chmod 000 .
+-Usunąłem także wszystkie uprawnienia do katalogu nadrzednego "plik2"
+-Polecenie cd nie działa, sciezka bezwzgledna rowniez
+-chmod można użyć ścieżką bezwzgledną
+*Czy możemy bezpośrednio przeskoczyć do katalogu ABC/XYZ, jeśli nie mamy uprawnienia wstępu do ABC, ale mamy do XYZ ?
+ -Nie możemy
+-Poleceniem cd- wrócimy do katalogu bez nadanych uprawnień.
+3.
+Niestety nie bylo mnie na tych cwiczeniach, a przez problemy z kluczem do gita, pozno bylem w stanie wykonac to zadanie, sprobuje jeszcze jutro z rana kogos zlapac.
+4.
+-Utworzyłem podkatalog public_html, a w nim plik strona_html
+-Nadałem uprawnienia do odczytu i wykonania  dla others, dla obydwu katalogów i pliku tekstowego, niestety strona nie wyświetla mi sie.
+-Testowałem polecenie umask na plikach tekstowych w stworzonym katalogu
+Wydaje mi sie że operacją jest AND
