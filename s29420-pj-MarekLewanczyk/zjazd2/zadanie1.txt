@@ -1,16 +1,43 @@
-1. Wszedlem do katalogu Kasi s27553, moge wyswietlac pliki, ale nie moge ich zapisac (sprawdzilem to na pliku h.cpp), ani usuwac. Przy probie usuniecia system pyta mnie czy usunac zabezpieczony przed zapisem plik zwykly 'h.cpp'. Utworzylem plik kukulczejajo.txt. Przy probie usuniecia pliku utworzonego prez innego uzytkownika w moim katalogu system rowniez mnie pyta czy usunac zabezpieczony przed zapisem plik zwykly 'plik_kasia.txt', po wpisaniu N plik sie nie usuwa, po wpisaniu T usuwa sie.
+Zadanie 1
 
-2. Utworzylem sobie strukture katalogow testy_ukos/katalog1/ po usunieciu uprawnienia przy pomocy komendy a-rwx i bedac jednoczesnie w katalogu katalog1 nie moge cofnac sie do katalogu testy_ukos "Brak dostepu". 
+1. Utworzyć we własnym katalogu domowym niedużą strukturę podkatalogów i plików tekstowych. Przydzielić różne uprawnienia dostępu, następnie spróbować wejść do katalogów domowych innych uczestników zajęć i sprawdzić, które z obiektów są tam dla nas dostępne (i w jakim sensie). Spróbować utworzyć własny plik w cudzym katalogu ("kukułcze jajko") oraz spróbować usunąć cudzy plik we własnym katalogu (co można zaobserwować ?). Wypróbować powyższe operacje:
 
-Usuwajac uprawnienia a-rwx do katalogu biezacego nie moge sprawdzic jego zawartosci, zapisac zadnego pliku, ani otworzyc pliku. 
+- w trybie tekstowym
 
-Polecenie chmod moge zastosowac stosujac sciezke bezwzgledna do katalogu, do ktorego chce nadac uprawnienia lub cofajac sie do katalogu nadrzednego.
+Wszedlem do katalogu Kasi s27553, moge wyswietlac pliki, ale nie moge ich zapisac (sprawdzilem to na pliku h.cpp), ani usuwac. Przy probie usuniecia system pyta mnie czy usunac zabezpieczony przed zapisem plik zwykly 'h.cpp'. Utworzylem plik kukulczejajo.txt. Przy probie usuniecia pliku utworzonego prez innego uzytkownika w moim katalogu system rowniez mnie pyta czy usunac zabezpieczony przed zapisem plik zwykly 'plik_kasia.txt', po wpisaniu N plik sie nie usuwa, po wpisaniu T usuwa sie.
 
-Majac uprawnienia do katalogu ABC/XYZ/, ale nie majac do katalogu ABC nie moge dostac sie do folderu ABC, ani do folderu XYZ.
 
-Nie mozna wrocic korzystajac z polecenia cd - (Brak dostepu).
+- przy użyciu programu Midnight Commander (mc);
+Wszedlem ponownie do katalogu Kasi s27553, tym razem musialem uzyc konkretnej sciezki do specjalnie stworzonego dla mnie folderu, bo nie mialem uprawnien do wyswietlenia zawartosci jej katalogu domowego. W specjalnie stworzonym folderze bez problemu moge utworzyc plik kukulczejajo.txt. Jezeli chodzi o usuwanie plikow to w Kasi katalogu nie bylem tego w stanie zrobic, wiec przenioslem sie do katalogu Kamila s26991, tu sprobowalem usunac katalog kasia/, ale dostalem komunikat, ze brak dostepu (13). Oczywiscie zostawilem Kamilowi niespodzianke - kukulczejajko.txt :).
+
+2. W utworzonej na swoim koncie strukturze podkatalogów przeprowadzić eksperymenty:
+
+- usuwając wszelkie uprawnienia dostępu do katalogu bieżącego
+Usunalem wszelkie uprawnienia uzywajac komendy chmod a-rwx ., probujac uzyc komendy ls dostaje informacje o braku dostepu. Nie moge ich tez sobie przywrocic bedac w tym katalogu, musialem sie cofnac do katalogu ../PJWSTK
+
+- usuwając wszelkie uprawnienia dostępu do katalogu nadrzędnego (nadkatalogu).
+Usunalem wszelkie uprawnienia przy uzyciu komendy chmod a-rwx ..; nie moge sie cofnac do katalogu nadrzednego uzywajac cd .., ale bedac w katalogu nadrzednym lub podrzednym moge zmieniac uprawnienia.
+
+- W jakich przypadkach możemy wykonać wtedy polecenie cd?
+Polecenie cd moge wykonac tylko i wylacznie uzywajac sciezki bezwzglednej omijajac katalog bez uprawnien. Chcac cofnac sie do katalogu nadrzednego do ktorego nie mam uprawnien dostane komunikat o braku dostepu. Beda w katalogu do ktorego nie ma uprawnien (wlasnie je sobie odebralem) moge przejsc do katalogu nadrzednego, ale nie moge wejsc do kolejnego podkatalogu.
+
+- W jakich przypadkach możemy wykonać polecenie chmod?
+Polecenie chmod mozemy wykonac w katalogu do ktorego mamy uprawnienia do katalogu podrzednego. Jezeli w katalogu podrzednym jest kolejny katalog, a nie bede mial uprawnien do katalogu 1 to nie zmienie uprawnien katalogu 2.
+
+- Czy możemy bezpośrednio przeskoczyć do katalogu ABC/XYZ, jeśli nie mamy uprawnienia wstępu do ABC, ale mamy do XYZ?
+Tak
+
+- Czy możemy także wrócić korzystając z polecnia cd -?
+Polecenie cd - wraca do ostatniego katalogu, jezeli nie bede mial odpowiednich uprawnien dostane komunikat o braku dostepu.
 
 3. (s29420, s27553, s26991)
+
+W zespołach 2- lub 3-osobowych (w opisie zadania na githubie proszę umieścić login osób z zespołu) wypróbować możliwość komunikacji przez współdzielony plik: na jednym z kont w zespole utworzyć pusty plik i przydzielić odpowiednie uprawnienia dostępu (do pliku i do katalogu domowego). Wpisywać i odczytywać komunikaty przy użyciu poleceń:
+
+echo treść_komunikatu > plik
+
+cat plik
+Sprawdzić, jaki skutek powoduje zamiana operatora > na operator >> w poleceniu echo. Uruchom także drugi terminal i wykonaj w nim komendę tail -f plik i powtórz powyższe ćwiczenie w pierwszym terminalu (komunikacja za pomocą pliku).
  
 W utworzonym pliku ukos.txt za pomoca komendy echo Przykladowy text > ukos.txt nadpisujemy wszystko co bylo wczesniej napisane w pliku.
 
@@ -20,4 +47,24 @@ Przy pomocy komendy cat ukos.txt plik wykonuje sie w oknie terminala.
 
 Przy pomocy komendy tail -f ukos.txt mozna sledzic zmiany na biezaco.
 
-4. Aby wyswietlic plik strona.html musimy nadac tylko i wylacznie uprawnienie execute dla others.
+4. Znaleźć w swoim katalogu domowym podkatalog public_html (jeśli go nie ma, to utworzyć; musi się on nazywać DOKŁADNIE tak jak podano, pisane małymi literami z podkreśleniem zamiast spacji pomiędzy słowami). Umieścić w nim plik o nazwie strona.html o następującej zawartości:
+
+<HTML>
+
+<BODY>
+
+<H1>To jest moja strona domowa</H1>
+
+</BODY>
+
+</HTML>
+
+Sprawdzić, jakie są minimalne uprawnienia dostępu, które trzeba przydzielić do:
+
+- katalogu domowego;
+
+- katalogu public_html;
+
+pliku strona.html, aby zawartość pliku była widoczna w przeglądarce internetowej pod adresem http://szuflandia.pjwstk.edu.pl/~twój_login/strona.html
+
+Minimalne uprawnienia dostepu, ktore musze przydzielic do katalogu domowego to execute dla grupy other, do katalogu public_html execute dla grupy others, a do pliku strona.html read.

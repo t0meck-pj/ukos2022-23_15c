@@ -1,6 +1,16 @@
 Zadanie 2
 
-1. Gedit;
-2. PID 2950;
-3. Udało się wyłączyć przy pomocy kill 2950, włączyłem więc program mines PID 2995 i użyłem kill -9 2995 (kill -9 dodaje SIGKILL, który kończy proces niezależnie co zrobi on z sygnałem);
-4. killall bash - zabija wszystkie procesy zawierające bash;
+1. Uruchom wybrany przez Ciebie graficzny edytor tekstowy (np. gedit, gvim, Visual Studio Code, atom, itd...)
+Uruchomilem gedit'a
+
+2. Zobacz jaki ma on PID - przyda się do tego komenda ps
+PID 978
+
+3. Wydaj komendę kill w taki sposób, aby ten edytor się wyłączył. Zobacz czy to działa.
+Udalo sie wylaczyc przy pomocy kill 978, kill -9 konczy proces niezaleznie co zrobi on z sygnalem.
+
+4. Zobacz działanie komendy killall bash.
+killall bash zabija wszystkie procesy zawierajace bash
+
+5. Zobacz czy kill zadziała dla dowolnego procesu.
+Do wiekszosci procesow kill zadzialalo.

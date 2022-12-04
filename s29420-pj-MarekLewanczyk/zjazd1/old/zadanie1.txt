@@ -1,0 +1,19 @@
+20.10.2022
+Z pomoca filmow umieszczonych na Microsoft Teams utworzylem sobie maszyne wirtualna z Linuksem i na niej cwiczylem zrobilem pierwsza czesc zadan. 
+
+Zadania #1
+
+1. Uruchomilem Terminal
+2. Wyswietlilem zawartosc katalogu, w ktorym sie znajdowalem za pomoca komendy "ls" otrzymalem: Desktop, Documents, Downloads, Music, Pictures, Public, Templates, Videos
+3. Przy pomocy komendy "pwd" sprawdzilem gdzie sie znajduje - /home/ubuntu (jest to katalog domowy uzytkownika ubuntu)
+4. Przeniosłem się do folderu Pulpit przy użyciu ścieżki względnej "cd Desktop/
+5. Jestem w folderze /Desktop
+6. Zawartość folderu Desktop - adding-packages-permamently-info.txt, passwords-info.txt
+7. Wyswietliłem zawartosc katalogu homedla uzytkownika ubuntu, nie przechodzac do niego przy pomocy ścieżki bezwzglednej i komendy "ls /home/ubuntu" i otrzymalem: Desktop, Documents, Downloads, Music, Pictures, Public, Templates, Videos
+8. Cofnalem sie do katalogu wyzej czyli do katalogu /home/ubuntu z katalogu Desktop przy uzyciu komendy "cd .." i przenioslem sie do folderu Pictures przy pomocy komendy "cd Pictures/"
+9. Jestem w katalogu /home/ubuntu/Pictures
+10. Nic sie nie stalo? - zrobilem cos zle?
+11. Przeszedlem do katalogu domowego przy uzyciu sciezki bezwzglednej i komendy cd "cd /home/ubuntu/"
+12. Po wpisaniu komendy "cd /root" dostalem informacje o braku uprawnień "bash: cd: /root: Permission denied".
+13. Nie jestem pewien, ale prawdopodobnie wylaczylem srodowisko graficzne na linuksie?
+14. Ponownie wlaczylem srodowisko graficzne?

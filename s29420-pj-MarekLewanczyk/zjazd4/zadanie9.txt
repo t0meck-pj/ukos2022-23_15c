@@ -1,0 +1,4 @@
+Zadanie9
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+1. program &
+2. np. gedit, ctrl+z, bg

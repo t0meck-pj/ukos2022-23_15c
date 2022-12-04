@@ -1,0 +1,6 @@
+Zadanie 2
+
+1. Gedit;
+2. PID 2950;
+3. Udało się wyłączyć przy pomocy kill 2950, włączyłem więc program mines PID 2995 i użyłem kill -9 2995 (kill -9 dodaje SIGKILL, który kończy proces niezależnie co zrobi on z sygnałem);
+4. killall bash - zabija wszystkie procesy zawierające bash;

@@ -1,0 +1,3 @@
+Zadanie 8
+Jak przyspieszyć wpisywanie komend w terminalu? Jaki klawisz pozwala na uzupełnianie komend?
+Na uzupelnianie komend pozwala klawisz tab.

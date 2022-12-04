@@ -1,10 +1,34 @@
-Zadanie 3
+1. Uruchom komendę cat be parametrów
+Zablokowal mi sie terminal
 
-ctrl+c przerywa działanie programu
+2. Wciśnij CTRL+C i zobacz co się stanie
+Zakonczylo program polecenie cat
 
-Po wpisaniu komendy cat > wynik3_1.txt, napisaniu witaj i wcisnieciu ctrl+c - utworzył mi się pusty plik;
 
-Po wpisaniu komendy cat > wynik3_2.txt, napisaniu witaj i wcisnieciu ctrl+d - utworzył mi się nowy plik z tekstem witaj;
+Zobacz co się stanie:
 
-ctrl+c - wysyła sygnał zakończenia procesu;
-ctrl+d - zamyka strumień wyjścia;
+1. Wydaj komendę cat > wynik3_1.txt
+
+2. Wpisz tekst witaj bez wciskania klawisza Enter
+Wpisalem witaj i nie klikalem enter.
+
+3. Wciśnij CTRL+C
+Zamknelo mi program cat.
+
+4. Zobacz co się znalazło w pliku wynik3_1.txt
+Nic, plik pozostaje pusty.
+
+
+
+1. Wydaj komendę cat > wynik3_2.txt
+
+2. Wpisz tekst witaj bez wciskania klawisza Enter
+
+3. Wciśnij CTRL+D (możliwe, że będzie trzeba wcisnąć go 2x)
+Tak, potrzebowalem wcisnac ctrl+d dwukrotnie.
+
+4. Zobacz co się znalazło w pliku wynik3_2.txt
+W pliku znajduje sie wyraz witaj.
+
+ctrl+c - wysyla sygnal zakonczenia procesu;
+ctrl+d = zamyka strumien wyjscia

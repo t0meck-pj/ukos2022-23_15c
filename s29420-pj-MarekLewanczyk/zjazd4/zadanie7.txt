@@ -1,0 +1,5 @@
+Zadanie 7
+
+Jak utworzyć plik z listą plików w bieżącym katalogu?
+
+ls -a > lista.txt

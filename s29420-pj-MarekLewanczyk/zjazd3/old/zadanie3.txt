@@ -1,0 +1,10 @@
+Zadanie 3
+
+ctrl+c przerywa działanie programu
+
+Po wpisaniu komendy cat > wynik3_1.txt, napisaniu witaj i wcisnieciu ctrl+c - utworzył mi się pusty plik;
+
+Po wpisaniu komendy cat > wynik3_2.txt, napisaniu witaj i wcisnieciu ctrl+d - utworzył mi się nowy plik z tekstem witaj;
+
+ctrl+c - wysyła sygnał zakończenia procesu;
+ctrl+d - zamyka strumień wyjścia;

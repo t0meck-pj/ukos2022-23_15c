@@ -1,14 +1,32 @@
 Zadanie 4
 
-1. Otworzyło mi program gedit;
-2. ctrl+z freezuje program;
-3. Program nie odpowiada;
-4. Nic się nie dzieje, po prostu przesuwam sobie oknem po gedicie;
+1. Wpisz komendę gimp (lub np. edytor tekstowy gedit)
+Otworzyl sie program gedit.
 
-Zgadza się po wpisaniu bg, gedit wraca do żywych;
+2. W terminalu w którym sie to uruchomiło wciśnij CTRL+Z
+Program zosta wstrzymany.
 
-Po wpisaniu fg gedit wraca do żywych i pojawia mi się w konsoli - teraz mogę kliknąć ctrl+c żeby zakończyć program;
+3. Spróbuj coś wyklikać w gimpie / gedicie
+Nie moge nic kliknac w gedicie, okno sie nie odswieza.
 
-Otwierają się 3 programy, w terminalu można dalej pisać.
+4. Otwórz dowolne inne okno i przesuń je tak by częściowo nachodziło na okno gimpa / gedita i potem je odsuń by odsłonić w pełni okno gimpa / gedita
+Okno sie nie odswieza pozostaja smugi.
 
-Przy pomocy komendy fg pojawia mi się w konsoli ostatni otwarty program, używając fg %nr pojawia mi się konkretny program zgodny z numeracją wypisaną przy pomocy komendy jobs;
+
+5. Wpisz komendę: bg
+Gedit spowrotem zaczal dzialac.
+
+6. Wpisz komendę: fg
+Gedit spowrotem zaczal dzialac i pojawil sie w konsoli, teraz moge kliknac ctrl+c aby zakonczyc dzialanie programu.
+
+7. Wykonaj komendę gimp &
+Program gimp uruchomil sie w tle;
+
+8. Wykonaj komendę gedit &
+Program gedit uruchomil sie w tle;
+
+9. Wykonaj komendę geany &
+Program geany uruchomil sie w tle;
+
+10. Przywróć program gedit (lub gimp, w każdym razie nie uruchomiony jako ostatni program) z tła na pierwszy plan. Skorzystaj z jobs aby dowiedzieć się jakie mają numery poszczególne zadania działające w tle.
+Przywrocilem program gedit dzialajcy w tle przy uzyciu fg %1

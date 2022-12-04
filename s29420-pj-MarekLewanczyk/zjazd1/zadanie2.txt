@@ -1,9 +1,25 @@
-Zadania #2
+Zadanie 2
 
-1. Zaczynajac od polozenia /home/ubuntu utworzylem za pomoca komendy "mkdir -p ukos/katalog/katalog2" drzewo katalogów. Nastepnie przenioslem sie do katalogu ukos i utworzylem w nim katalog klamka przy uzyciu komendy "mkdir klamka".  Przenioslem sie do katalogu katalog "cd katalog" i utworzylem w nim katalog3, cofnalem sie z powrotem do katalogu ukos uzywajac komendy "cd ..".
-2. Przenioslem sie do katalogu klamka i utworzylem pliki zajecia2.txt, zajecia2.log i nowy.txt przy pomocy komendy touch zajecia2.txt itd..
-3. Cofnalem sie do katalogu ukos i za pomoca polecenia "mkdir -p to/jest/dluga/nazwa" utworzylem katalog to/jest/dluga/nazwa.
-4. Przy pomocy sciezki wzglednej przenioslem sie do kataloug to/jest/dluga/nazwa i utworzylem w nim plik dane.txt przy pomocy komendy "touch dane.txt"
-5. Przy uzyciu sciezki bezwzglednej usunalem wszystkie pliki z rozszerzeniem txt w katalogu ukos/klamka komenda "rm -r /home/ubuntu/ukos/klamka/*[.txt]"
-6. Cofnalem sie do katalogu ukos i przy uzyciu komendy "rmdir katalog/katalog2" usunalem katalog ukos/katalog/katalog2
-7. Usunalem katalog klamka przy uzyciu polecenia "rm -r klamka".
+1. Korzystając z komend cd oraz mkdir stwórz następujące drzewo katalogów w swoim katalogu domowym (w dowolnym podkatalogu, albo bezpośrednio w ~):
+Utworzylem drzewo katalogow uzywajac komendy: 
+
+mkdir -p ukos/{katalog1/{katalog2,katalog3},klamka}
+
+2. W katalogu ukos/klamka stwórz pliki zajęcia2.txt zajęcia2.log inny.txt nowy.txt.
+Utworzyoem w katalogu ukos/klamka powyzsze pliki uzywajac komendy touch zajecia2.txt, touch zajecia2.log, touch inny.txt, touch nowy.txt;
+
+3. Za pomocą jednego polecenia mkdir stwórz w katalogu ukos następujący katalog: ukos/to/jest/dluga/nazwa.
+Utworzylem ten katalog uzywajac komendy mkdir -p /home/PJWSTK/s29420/ukos/to/jest/dluga/nazwa/
+
+4. następnie umieść w katalogu ukos/to/jest/dluga/nazwa plik dane.txt
+Znajdowalem sie w katalogu ukos, wiec przenioslem sie przy pomocy polecenia cd to/jest/dluga/nazwa i utworzylem plik dane.txt przy pomocy polecenia touch dane.txt
+
+5. Usuń z katalogu ukos/klamka wszystkie pliki z rozszerzeniem txt.
+Wrocilem sie do katalogu domowego i przenioslem do katalogu ukos/klamka/ przy uzyciu komendy cd ukos/klamka/. Usunalem wszystkie pliki z rozszerzeniem txt uzywajac polecenia rm *.txt
+
+6. Usuń katalog ukos/katalog/katalog2
+Ponownie wrocilem do swojego katalogu domowego i usunalem katalog2 uzywajac polecenia rmdir ukos/katalog1/katalog2/
+
+7. Usuń cały katalog klamka za pomocą jednego polecenia.
+Usunalem caly katalog klamka uzywajac polecenia rm -r /home/PJWSTK/s29420/ukos/klamka/
+
