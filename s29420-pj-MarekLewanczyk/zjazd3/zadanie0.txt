@@ -1,9 +1,27 @@
 Zadanie 0
 
-2. Wypisało mi wszystkie pliki znajdujące się w katalogu domowym - nawet te ukryte;
-5. Wypisało mi wszystkie pliki zawierające w swojej nazwie literkę b;
-7. Uwtorzył się plik lista_plikow_z_literka_b.txt;
-	| - oddziela występujące po sobie komendy/funkcje (potok);
-	> - nadpisuje plik, jeżeli nie jest utworzony tworzy nowy plik;
-9. Program wypisał mi wszystkie pliki zawierające literkę b w katalogu oraz wypisał je w pliku lista_plikow_z_literka_b.txt;
-Komenda tee czyta ze standardowego wejścia i zapisuje na standardowe wyjście oraz do pliku;
+1. Przejdź do swojego katalogu domowego
+cd ~
+
+2. Wydaj komendę: ls -a
+Wydalem komende ls -a
+
+3. Zobacz ile plików wypisało.
+.  ..  .bash_history  .bash_logout  .bashrc  Desktop  Documents  Pictures  .profile
+Wypisalo mi 9 plikow.
+
+4. Teraz wydaj komendę: ls -a | grep D
+Wpisalem ls -a | grep D
+
+5. Zobacz ile teraz jest wyników. Co się stało?
+Wypisalo mi 2 pliki: Desktop i Documents
+
+6. A teraz wykonaj komendę: ls -a | grep D > lista_plikow_z_literka_d.txt
+
+7. Zobacz czy utworzył sie jakiś plik? Jaka jest jego treść? Co znaczy | oraz co znaczy > ?
+Utworzyl mi sie plik lista_likow_z_literka_d.txt, jego trescia jest wynik filtrowania czyli przy ls -a | grep D jest to Desktop i Documents. | Oznacza przekierowanie wyjscia ls -a do wejscia grep, a > przekierowanie wyjscia grep D do pliku lista_plikow_z_literka_d.txt.
+
+8. A teraz wykonaj komendę: ls -a | grep D | tee lista_plikow_z_literka_d_2.txt
+
+9. Zobacz czy plik się utworzył? Jaka jest treść względem poprzedniej próby bez programu tee? Co robi program tee?
+Utworzyl mi sie plik lista_plikow_z_literka_d_2.txt, tresc pliku nie rozni sie niczym wzgledem poprzedniej proby. Program tee czyta informacje z standardowego wejscia i zapisuje na standardowe wyjscie i pliki.

@@ -1,0 +1,28 @@
+Zadanie 3
+
+Jest dane takie drzewo katalogów:
+
+.
+
+├── ala
+
+│   ├── i
+
+│   │   └── as
+
+│   └── ma
+
+│       └── kota
+
+└── kot
+
+    └── ma
+
+        └── ale
+
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. 
+Jak przenieść katalog ale do katalogu i używając:
+
+- źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna): mv -t /home/PJWSTK/s29420/temp/ala/i/ ../../../kot/ma/ale/
+
+- źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna): mv -t ../../i /home/PJWSTK/s29420/temp/kot/ma/ale/

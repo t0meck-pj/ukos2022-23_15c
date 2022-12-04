@@ -1,0 +1,3 @@
+Zadanie 5
+Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?
+ls -a | grep al*

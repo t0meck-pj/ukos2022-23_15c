@@ -1,0 +1,18 @@
+Zadanie 6
+
+Nadaj uprawnienia do katalogu ala tak aby:
+
+każdy mógł do niego wejść
+
+tylko grupa mogła wyświetlić co w nim jest
+
+właściciel ma pełne prawa
+
+Podpowiedź: powyższe 3 punkty opisu to jedno zadanie. Nie 3 osobne.
+Przygotuj 3 wariacje rozwiązania tego zadania używając różnych notacji: 
+
+oktalnej/ósemkowej/cyfrowej chmod 741 ala;
+
+literowej ze znakiem równości chmod u=rwx,g=r,o=x ala
+
+literowej z plusami i minusami chmod u+rwx,g+r,g-wx,o+x,o-rw ala

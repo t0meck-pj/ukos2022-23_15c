@@ -1,0 +1,23 @@
+1. Wszedlem do katalogu Kasi s27553, moge wyswietlac pliki, ale nie moge ich zapisac (sprawdzilem to na pliku h.cpp), ani usuwac. Przy probie usuniecia system pyta mnie czy usunac zabezpieczony przed zapisem plik zwykly 'h.cpp'. Utworzylem plik kukulczejajo.txt. Przy probie usuniecia pliku utworzonego prez innego uzytkownika w moim katalogu system rowniez mnie pyta czy usunac zabezpieczony przed zapisem plik zwykly 'plik_kasia.txt', po wpisaniu N plik sie nie usuwa, po wpisaniu T usuwa sie.
+
+2. Utworzylem sobie strukture katalogow testy_ukos/katalog1/ po usunieciu uprawnienia przy pomocy komendy a-rwx i bedac jednoczesnie w katalogu katalog1 nie moge cofnac sie do katalogu testy_ukos "Brak dostepu". 
+
+Usuwajac uprawnienia a-rwx do katalogu biezacego nie moge sprawdzic jego zawartosci, zapisac zadnego pliku, ani otworzyc pliku. 
+
+Polecenie chmod moge zastosowac stosujac sciezke bezwzgledna do katalogu, do ktorego chce nadac uprawnienia lub cofajac sie do katalogu nadrzednego.
+
+Majac uprawnienia do katalogu ABC/XYZ/, ale nie majac do katalogu ABC nie moge dostac sie do folderu ABC, ani do folderu XYZ.
+
+Nie mozna wrocic korzystajac z polecenia cd - (Brak dostepu).
+
+3. (s29420, s27553, s26991)
+ 
+W utworzonym pliku ukos.txt za pomoca komendy echo Przykladowy text > ukos.txt nadpisujemy wszystko co bylo wczesniej napisane w pliku.
+
+Przy pomocy komendy echo przykladowy text2 >> ukos.txt dopisujemy do pliku w nowej lini tekst nie nadpisujac poprzedniego.
+
+Przy pomocy komendy cat ukos.txt plik wykonuje sie w oknie terminala.
+
+Przy pomocy komendy tail -f ukos.txt mozna sledzic zmiany na biezaco.
+
+4. Aby wyswietlic plik strona.html musimy nadac tylko i wylacznie uprawnienie execute dla others.

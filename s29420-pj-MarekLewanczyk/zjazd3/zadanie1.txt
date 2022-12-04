@@ -1,8 +1,41 @@
 Zadanie 1
 
-A: 	1. ps -a (wyświetla też informacje o innych użytkownikach);
-	   ps x (ps wypisuje wszystkie procesy należące do mnie w formacie BSD)
-	4. Znak zapytania oznacza nieznaną wartość, wyjaśnienie można znaleźć oczywiście w manualu;
+A: Zobacz co się stanie jeśli wpiszemy w terminalu:
 
-B: 1. ps axu | grep bash | grep -v grep
-   2. ps axu | grep root | grep -v grep
+ps:
+  PID TTY          TIME CMD
+    9 pts/0    00:00:00 bash
+   91 pts/0    00:00:00 ps
+
+ps -a
+  PID TTY          TIME CMD
+   92 pts/0    00:00:00 ps
+
+ps x
+  PID TTY      STAT   TIME COMMAND
+    9 pts/0    Ss     0:00 -bash
+   93 pts/0    R+     0:00 ps x
+
+ps axu
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   2272  1520 ?        Sl   00:38   0:00 /init
+root         4  0.0  0.0   2272     4 ?        Sl   00:39   0:00 plan9 --control-socket 5 --log-level 4 --server-fd 6 --
+root         7  0.0  0.0   2280    96 ?        Ss   00:39   0:00 /init
+root         8  0.0  0.0   2296   100 ?        R    00:39   0:00 /init
+s29420       9  0.0  0.0  10044  5004 pts/0    Ss   00:39   0:00 -bash
+s29420      94  0.0  0.0  10620  3196 pts/0    R+   00:40   0:00 ps axu
+
+Jak myślisz, co oznacza znak zapytania w kolumnie 2? Znak zapytania oznacza nieznan wartosc.
+
+B: Jak wykonasz poniższe 2 zadania? Wyjasnienie mozna znalezc w manualu.
+
+Wyświetl wszystkie procesy bash:
+ps axu | grep bash | grep -v grep
+s29420       9  0.0  0.0  10044  5004 pts/0    Ss   00:39   0:00 -bash
+
+Wyświetl wszystkie procesy należące do użytkownika root
+ps axu | grep root | grep -v grep
+root         1  0.0  0.0   2272  1520 ?        Sl   00:38   0:00 /init
+root         4  0.0  0.0   2272     4 ?        Sl   00:39   0:00 plan9 --control-socket 5 --log-level 4 --server-fd 6 --pipe-fd 8 --log-truncate
+root         7  0.0  0.0   2280    96 ?        Ss   00:39   0:00 /init
+root         8  0.0  0.0   2296   100 ?        S    00:39   0:00 /init

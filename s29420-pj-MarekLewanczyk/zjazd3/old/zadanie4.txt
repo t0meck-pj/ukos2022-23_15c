@@ -1,0 +1,14 @@
+Zadanie 4
+
+1. Otworzyło mi program gedit;
+2. ctrl+z freezuje program;
+3. Program nie odpowiada;
+4. Nic się nie dzieje, po prostu przesuwam sobie oknem po gedicie;
+
+Zgadza się po wpisaniu bg, gedit wraca do żywych;
+
+Po wpisaniu fg gedit wraca do żywych i pojawia mi się w konsoli - teraz mogę kliknąć ctrl+c żeby zakończyć program;
+
+Otwierają się 3 programy, w terminalu można dalej pisać.
+
+Przy pomocy komendy fg pojawia mi się w konsoli ostatni otwarty program, używając fg %nr pojawia mi się konkretny program zgodny z numeracją wypisaną przy pomocy komendy jobs;

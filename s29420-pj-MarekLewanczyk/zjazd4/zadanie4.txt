@@ -1,0 +1,2 @@
+Zadanie 4
+Aby zamknac program, ktory nie reaguje na ctrl+c. Znajdz PID programu i uzywajac polecenia kill -9 PID wyslij polecenie zabicia programu. 

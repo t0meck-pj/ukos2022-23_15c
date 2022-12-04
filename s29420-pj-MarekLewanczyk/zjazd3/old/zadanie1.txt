@@ -1,0 +1,8 @@
+Zadanie 1
+
+A: 	1. ps -a (wyświetla też informacje o innych użytkownikach);
+	   ps x (ps wypisuje wszystkie procesy należące do mnie w formacie BSD)
+	4. Znak zapytania oznacza nieznaną wartość, wyjaśnienie można znaleźć oczywiście w manualu;
+
+B: 1. ps axu | grep bash | grep -v grep
+   2. ps axu | grep root | grep -v grep
