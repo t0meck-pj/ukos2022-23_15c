@@ -1,0 +1,12 @@
+24.11.2022
+
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota.
+Jak przenieść katalog ale do katalogu i używając:
+
+źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna):
+
+mv ../../../kot/ma/ale ~/ala/i
+
+źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna):
+
+mv ~/kot/ma/ale ../../i

@@ -1,0 +1,11 @@
+29.11.2022
+
+Jak przyspieszyć wpisywanie komend w terminalu? Jaki klawisz pozwala 
+na uzupełnianie komend?
+
+-Za pomoca klawisza TAB na klawiaturze mozemy "dokonczyc" komende badz
+wprowadzic nazwe pliku, ktory istnieje
+
+-Za pomoca klawisza strzalki skierowanej w gore mozemy polecenia powtorzyc,
+a za pomoca klawisza strzalki skierowanej w dol mozemy "cofnac" sie do
+poprzednio wpisanego polecenia

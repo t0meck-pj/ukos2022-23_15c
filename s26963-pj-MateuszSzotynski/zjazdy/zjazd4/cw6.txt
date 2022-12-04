@@ -1,0 +1,31 @@
+28.11.2022
+
+Nadaj uprawnienia do katalogu ala tak aby:
+
+-każdy mógł do niego wejść
+
+-tylko grupa mogła wyświetlić co w nim jest
+
+-właściciel ma pełne prawa
+
+
+Przygotuj 3 wariacje rozwiązania tego zadania używając różnych notacji: 
+
+-oktalnej/ósemkowej/cyfrowej
+
+-literowej ze znakiem równości
+
+-literowej z plusami i minusami
+
+Wszystkie wersje powinny być zapisane w jednym poleceniu (bez używania && czy | )
+
+
+1) 1 wariacja to: chmod 751 ala
+	7 bo 4 + 2 + 1, 5 bo 4 + 1, 1 bo 1
+	4 to wartosc dajaca uprawnienia r
+	2 to wartosc dajaca uprawniania w
+	1 to wartosc dajaca uprawnienia x
+
+2) 2 wariacja: chmod a=x,g=rx,u=rwx ala
+
+3) 3 wariacja: chmod a+x,g+r,u+rw ala

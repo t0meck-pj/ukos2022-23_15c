@@ -1,0 +1,8 @@
+28.11.2022
+
+Jak zamknąć program, który nie reaguje na ctrl+c ?
+
+- Taki program mozna zamknac dzieki unikalnemu PID (Process IDentifier)
+za pomoca komendy wysyajacej sygnal kill -TERM / kill -SIGKILL.
+Aby wyspietlic taki PID mozna uzyc komendy wyswietlajcacej wszystkie procesy
+ps -axu

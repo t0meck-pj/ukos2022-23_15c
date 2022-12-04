@@ -1,0 +1,11 @@
+28.11.2022
+
+Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna
+się od al?
+
+-Aby wyswietlic pliki w biezacym katalogu uzywamy komendy ls.
+Zeby komenda ta wyswietlila wszystkie pliki zaczynajace sie od al, 
+niewazny jest typ pliku oraz dalsza nazwa to korzystamy z *
+Koncowa komenda powinna wygladac nastepujaco:
+
+ls al*

@@ -1,0 +1,11 @@
+24.11.2022
+
+
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. 
+Jak utworzyć poddrzewo katalogów jan/kowalski w katalogu ale za 
+pomocą jednej komendy?
+
+
+Za pomoca komedy mkdir z parametrem -p mozna utworzyc drzewo katalogow.
+Mozna rowniez usunac drzewo wraz z plikami, ktore znajduja sie w katalogach
+za pomoca parametru -p ale w komendzie rmdir

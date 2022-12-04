@@ -1,0 +1,43 @@
+20.11.2022
+
+Jest dane takie drzewo katalogów:
+
+.
+
+├── ala
+
+│   ├── i
+
+│   │   └── as
+
+│   └── ma
+
+│       └── kota
+
+└── kot
+
+    └── ma
+
+        └── ale
+
+Znajdujesz się w katalogu kota. Katalog ala, jest w katalogu /tmp/ukos.
+Jak przejść do katalogu ala ale za pomocą:
+
+1. ścieżki względnej (relatywnej)
+
+2. ścieżki bezwzględnej (absolutnej)
+
+
+
+1. Sciezka wzgledna jest wzgledem czegos np. katalogu, a wiec
+aby przejsc do katalogu ala bedac w katalogu kota mozna wykonac komende:
+
+cd ../..
+
+2. Sciezka bezwzgledna to sciezka, ktora wymienia kazdy pojedynczy
+katalog, do ktorego nalezy sie udac aby znalezc porzadany plik.
+
+cd ~/tmp/ukos/ala
+
+
+

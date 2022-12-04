@@ -1,0 +1,8 @@
+30.11.2022
+
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+
+- Za pomoca znaku: "&" na koncu komendy uruchamiajacej program np.
+	geany &
+
+- komenda geany -> CTRL + Z -> bg wysyla proces do back ground'u
