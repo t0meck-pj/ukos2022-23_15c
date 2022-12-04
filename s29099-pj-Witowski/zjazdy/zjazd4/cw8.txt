@@ -1,0 +1,3 @@
+Jak przyspieszyć wpisywanie komend w terminalu? Jaki klawisz pozwala na uzupełnianie komend?
+
+-mozna uzyc strzalek jak chcemy wpisac poprzednie polecenie oraz TAB jak chcemy uzupelnic
