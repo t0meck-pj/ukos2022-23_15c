@@ -1,0 +1,14 @@
+1.
+Polecenie ps pokazuje nam procesy aktualnego terminala
+Polecenie ps -a wyswietla procesy terminala
+Polecenie ps x pokazuje wszystkie procesy  uzytkownika
+Polecenie ps axu pokazuje wszystkie procesy
+
+B:
+Wyświetl wszystkie procesy bash
+
+ps axu | grep bash | grep -v gre
+
+Wyświetl wszystkei procesy należące do użytkownika root
+
+ps axu | grep root
