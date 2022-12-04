@@ -1,0 +1,68 @@
+0. Przypuśćmy, że nie możesz utworzyć żadnego pliku na swoim koncie uczelnianym np. na szuflandii.
+Co się mogło stać? (wymień co najmniej 2 opcje)
+
+- powodem braku mozliwosci utworzenia zadnego pliku moze byc brak odpowiednich uprawnien do takiej czynnosci;
+- powodem moze byc rowniez brak miejsca na dysku.
+
+1. Jest dane takie drzewo katalogów:
+Znajdujesz się w katalogu kota. Katalog ala, jest w katalogu /tmp/ukos.
+Jak przejść do katalogu ala ale za pomocą:
+
+ścieżki względnej (relatywnej)
+
+- cd ../..
+
+ścieżki bezwzględnej (absolutnej)
+
+- cd ~/tmp/ukos/ala
+
+2. Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota.
+Jak utworzyć poddrzewo katalogów jan/kowalski w katalogu ale za pomocą jednej komendy?
+
+- poddrzewo tworzy sie za pomoca komendy mkdir -p jan/kowalski
+
+3. Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak przenieść katalog ale do katalogu i używając:
+
+źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna)
+
+- mv ../../../kot/ma/ale ~/tmp/ukos/ala/i
+
+źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna)
+
+- mv ~/tmp/ukos/kot/ma/ale ../../../ala/i
+
+4. Jak zamknąć program, który nie reaguje na ctrl+c ?
+
+- sprawdzam numer PID, programu ktory chce zamknac;
+- jesli program sie nie wylaczyl nalezy sprawdzic pod jakim numerem znajduje się SIGKILL,
+uzytwam komendy kill -l, wiem juz, ze jest to numer 9. Nastepnie zamykam program komenda kill -9 (numer PID);
+
+5. Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?
+
+- Aby wypisac pliki których nazwa zaczyna sie od al uzywam komendy ls -a | grep al.
+
+6. Nadaj uprawnienia do katalogu ala tak aby:
+-każdy mógł do niego wejść
+-tylko grupa mogła wyświetlić co w nim jest
+-właściciel ma pełne prawa
+
+- chmod 751 ala (oktalna);
+- chmod a=x,g=rx,u=rwx ala
+- chmod a-rw,a+x,g+r,u+rwx ala
+
+7. Jak utworzyć plik z listą plików w bieżącym katalogu?
+
+- za pomoca polecenia ls >lista.txt.
+
+8. Jak przyspieszyć wpisywanie komend w terminalu? Jaki klawisz pozwala na uzupełnianie komend?
+
+- za pomoca strzalek mozemy przewijac wczesniej uzyte komendy;
+- klawisz TAB dopisuje nazwy plikow.
+
+9. Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+
+- uruchamiamy za pomoca komendy np. gedit &;
+
+- uruchamiam za pomoca komendy np. gedit, pozniej  naciskamy w terminalu CTRL Z i wpisujemy komende bg,
+ktora wznowi progam na drugim planie.
+
