@@ -1,0 +1,99 @@
+0. Rozgrzewkowe:
+0.1. Przejdź do swojego katalogu domowego
+Odpowiedź: Przeszedłem do swojego katalogu domowego za pomocą komendy cd ~.
+0.2. Wydaj komendę ls-a.
+Odpowiedź: wydałem komendę ls -a.
+0.3. Zobacz ile plików wypisało.
+Odpowiedź: Wypisało 18 plików w tym ukryte.
+0.4.Wydaj komendę ls -a | grep a.
+Odpowiedź: Wydałem komendę ls -a | grep -a.
+0.5.Zobacz ile teraz jest wyników, co się stało?
+Odpowiedź: Wypisło 8 plików z literką a w nazwie.
+0.6. Wykonaj komendę ls -a | grep a > lista_plikow_z_literka_a.txt
+Odpowiedź: Wpisałem komendę ls -a | grep a > lista_plikow_z_literka_a.txt
+0.7. Zobacz czy utworzył się jakiś plik, jaka jest jego treść, co znaczy |, a co > ?
+Odpowiedź: Utworzył się plik o nazwie lista_plikow_z_literka_a.txt, w treści znajdziemy 
+listę plików z literką a w nazwie, | oznacza, ze wyjscie pierwszego polecenia jest wejsciem 
+drugiego, a " > "w naszym przypadku
+przekierowuje standardowe wyjscie do nowego pliku, tworząc go.
+0.8. Wykonaj komendę: ls -a | grep a | tee lista_plikow_z_literka_a_2.txt
+Odpowiedź: Wpisałem komendę: ls -a | grep a | tee lista_plikow_z_literka_a_2.txt
+0.9.ZObacz czy plik się utworzył? Jaka jest treść względem poprzedniej próby bez programu tee? 
+Co robi tee?
+Odpowiedź: Utworzył się plik lista_plikow_z_literka_a_2.txt, treść pliku się nie zmienia, 
+natomiast wypisane zostają pliki w terminalu (wysłane do standardowego urządzenia wyjściowego). 
+
+1.A. Zobacz co się stanie jeśli wpiszemy w terminalu:
+1.1. ps
+Odpowiedź: Wyswietla liste procesow, ktore są uruchomione.
+1.2. ps -a
+Odpowiedź: Wyswietla wszystkie procesy poza procesem głownym.
+1.3. ps x
+Odpowiedź: Wyswietla wszystkie moje procesy i zamienia format wyjscia.
+1.4. ps axu, Co oznacza znak zapytania w kolumnie nr 2? 
+Odpowiedź: Komenda ta wyswietla wszystkie procesy, wszystkich użytkownikow, a znak zapytania
+oznacza procesy, które nie maja zalokowanego terminala.
+
+1.B. Jak wykonasz poniższe 2 zadania? 1. Wyświetl wszystkie procesy bash. 2. Wyświetl 
+wszystkie procesy należące do użytkownika root.
+Odpowiedź 1. Za pomoca komendy ps axu | grep bash | grep -v grep.
+Odpowiedź 2. Za pomoca komendy ps axu | grep root | grep -v grep.
+ 
+2.1. Uruchom wybrany przez Ciebie graficzny edytor tekstowy (np. gedit, gvim, Visual Studio 
+Code, atom, itd...).
+Odpowiedź: Komendą gedit uruchamiam program gedit.
+2.2. Zobacz jaki ma on PID.
+Odpowiedź: Komendą ps axu | grep gedit sprawdzam jaki PID ma program gedit.
+2.3. Wydaj komendę kill w taki sposób, aby ten edytor się wyłączył. Zobacz czy to działa.
+Odpowiedź: Komendą kill 988 wysyłam sygnał do zakończenia procesu, program się wyłączył. 
+Za pomocą komendy kill -l, sprawdzam, że SIGKILL znajduje sie pod numerem 9. Komenda brzmi
+kill -9 1152. SIGKILL zabija proces.
+2.4. Zobacz działanie komendy killall bash:
+Odpowiedź: Komenda killall bash nic nie zmieniła,dopiero dodanie killall bash -9 zabilo terminal.
+2.5. Zobacz czy kill zadziała dla dowolnego procesu.
+Odpowiedź: Czasem wyskakuje komunikat, że operacja nie jest dozwolona.
+
+3.1. Uruchom komendę cat bez parametrów.
+Odpowiedź: Uruchomiłem komendę cat bez parametrów.
+3.2. Wciśnij CTRL+C i zobacz co się stanie
+Odpowiedź: CTRL+C przerywa program.
+3.1. Wydaj komendę cat > wynik3_1.txt.
+Odpowiedź: Wydałem komedę cat > wynik3_1.txt.
+3.2. Wpisz tekst witaj bez wciskania klawisza Enter.
+Odpowiedź: Wpisałem tekst witaj bez wciskania klawisza Enter.
+3.3. Wciśnij CTRL+C.
+Odpowiedź: Wcisnąłem CTRL+C.
+3.4. Zobacz co się znalazło w pliku wynik3_1.txt
+Odpowiedź: Utworzony został plik w którym nie zostało nic zapisane.
+
+3.1.Wydaj komendę cat > wynik3_2.txt
+Odpowiedź: Wydałem komedę cat > wynik3_2.txt.
+3.2.Wpisz tekst witaj bez wciskania klawisza Enter.
+Odpowiedź: Wpisałem tekst witaj bez wciskania klawisza Enter.
+3.3.Wciśnij CTRL+D (możliwe, że będzie trzeba wcisnąć go 2x).
+Odpowiedź: Wcisnąłem CTRL+D, trzeba było 2x.
+3.4.Zobacz co się znalazło w pliku wynik3_2.txt.
+Odpowiedź: Utworzony został plik w którym zostało zapisane słowo witaj.
+Komenda CTRL+C wyłącza aktywny proces, a CTRL+D kończy strumień wejściowy zapisując go.
+
+
+4.1. Wpisz komendę gimp (lub np. edytor tekstowy gedit).
+Odpowiedź: Wpisałem komendę gedit i uruchomiłem edytor tekstowy.
+4.2. W terminalu w którym sie to uruchomiło wciśnij CTRL+Z.
+Odpowiedź: Wcisnąłem CTRL+Z w terminalu, wstrzymał działanie edytora tekstowego.
+4.3. Spróbuj coś wyklikać w gimpie / gedicie.
+Odpowiedź: Próbuję, nie działa.
+4.4. Otwórz dowolne inne okno i przesuń je tak by częściowo nachodziło na okno gedita 
+i potem je odsuń by odsłonić w pełni okno gedita.
+Odpowiedź: Otowrzyłem geany nałożyłem na gedita, po czym odsunąłem. Okno gedita nie 
+odświeża się, jest zawieszone.
+4.1.Wpisz komendę: bg.
+Odpowiedź: Po wpisaniu komendy bg gedit się odśweżył, odżył ale w drugim planie.
+4.2. Wpisz komendę: fg.
+Odpowiedź: Po wpisaniu komendy bg gedit się odśweżył, odżył w pierwszym planie.
+4.1.2.3. Wykonaj komendę gimp &, gedit &, geany &.
+Odpowiedź: Uruchomiłem gimp &, gedit &, geany &, w tle, dalej można korzystać z terminala.
+4.1. Przywróć program gedit (lub gimp, w każdym razie nie uruchomiony jako ostatni 
+program) z tła na pierwszy plan.
+Odpowiedź: Wykorzystałem komendę jobs aby zobaczyć jakie numery mają zadania działające w tle.
+Przywróciłem program gedit za pomocą komendy fg %8.

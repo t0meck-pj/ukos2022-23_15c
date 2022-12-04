@@ -1,0 +1,52 @@
+Zad.0.
+Co mogło się stać, że nie możesz utworzyć żadnego pliku na koncie uczelnianym na 
+szuflandii?
+Odpowiedź: Nie posiadam uprawnień do stworzenia pliku lub wykorzystałem już całe dostepne
+dla mnie miejsce na dysku (quota).
+Zad.1.
+Znajdujesz się w katalogu kota. Katalog ala, jest w katalogu /tmp/ukos.
+Jak przejść do katalogu ala ale za pomocą:
+- ścieżki względnej (relatywnej);
+Odpowiedź: cd ../ ../
+- ścieżki bezwzględnej (absolutnej)
+Odpowiedź: cd ~/repos-ld/temp/ukos/ala
+Zad 2.
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak utworzyć 
+poddrzewo katalogów jan/kowalski w katalogu ale za pomocą jednej komendy?
+Odpowiedź:mkdir -p jan/kowalski
+Zad. 3.
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak przenieść 
+katalog ale do katalogu i używając:
+- źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna);
+Odpowiedź: mv ../../../ala ~/repos-ld/temp/ukos/ala/i
+- źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna);
+Odpowiedź: mv ~/repos-ld/temp/ukos/ala ../../i
+Zad. 4.
+Jak zamknąć program, który nie reaguje na ctrl+c ?
+Odpowiedź:
+- kill-KILL_nr pida;
+- kill-TERM_nr pida;
+- kill_SIGKILL_nr pida;
+- kill_-9_nr pida;
+Zad.5.
+Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?
+Odpowiedź: ls -a | grep al
+Zad.6.
+Nadaj uprawnienia do katalogu ala tak aby:
+-każdy mógł do niego wejść;
+-tylko grupa mogła wyświetlić co w nim jest;
+-właściciel ma pełne prawa.
+Odpowiedź:
+- chmod 751 ala
+- chmod a=x,g=rx,u=rwx ala
+- chmod a-rw,a+x,g+r,u+rw ala
+Zad.7.
+Jak utworzyć plik z listą plików w bieżącym katalogu?
+Odpowiedź: ls >lista_plikow_w_biezacym_katalogu.txt
+Zad.8. 
+Jak przyspieszyć wpisywanie komend w terminalu? Jaki klawisz pozwala na uzupełnianie komend?
+Odpowiedź: Klawiszem TAB, bądź strzałkami wykorzystując poprzednio wpisane komendy.
+Zad.9.
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+Odpowiedź: Po wpisaniu nazwy programu dodać symbol &, np. geany & lub po uruchomieniu programu
+można go wstrzymać komendą CTRL-Z, a następnie wznowić jego działanie w tle za pomocą komendy bg.
