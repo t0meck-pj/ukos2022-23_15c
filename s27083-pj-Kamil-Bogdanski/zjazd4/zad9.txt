@@ -1,0 +1,3 @@
+-Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+Dodając & na końcu komendy
+Drugi sposob to odpalenie programu a nastepnie klikniecie CTRL+Z , wstrzyma to bierzacy proces i przeniesie go do tła

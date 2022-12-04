@@ -1,0 +1,3 @@
+-Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak utworzyć poddrzewo katalogów jan/kowalski
+w katalogu ale za pomocą jednej komendy?
+mkdir -p jan/kowalski

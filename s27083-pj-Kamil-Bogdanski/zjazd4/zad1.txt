@@ -1,0 +1,6 @@
+Znajdujesz się w katalogu kota. Katalog ala, jest w katalogu /tmp/ukos.
+Jak przejść do katalogu ala ale za pomocą:
+-ścieżki względnej (relatywnej)
+cd ../..
+-ścieżki bezwzględnej (absolutnej)
+cd /tmp/ukos/ala
