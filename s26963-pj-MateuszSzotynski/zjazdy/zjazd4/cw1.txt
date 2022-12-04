@@ -37,7 +37,7 @@ cd ../..
 2. Sciezka bezwzgledna to sciezka, ktora wymienia kazdy pojedynczy
 katalog, do ktorego nalezy sie udac aby znalezc porzadany plik.
 
-cd ~/tmp/ukos/ala
+cd /tmp/ukos/ala
 
 
 
