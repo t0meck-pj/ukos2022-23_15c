@@ -1,0 +1,21 @@
+W celu zamkniecia programu, ktory nie reaguje na ctr+c uzyje polecenia: "kill [-sygnal] PID ..." np. "kill 9 SIGKILL PID [procesu]"
+
+Polecenie wysyla sygnal do procesu o numerze PID. 
+Jezeli nie sprecyzujemy rodzaju sygnalu wowczas kill wysyla sygnal SIGINT przerywajacy dzialanie procesu.
+Opcja -l wyswietla liste sygnalow jakie mozna przeslac do procesow (wiecej na ten temat w dokumentacji man 7 signal)
+
+Najwazniejsze sygnaly:
+2 SIGINT przerwanie procesu (ten sygnal jest wysylany do procesu gdy wcisniemy Ctrl+C)
+9 SIGKILL sygnal “zabicia” procesu
+19 SIGSTOP zawieszenie procesu (Ctrl+Z)
+18 SIGCONT wznowienie zatrzymanego procesu
+$ kill -9 3899
+wysyla sygnal KILL o numerze 9 do podanego procesu
+$ kill -9 -1
+wysyla sygnal KILL do wszystkich procesow (uwaga: spowoduje wylogowanie, gdyz zamkniety zostanie takze proces powloki)
+$ kill -SIGSTOP 4008
+zawiesza dzialanie procesu
+$ kill -18 4008
+wznawia dzialanie zawieszonego procesu
+
+Wbudowane w powloke Bash polecenie kill umozliwia dodatkowo wystylanie sygnalow do procesow identyfikowanych za pomoca numeru zadania JID

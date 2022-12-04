@@ -1,0 +1,2 @@
+W celu przyspieszenia wpisywania komend w terminalu uzywam klawisza TAB.
+Dokancza on automatycznie nazwe rozpoczetego polecenia.

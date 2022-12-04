@@ -1,0 +1,2 @@
+W celu wypisania wszystkich plikow w biezacym katalogu, ktorych nazwa zaczyna sie od "al" uzylem polecenia:
+ls -a | grep ^al

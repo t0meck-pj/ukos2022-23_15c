@@ -1,0 +1,11 @@
+Nadalem uprawnienia do katalogu "ala", tak aby:
+- kazdy mogl do niego wejsc;
+- tylko grupa mogla wyswietlic co w nim jest;
+- wlasciciel mial pelne prawa,
+wykonujac trzy wariacje rozwiazania tego zadania uzywajac notacji:
+- oktalnej/osemkowej/cyfrowej:
+"chmod 751 ala"
+- literowej ze znakiem rownosci:
+"chmod u=rwx,g=rx,o=x ala"
+- literowej z plusami i minusami:
+"chmod a-rw,a+x,g+r,u+rwx ala"

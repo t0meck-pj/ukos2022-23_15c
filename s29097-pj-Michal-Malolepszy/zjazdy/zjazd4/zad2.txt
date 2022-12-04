@@ -1,0 +1,3 @@
+Mam taki sam uklad katalogow jak w zadaniu 1. Jestem w katalogu "kota" ("cd ~/tmp/ukos/ala/ma/kota").
+W celu utworzenia poddrzewa katalogow "jan/kowalski" w katalogu "ale" uzylem jednej komendy:
+"mkdir -p ~/tmp/ukos/kot/ma/ale/jan/kowalski".

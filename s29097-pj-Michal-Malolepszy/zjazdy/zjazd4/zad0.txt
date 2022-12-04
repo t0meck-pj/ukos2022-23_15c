@@ -1,0 +1,4 @@
+Hipotetycznie, jeśli nie moglbym się zalogowac na koncie uczelnianym np. Szuflandii, spowodowane byloby to:
+- brakiem nadanych uprawnien do tworzenia i zapisywania plikow w moim katalogu domowym (~);
+- brakiem miejsca na dysku;
+- odrzucaniem polaczenia ssh przez router, lub inne urzadzenie posrednie.

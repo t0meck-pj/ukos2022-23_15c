@@ -1,0 +1,7 @@
+Mozna uruchomic program, by nie blokowal terminala na dwa sposoby:
+- wpisujac "&" na koncu polecenia np. "nano lista.txt &"
+- po uruchomieniu programu wcisnac "CTRL+Z", wtedy program jest zatrzymany w tle
+Dodatkowo: 
+- aby wznowic dzialanie programu na pierwszym planie, należy wpisac polecenie "fg"
+- aby wznowic w tle proces, ktory zostal wstrzymany przez sygnal SIGTSTP (CTRL+Z) należy uzyc komende "bg"
+- liste zatrzymanych prac można sprawdzic przez komende "jobs"
