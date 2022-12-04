@@ -1,0 +1,5 @@
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak przenieść katalog ale do katalogu i używając:
+
+źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna):  mv -t ../../i /home/PJWSTK/s27553/repozytorium/ukos2022-23_15c/
+s27553-pj-KatazynaKasperek/testy/kot/ma/ale (gdzie,co)
+źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna):  mv -t /home/PJWSTK/s27553/repozytorium/ukos2022-23_15c/s27553-pj-KatazynaKasperek/testy/ala/i ../../../kot/ma/ale

@@ -1,0 +1,4 @@
+Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. 
+Jak utworzyć poddrzewo katalogów jan/kowalski w katalogu ale za pomocą jednej komendy?
+Aby tworzyc drzewa katalogow itrzebujemy komendy mkdir z parametrem p 
+mkdir -p jan/kowalski

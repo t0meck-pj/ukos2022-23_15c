@@ -1,0 +1,4 @@
+Przypuśćmy, że nie możesz utworzyć żadnego pliku na swoim koncie uczelnianym np. na szuflandii.
+Co się mogło stać? (wymień co najmniej 2 opcje)
+1. niewlasciwe uprawnienia: brak w do katalogu domowego
+2. brak miejsca na dysku przypisanego dla naszego uzytkownika
