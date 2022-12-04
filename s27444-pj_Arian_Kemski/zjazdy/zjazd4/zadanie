@@ -1,46 +1,52 @@
+
 zad 0
 Brak miejsca na dysku
 
 Brak uprawnień 'w' zapisu do swojego katalogu domowego.
 
 zad 1
-Przejscie do katalogu Ala za pomoca sciezki wzglednej cd ../../
-Przejscie do katalogu Ala za pomoca sciezki bezwzglednej cd ~/tmp/ukos/ala
+Przejscie do katalogu Ala za pomoca sciezki wzglednej cd ../..
+Przejscie do katalogu Ala za pomoca sciezki bezwzglednej cd /tmp/ukos/ala
 
 zad 2
-Za pomoca polecenia mkdir jan/kowalski
-
+Za pomoca polecenia mkdir -p /tmp/ukos/kot/ma/ale/jan/kowalski
 zad 3
 Przeniesc katalog mozemy za pomoca polecenia mv
-sciezka względna mv kota ../../
-sciezka bezwzgledna mv kota tmp/ukos/ala
+sciezka względna mv kota ../../../kot/ma/ale /tmp/ukos/ala/i
+sciezka bezwzgledna mv kota /tmp/ukos/kot/ma/ale ../../i
 
 zad 4
-Można użyć polecenia ctrl + z, które zatrzyma działanie programu. Lub uzyc komendy kill -9 i numer PID procesu. dodanie 9 do polecenia kill sprawia, ze program jest zamykany sila.
+Mozna uzyc komendy kill -9 i numer PID procesu. dodanie 9 do polecenia kill sprawia, ze program jest zamykany sila.
 
 zad 5
 Wpisujemy polecenie ls al* mozęmy użyć także polecenia.
 
 zad 6
-
-Aby każdy mogł wejść do katalogu ala użyłem polecenia chmod a+x ala
-
-
-Aby tylko grupa mogła wejść do katalogu ala użyłem polecenia chmod a+r ala
+oktalnej/ósemkowej/cyfrowej
+Trzeba uzyc komendy chmod 751 ala
 
 
-Aby wlasciciel mial pelne prawa do katalogu uzylem polecenia chmod u+xwr ala
+literowej ze znakiem równości
+Trzeba uzyc komendy chmod g=r,u=rwx,a=x ala
+
+literowej z plusami i minusami
+
+Trzeba uzyc komendy chmod a-rw,a+x,g+r,u+rwx ala
+
 
 
 zad 7
-Możemy utworzyc taki plik za pomoca polecenia mkdir -p plik/moj
+Możemy utworzyc taki plik za pomoca polecenia ls-a > moj_list_txt
 
 
 zad 8
 
 klawisz Tab pozwala na dopelnianie komend i nazw plikow
 
-
+zad 9
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+Dodajac na koncu programu, ktory chcemy uruchomic znak "&",
+lub uzyc kombinacji klawiszy ctrl z, ktory zatrzyma program i bedzie on w tle.
 
 
 
