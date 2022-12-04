@@ -5,8 +5,8 @@ Jak przenieść katalog ale do katalogu i używając:
 
 źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna):
 
-mv ../../../kot/ma/ale ~/ala/i
+- mv ../../../kot/ma/ale /tmp/ukos/ala/i
 
 źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna):
 
-mv ~/kot/ma/ale ../../i
+- mv tmp/ukos/kot/ma/ale ../../i
