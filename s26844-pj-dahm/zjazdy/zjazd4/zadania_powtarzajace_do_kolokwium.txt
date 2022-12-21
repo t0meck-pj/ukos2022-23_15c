@@ -7,27 +7,27 @@ Zad.1.
 Znajdujesz się w katalogu kota. Katalog ala, jest w katalogu /tmp/ukos.
 Jak przejść do katalogu ala ale za pomocą:
 - ścieżki względnej (relatywnej);
-Odpowiedź: cd ../ ../
+Odpowiedź: cd ../../
 - ścieżki bezwzględnej (absolutnej)
-Odpowiedź: cd ~/repos-ld/temp/ukos/ala
+Odpowiedź: cd ~/temp/ukos/ala
 Zad 2.
 Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak utworzyć 
 poddrzewo katalogów jan/kowalski w katalogu ale za pomocą jednej komendy?
-Odpowiedź:mkdir -p jan/kowalski
+Odpowiedź:mkdir -p ~/temp/ukos/kot/ma/ale/jan/kowalski/
 Zad. 3.
 Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak przenieść 
 katalog ale do katalogu i używając:
 - źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna);
-Odpowiedź: mv ../../../ala ~/repos-ld/temp/ukos/ala/i
+Odpowiedź: mv ../../../kot/ma/ale ~/temp/ukos/ala/i
 - źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna);
-Odpowiedź: mv ~/repos-ld/temp/ukos/ala ../../i
+Odpowiedź: mv ~/temp/ukos/kot/ma/ale ../../i
 Zad. 4.
 Jak zamknąć program, który nie reaguje na ctrl+c ?
 Odpowiedź:
-- kill-KILL_nr pida;
-- kill-TERM_nr pida;
-- kill_SIGKILL_nr pida;
-- kill_-9_nr pida;
+- kill -KILL nr pida;
+- kill -TERM nr pida;
+- kill -SIGKILL nr pida;
+- kill -9 nr pida;
 Zad.5.
 Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?
 Odpowiedź: ls -a | grep al
