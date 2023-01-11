@@ -1,0 +1,37 @@
+zaczalem prace w powershellu od uruchomienia go jako administrator
+Nastepnie aby moc odpalac swoje skrypty uzylem komendy Set-ExecutionPolicy Bypass
+KOlejnym krokiem bylo wpisanie Y aby potwierdzic zmiane excecution policy
+Nastepnie postanowilem wyprobowac komende Get-Help Get-ExecutionPolicy Zapytalo mnie czy chce wlaczyc Update-Help
+POnownie wpisalem Y i rozpoczelo pobieranie aktualizacji pomocy. Jak  na pobieranie aktualizacji pomocy trwalo to zadziwiajaco dlugo
+Po zakonczonym pobieraniu wyskoczyla mi strona pomocy do skladni  komendy Get-ExcecutionPOlicy
+Aby zobaczyc przyklady uzycia wpisalem komende Get-Help Get-ExecutionPolicy -Examples
+Aby zobaczyc jakie mam "ExecutionPolicy" wpisalem Get-ExecutionPolicy
+Dostałem informacje Bypass czyli to co wlaczylem na poczatku
+Po wpisaniu Get-Module -ListAvailable dostalem liste dostepnych w tej chwili modulow z okreslonym ich typem; "Manifest" "Script" "Binary"
+Aby z tej listy wyswietlic jedynie moduly ktorych wersjajest >= 2.0.0.0 uzykem komendy .0Get-Module -ListAvailable | ? {$_.Version -ge "2.0.0.0"}
+tzn Uzylem poprzeniej komendy ktora wyswietlala wszystkie dostepne moduly 
+nastepnie po znaku "potok"ktory uruchamia kolene polecenie na danych z poprzeniego polecenia uzylem  "?" tzn skrot komendy "Where-Object" aby wyszukac moduly wieksze lub rowne (operator -ge) 2.0.0.0
+Get-Module -ListAvailable | ? {$_.Version -ge "2.0.0.0"} | % {Get-Command -Module $_.Name} wyswietlila wszystkie polecenia w dostepnych modulach, ktorych wersja była większa lub rowna 2.0.0.0
+uzyty w tym przypadkiu % oznaczal skrot komendy While-Object 
+Get-Module -ListAvailable | ? {$_.Version -ge "2.0.0.0"} | % {Get-Command -Module $_.Name} | ? {($_.Name -like "Add-*") -or ($_.Name -like "Get-*")} ta komenda wyswietlila wszystkie modoly krore maja w nazwie "Add" Lub "Get"
+Get-Module -ListAvailable | ? {$_.Version -ge "2.0.0.0"} | % {Get-Command -Module $_.Name} | ? {($_.Name -like "Add-*") -or ($_.Name -like "Get-*")} | Out-GridView wyswietlila te wyniki w osobnej tabelce graficznej ktora ma bardzo latwa opcje filtrowania
+Zaladowalem BitsTransfer komenda  Import-Module BitsTransfer
+wylistowalem wszystkie komendy dostepne w tym module komenda Get-Command -Module BitsTransfer
+Start-BitsTransfer
+ -Source https://bits.avcdn.net/productfamily_ANTIVIRUS/insttype_FREE/platform_WIN/installertype_ONLINE/build_RELEASE/cookie_mmm_ava_013_999_a6j_m  
+- Destination C:\ -Credential $cred -Authentication Negotiate
+Za pomoca tej komendy rozpoczalem pobieranie avasta
+po pobraniu komenda Get-BitsTransfer sprawdzilem status a nastepnie Complete-BitsTransfer -BitsJob $job zakonczylem transfer jobu
+aby znalezc alias dla listowania zawartosci katalogu uzylem komendy Get-Alias | ? {$_.Definition -like "Get-ChildItem"}
+Za pomoca komeny ls C:\ | %{Sleep -Milliseconds 250; return $_} | Format-Table wylistowalem wszystki pliki i katalogi z katalogu glownego ale z odstepem czasowym
+za pomoca komendy & C:\Windows\notepad.exe wlączylem notatnik
+Za pomoca Get-PSDrive jakie "dyski" sa dostepne w powershallu
+do rejestru wszedlem komenda cd hklm:\
+nastepnie za pomoca komendy cd .\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall dostalem sie do folderu unistall
+i za pomoca ls wyswietlilem zawartosc niechcac miec wszystkiego odinstalowanego pominalem nastepne komendy
+Notyfikacje 
+zrobilem wlasna funkcje 
+i  potem ja wywolalem za pomoca komendy GiveMePopup -Text "Your cat has meowed!" -Title "Cat Error" -Icon Error
+otrzymalem powiadomienie "Your cat has meowed!"
+Fajne :)
+
